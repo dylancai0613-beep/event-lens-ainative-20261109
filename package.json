@@ -1,0 +1,10 @@
+{
+  "name": "event-lens",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "build": "node scripts/check-package.cjs"
+  }
+}

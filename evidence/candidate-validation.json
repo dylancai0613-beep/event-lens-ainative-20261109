@@ -1,0 +1,382 @@
+{
+  "version": "macro-replay.candidates/1.0.0",
+  "schema_sha256": "755aa774e029b083030dc0e9343e2ad262f830b1decf868b4fa1bb2dc877127a",
+  "batch_errors": [],
+  "source_errors": {},
+  "lead_errors": [],
+  "items": [
+    {
+      "index": 0,
+      "candidate_id": "cand_1331780393df2180c9ee25b35a7bc161",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "7b4433c7724200d8f70b62a3dfd731b28e640e30bb08a399b3a91c68ea147f48",
+      "content_hash": "42628ed6e33e5a1fe98f03a0e365a7f6d7fcdaafe61896f796d50d2be3a747b5"
+    },
+    {
+      "index": 1,
+      "candidate_id": "cand_9dc567e80972852df2ec573512308769",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "f5489e9f3eae94e226eb1b9e8c580c281897e67c0a01e95b4d5a98b56596a9e6",
+      "content_hash": "ce07809a6adc2bafbe59fff07332e1e860ff56042cda64eb6607ec8aa21e4f35"
+    },
+    {
+      "index": 2,
+      "candidate_id": "cand_2a44931a03268a6f8058321e619e71d8",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "0a5cc68c506ff4c9eed62610a069a7fc0e1e5477457284520d5ebee8d5b69e02",
+      "content_hash": "5d82976d404368821842c362eca35691b0b9b9718d8251d0f22bdb734a6482ae"
+    },
+    {
+      "index": 3,
+      "candidate_id": "cand_83ab08d391c3dff80feac2325b54aa5f",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "0fe663dc677cb6f14a89f781637b16eb074c0cd8486a837eb621296f5e390105",
+      "content_hash": "29fe4d5d177fdcb152bd291dbce67f06c74a11adb14b3028fb9135c2236ec5c9"
+    },
+    {
+      "index": 4,
+      "candidate_id": "cand_a595c1baf6dabb41f1b61f5ae0088709",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "32e67f01636eafd2a9dbb0eb82c70f4d14f276c7131ce8b465bc9a9a319630a7",
+      "content_hash": "725fa0359a58f2ac6d2be0dbce2467b35510e6403a107e603dc0c79719d300ae"
+    },
+    {
+      "index": 5,
+      "candidate_id": "cand_5e0ed9a6bdde711c434fc329892dbcd6",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "8c050ffb61d0ad7b04d8849f6709ee3ba0cd05c17101fd6a1319b16ef8cc7051",
+      "content_hash": "03366969f1a4df6a103947e5018b55034be0fe39c154419efb6a1799ec623d40"
+    },
+    {
+      "index": 6,
+      "candidate_id": "cand_ef3eba500f6284c2898c9bdeb7b5146c",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "82baf1f198d84d3d24be2cb4f27d5b5e617c29340f39d0417290c30e243de7b8",
+      "content_hash": "71fec7879ca250555e6907a0eb704e26170daad24ed03bd8165e6cb36feaade3"
+    },
+    {
+      "index": 7,
+      "candidate_id": "cand_b618ea712756471814c375060585bb9f",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "c311508685ed3cf6d2fa9cf2f8e2f3407fae80b82a4ba14b782b4018faf315aa",
+      "content_hash": "e468b52bbbe94773299fd0b2cb2b8ba5a8d58295f7c1ff142efa7cb013bcd8a1"
+    },
+    {
+      "index": 8,
+      "candidate_id": "cand_3070bbc4d8bd0778ff3f6b9a33128d26",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "7d8df5be3e158177ce9b5c2864fa7e9b71fed53e37e957a2c74888e7269b4a80",
+      "content_hash": "c65dc082db7228f578ab6d38d62094b904886745d2438cdff4d369fc24a40528"
+    },
+    {
+      "index": 9,
+      "candidate_id": "cand_ec0a9349cf298db61e685b8dafe785c9",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "cb1d37595bcd584bfa6ab9e1c01b6ad509df71544628bb134bfde7ab92ab1f28",
+      "content_hash": "c6e6840ef69be400a7988b10a7280834684d949fb70dab7dbb077449deb17c1e"
+    },
+    {
+      "index": 10,
+      "candidate_id": "cand_8ebc2a6707433a7dfff263cccdb4be16",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "3338c281cfe783424d1496f8445430ef4e16210edccbbcf728e1dec0a25484cd",
+      "content_hash": "ecc9e687a6f05129bb200585c507c88744ce59a7e70390315ca0b6cc402a20a7"
+    },
+    {
+      "index": 11,
+      "candidate_id": "cand_ddc2d2f6d718ed5d5abd87b1b78f18ed",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "584889bbc973f87e5b00b569b0a4f14c3f23aa02d8f799c090b6159adec75618",
+      "content_hash": "4fa2fac547189359d72845252e6735224f48c393c80f779635598ffac20c7eda"
+    },
+    {
+      "index": 12,
+      "candidate_id": "cand_6bb61ec06b9289d10151d807b3a80fef",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "62e88ae208690842c2009cdaee39277d303cf6f18b2eb2ecd002e7b418930ada",
+      "content_hash": "6a911baf8b28ff41bdf2f4ff5345d512e329303cbda71839d0625eae396c6403"
+    },
+    {
+      "index": 13,
+      "candidate_id": "cand_e90415c5ad174dea0611ffcc3a7c24ac",
+      "issues": [],
+      "warnings": [
+        "保留2024年度大事记记载10月21日，完整年月日需人工确认及原精度；进入日期待核区，不计算日收益",
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "18a3083774ff9fb1d3cf476ca13f70e7f6e305285ecdc479d08ba9e0c6de1263",
+      "content_hash": "123e42f6ce7a41619d180dfbf19adb15433cf3123f33036e6f6d57754748c9ea"
+    },
+    {
+      "index": 14,
+      "candidate_id": "cand_cd185337e166d0b6a7a30d9d69c5f9fa",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "9a4a9b448a745bd109b2bf538bee48b0e48029225f6508e5224aa1dd55bf3c8e",
+      "content_hash": "e0d8fa3e0b7bde661e8c5a4f8a6778e13809405d098e1a812b4ac27c41c29e06"
+    },
+    {
+      "index": 15,
+      "candidate_id": "cand_739abcc50131b58c5367dffe0dc6eb2b",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "f203a8547805d92672c9387444562aa3eeeb8551e99e0339c3464e280618f11f",
+      "content_hash": "5bb6cc5fc51ab1ad0005c8d59f432948f1eb0c75d3e0a485d6bb4a3cd6ef599c"
+    },
+    {
+      "index": 16,
+      "candidate_id": "cand_eaf355a0bb1746e9658c09150414b710",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "11550dd1b8a763df5446cfcd69761b687a31743148707ab84c3ced26411cb4ff",
+      "content_hash": "ed87a18647238b850bf1e4bf30c21cc9c11025fe3dc606becc3236b49a94c899"
+    },
+    {
+      "index": 17,
+      "candidate_id": "cand_a93eeb074f1bb469295f8aec515bc61a",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "e4082a8ff6f8d2be3f84b53c21c1fbfa3e99655804547098e038a3841f505fcf",
+      "content_hash": "4220d53359c262def876db29f55d352a3383ece456a2a5c460bf6c234fe7f495"
+    },
+    {
+      "index": 18,
+      "candidate_id": "cand_fe694653b249fd527d606e6feb368ff7",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "fb447937a432a19b014b35e39ae251fb43f346478ef806af380db3266365d504",
+      "content_hash": "69f5c2fe8b7751139b2eeec8458bd843004bc19ca5ee926ecee86193305b3312"
+    },
+    {
+      "index": 19,
+      "candidate_id": "cand_c0fb60c884676c1ed30f58477745b84b",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "310542de011b9f1980b582f6da4b1e40fd5216672e056b4258114c709ecba405",
+      "content_hash": "67e6597c0fc5d2acc406483c8ecc376d85752139c9a950839ecd23aaf7403b83"
+    },
+    {
+      "index": 20,
+      "candidate_id": "cand_3b26eedc3bf298808e43ae9701713555",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "4e1b2f42bef723b09477342b2b3694e06a30196fda03c4069bad98da5dcaa70f",
+      "content_hash": "b2a6f4ba55df6a4c0a93ae0fc0188da1c6b05a747c76282e02824cd179538a49"
+    },
+    {
+      "index": 21,
+      "candidate_id": "cand_808f3aac468eac529f3b693f1393e851",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "b533ba7ef606e51fac62f9ded67eb7c0a5494f7b1bd435c0a0e5b6d74e5879db",
+      "content_hash": "9b35483cb0be884780fc9d3c1d3124b5049dfe10e8987950697daa0feca8e60f"
+    },
+    {
+      "index": 22,
+      "candidate_id": "cand_d53eaa18560434ce38b819bbc551b61c",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "a267dbf12666dad9cda313f039d85edd333d58f4484857ba7225eb6502395903",
+      "content_hash": "51f1aa64a10170331c9714d4d9d7670b65f82ff5f547f567a4a6802132a91ed6"
+    },
+    {
+      "index": 23,
+      "candidate_id": "cand_963a5353cf5c9fac823b694de410761f",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "4ea91723b62c7decb598e9f489f975ce4d0ecd359aefbc115cb40785dc69666f",
+      "content_hash": "5a73f92162d393ebb3cb509fc3f2ee1a0894482e87df4486842990c4690b5604"
+    },
+    {
+      "index": 24,
+      "candidate_id": "cand_7f66fb2666e928ee3113ee6599d454c4",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "ccd12d2d35dcc24825d0ac26668319e463b58fa7ab3c516daca90e9247064cca",
+      "content_hash": "65965bfeaf0ce48493bf8354b8411c75d72514eb4950be5f46bc35c221150dad"
+    },
+    {
+      "index": 25,
+      "candidate_id": "cand_3ffaf21d105182509a971a9d01e67fa9",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "fad15fe32078474a9d1bce41ff59f50426dda155d69406eae2b82621a766789b",
+      "content_hash": "6e8a0941dbe6575947134e57c318fafd816be2bdd3cecabae4a1b10f186e799e"
+    },
+    {
+      "index": 26,
+      "candidate_id": "cand_1c2d6c6b9debe96493cb7208b0156668",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "3bf6b6c84922d48516eafdd1d0199ffe5264e51ae03499aa0e3b3227b53a739a",
+      "content_hash": "609097924f6df29827ddc2ec7916fe8df4abe602543e9be6746f099ec8017851"
+    },
+    {
+      "index": 27,
+      "candidate_id": "cand_3c44f402b4e572da08723ae865a80b7d",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "a67da9d902c1babe32963c127d6baa854edb520efaf8a0c9cbd9c8c0d4a1978c",
+      "content_hash": "a491fe118a789432bb45361ec4f9d6b8622237695d1fb6e7425b6d021cb1800f"
+    },
+    {
+      "index": 28,
+      "candidate_id": "cand_d2a088649b168381dcd2398a04142399",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "cf15c05fb3d22268cff79378c916c6aff93de6c927c92490b77ba8e68cb3000d",
+      "content_hash": "bad3f1eeab476691265e9c03206697f7b8f3a2dd2890c49345aafdeed55160d3"
+    },
+    {
+      "index": 29,
+      "candidate_id": "cand_cbd50d308e68b9fc1449624c1cb5d454",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "7ccdc60b6e7f4901965ed57837ad4b9d56280ebe179030c4c480b78bda6f4a52",
+      "content_hash": "dbd562c0186aab5304b0f1db53afce2ed46e6710dd931597eff4c46d1d0383d2"
+    },
+    {
+      "index": 30,
+      "candidate_id": "cand_7a7de841eccde9f79472600e888afe1b",
+      "issues": [],
+      "warnings": [
+        "保留待核事项；人工选择不代表事实已独立核实"
+      ],
+      "eligible": true,
+      "can_publish_pending_date": false,
+      "identity": "79eefdfc2f5ac591709f1832b7ed368cf0ea40b1b10f475784320cb67e429215",
+      "content_hash": "ec54d21b72991412a54c62cf858dfcd284c97090f552c4d4de09f416ebfede1e"
+    }
+  ]
+}
