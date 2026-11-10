@@ -1,26 +1,26 @@
 {
-  "version": "1.0.0",
-  "preparedAt": "2026-11-09T18:01:49.322Z",
+  "version": "1.1.0",
+  "preparedAt": "2026-11-10T02:53:03.739Z",
   "scope": [
     "2023-11-09",
     "2026-11-09"
   ],
-  "coverage": "从已发布事件索引按三类筛选，另补官方回顾支持的LPR节点；属于范围内的部分候选集，未扫全所有新闻及月份。",
+  "coverage": "近三年范围内的部分研究样本：几个主题仅用于整理资料，事件保留自然标题；纳入LPR、准备金率、再贷款、公开市场操作和CPI/PPI及联合发布。不是全部新闻或完整指标日历。",
   "groups": {
     "cnpolicy": {
-      "name": "中国货币政策",
+      "name": "货币政策与流动性",
       "tool": "LPR",
       "subject": "中国人民银行授权公布 LPR",
       "region": "中国"
     },
     "fed": {
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国"
     },
     "cpi": {
-      "name": "重要通胀数据",
+      "name": "通胀与价格",
       "tool": "中国 CPI 发布",
       "subject": "国家统计局",
       "region": "中国"
@@ -28,9 +28,45 @@
   },
   "events": [
     {
+      "id": "RECENT-20231115-MLF",
+      "oldCardId": "RECENT-20231115-MLF",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "MLF",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2023-11-15",
+      "eventDate": "2023-11-15",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "hold",
+      "stage": "operation",
+      "title": "MLF操作14500亿元，利率2.50%与前次持平",
+      "fact": "MLF操作14500亿元，利率2.50%与前次持平。",
+      "sources": [
+        {
+          "title": "2023年中国货币政策大事记",
+          "publisher": "中国人民银行机构账号（澎湃政务平台）",
+          "url": "https://www.thepaper.cn/newsDetail_forward_26316509",
+          "publicationDate": "2024-02-08",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2023-11-16",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
+    },
+    {
       "id": "RECENT-20231213-FOMC",
       "group": "fed",
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国",
@@ -59,12 +95,138 @@
       "period": null,
       "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
       "anchor": "2023-12-14",
-      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。"
+      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20231215-MLF",
+      "oldCardId": "RECENT-20231215-MLF",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "MLF",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2023-12-15",
+      "eventDate": "2023-12-15",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "hold",
+      "stage": "operation",
+      "title": "MLF操作14500亿元，利率2.50%与前次持平",
+      "fact": "MLF操作14500亿元，利率2.50%与前次持平。",
+      "sources": [
+        {
+          "title": "2023年中国货币政策大事记",
+          "publisher": "中国人民银行机构账号（澎湃政务平台）",
+          "url": "https://www.thepaper.cn/newsDetail_forward_26316509",
+          "publicationDate": "2024-02-08",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2023-12-16",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
+    },
+    {
+      "id": "RECENT-20240125-RELENDING_CUT",
+      "oldCardId": "RECENT-20240125-RELENDING_CUT",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "再贷款/再贴现",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-01-24",
+      "eventDate": "2024-01-25",
+      "firstPublicDate": "2024-01-24",
+      "firstPublicTime": null,
+      "direction": "down",
+      "stage": "decision",
+      "title": "支农支小再贷款和再贴现利率下调0.25个百分点",
+      "fact": "支农支小再贷款和再贴现利率下调0.25个百分点。",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "支农支小再贷款和再贴现利率下调0.25个百分点：公开日期核验",
+          "publisher": "同期来源，详见核查记录",
+          "url": "https://www.safe.gov.cn/safe/2024/0124/23903.html",
+          "publicationDate": "2024-01-24",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-01-25",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
+    },
+    {
+      "id": "RECENT-20240205-RRR",
+      "oldCardId": "RECENT-20240205-RRR",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "存款准备金率",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-01-24",
+      "eventDate": "2024-02-05",
+      "firstPublicDate": "2024-01-24",
+      "firstPublicTime": null,
+      "direction": "down",
+      "stage": "implementation",
+      "title": "下调存款准备金率0.5个百分点，已执行5%的机构除外",
+      "fact": "下调存款准备金率0.5个百分点，已执行5%的机构除外。",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "下调存款准备金率0.5个百分点，已执行5%的机构除外：公开日期核验",
+          "publisher": "同期来源，详见核查记录",
+          "url": "https://www.safe.gov.cn/safe/2024/0124/23903.html",
+          "publicationDate": "2024-01-24",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-01-25",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "RECENT-20240131-FOMC",
       "group": "fed",
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国",
@@ -93,12 +255,14 @@
       "period": null,
       "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
       "anchor": "2024-02-01",
-      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。"
+      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
     },
     {
       "id": "RECENT-20240220-LPR_CUT",
       "group": "cnpolicy",
-      "name": "中国货币政策",
+      "name": "货币政策与流动性",
       "tool": "LPR",
       "subject": "中国人民银行授权公布 LPR",
       "region": "中国",
@@ -135,12 +299,14 @@
       "period": null,
       "notes": "只下调5年期以上LPR 25基点，1年期维持不变；与两个期限同时调整存在差异。",
       "anchor": "2024-02-21",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy"
     },
     {
       "id": "RECENT-20240320-FOMC",
       "group": "fed",
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国",
@@ -169,12 +335,50 @@
       "period": null,
       "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
       "anchor": "2024-03-21",
-      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。"
+      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20240401-TECH_RELENDING",
+      "oldCardId": "RECENT-20240401-TECH_RELENDING",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "科技创新再贷款",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-04-01",
+      "eventDate": "2024-04-01",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "create",
+      "stage": "decision",
+      "title": "设立额度5000亿元、利率1.75%的科技创新和技术改造再贷款",
+      "fact": "设立额度5000亿元、利率1.75%的科技创新和技术改造再贷款。",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-04-02",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "RECENT-20240501-FOMC",
       "group": "fed",
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国",
@@ -203,12 +407,50 @@
       "period": null,
       "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
       "anchor": "2024-05-02",
-      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。"
+      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20240517-HOUSING",
+      "oldCardId": "RECENT-20240517-HOUSING",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "保障性住房再贷款",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-05-17",
+      "eventDate": "2024-05-17",
+      "firstPublicDate": "2024-05-17",
+      "firstPublicTime": null,
+      "direction": "communication",
+      "stage": "communication",
+      "title": "保交房政策吹风会介绍保障性住房再贷款",
+      "fact": "政策吹风会介绍保交房配套政策及3000亿元保障性住房再贷款安排，用于支持收购已建成未出售商品房。",
+      "sources": [
+        {
+          "title": "保交房政策吹风会介绍保障性住房再贷款",
+          "publisher": "中国政府网",
+          "url": "https://app.www.gov.cn/govdata/gov/202405/17/515123/article.html",
+          "publicationDate": "2024-05-17",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-05-18",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "RECENT-20240612-FOMC",
       "group": "fed",
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国",
@@ -237,13 +479,15 @@
       "period": null,
       "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
       "anchor": "2024-06-13",
-      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。"
+      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
     },
     {
       "id": "RECENT-20240710-CPI",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2024-07-10",
@@ -271,12 +515,17 @@
       "period": "2024年6月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2024-07-11",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20240722-LPR_CUT",
       "group": "cnpolicy",
-      "name": "中国货币政策",
+      "name": "货币政策与流动性",
       "tool": "LPR",
       "subject": "中国人民银行授权公布 LPR",
       "region": "中国",
@@ -305,12 +554,14 @@
       "period": null,
       "notes": "1年期与5年期以上LPR各下调10基点，幅度与2024年2月、10月不同。",
       "anchor": "2024-07-23",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy"
     },
     {
       "id": "RECENT-20240731-FOMC",
       "group": "fed",
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国",
@@ -339,13 +590,15 @@
       "period": null,
       "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
       "anchor": "2024-08-01",
-      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。"
+      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
     },
     {
       "id": "RECENT-20240809-CPI",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2024-08-09",
@@ -374,13 +627,18 @@
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "sourceProblem": true,
       "anchor": "2024-08-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20240909-CPI",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2024-09-09",
@@ -408,12 +666,56 @@
       "period": "2024年8月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2024-09-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "PPI-20240909",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2024-09-09",
+      "eventDate": "2024-09-09",
+      "firstPublicDate": "2024-09-09",
+      "firstPublicTime": "09:30 Asia/Shanghai",
+      "direction": "release",
+      "stage": "data_release",
+      "title": "工业品价格走弱：8月PPI同比下降1.8%",
+      "fact": "2024年8月份，全国工业生产者出厂价格同比下降1.8%，环比下降0.7%。",
+      "sources": [
+        {
+          "title": "工业品价格走弱：8月PPI同比下降1.8%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240909_1956310.html",
+          "publicationDate": "2024-09-09",
+          "role": "官方统计发布",
+          "status": "本轮已打开核对PPI读数和发布日期"
+        }
+      ],
+      "verification": "本轮已核对官方PPI发布",
+      "sourceKind": "original_text",
+      "candidateEvidence": "2024年8月份，全国工业生产者出厂价格同比下降1.8%，环比下降0.7%；",
+      "expectationGap": null,
+      "period": "2024年8月份",
+      "notes": "PPI观察工业出厂价格；与CPI的消费价格口径不同。同比下降与环比变化需分开理解。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "PPI"
+      ],
+      "anchor": "2024-09-10",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "RECENT-20240918-FOMC",
       "group": "fed",
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国",
@@ -442,13 +744,15 @@
       "period": null,
       "notes": "当次下调50个基点至4.75%—5.00%；幅度与政策阶段均需单独比较。",
       "anchor": "2024-09-19",
-      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。"
+      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
     },
     {
       "id": "RECENT-20241013-CPI",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2024-10-13",
@@ -476,12 +780,53 @@
       "period": "2024年9月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2024-10-14",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20241018-SFISF",
+      "oldCardId": "RECENT-20241018-SFISF",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "互换便利/回购增持再贷款",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-10-18",
+      "eventDate": "2024-10-18",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "launch",
+      "stage": "implementation",
+      "title": "证券基金保险公司互换便利正式启动操作，并发布回购增持再贷款通知",
+      "fact": "证券基金保险公司互换便利正式启动操作，并发布回购增持再贷款通知。",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-10-19",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "LPR-20241021",
       "group": "cnpolicy",
-      "name": "中国货币政策",
+      "name": "货币政策与流动性",
       "tool": "LPR",
       "subject": "中国人民银行授权公布 LPR",
       "region": "中国",
@@ -509,12 +854,14 @@
       "period": null,
       "notes": "同时下调两个期限，与2024年2月仅5年期以上LPR下调存在差异。",
       "anchor": "2024-10-22",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy"
     },
     {
       "id": "RECENT-20241107-FOMC",
       "group": "fed",
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国",
@@ -543,13 +890,15 @@
       "period": null,
       "notes": "当次下调25个基点至4.50%—4.75%；幅度与政策阶段均需单独比较。",
       "anchor": "2024-11-08",
-      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。"
+      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
     },
     {
       "id": "RECENT-20241109-CPI",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2024-11-09",
@@ -577,13 +926,18 @@
       "period": "2024年10月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2024-11-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20241209-CPI",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2024-12-09",
@@ -611,12 +965,17 @@
       "period": "2024年11月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2024-12-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20241218-FOMC",
       "group": "fed",
-      "name": "美联储利率决议",
+      "name": "海外央行与利率",
       "tool": "联邦基金利率目标区间",
       "subject": "FOMC",
       "region": "美国",
@@ -645,13 +1004,15 @@
       "period": null,
       "notes": "当次下调25个基点至4.25%—4.50%；幅度与政策阶段均需单独比较。",
       "anchor": "2024-12-19",
-      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。"
+      "timeNote": "以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
     },
     {
       "id": "RECENT-20250209-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2025-02-09",
@@ -679,12 +1040,17 @@
       "period": "2025年1月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2025-02-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20250220-LPR_HOLD",
       "group": "cnpolicy",
-      "name": "中国货币政策",
+      "name": "货币政策与流动性",
       "tool": "LPR",
       "subject": "中国人民银行授权公布 LPR",
       "region": "中国",
@@ -713,13 +1079,15 @@
       "period": null,
       "notes": "LPR 调整涉及不同期限；贷款报价与实际贷款利率、政策利率并不等同。",
       "anchor": "2025-02-21",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy"
     },
     {
       "id": "RECENT-20250309-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2025-03-09",
@@ -747,13 +1115,54 @@
       "period": "2025年2月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2025-03-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20250325-MLF_AUCTION",
+      "oldCardId": "RECENT-20250325-MLF_AUCTION",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "MLF",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2025-03-25",
+      "eventDate": "2025-03-25",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "reform",
+      "stage": "decision",
+      "title": "MLF转为多重价位中标",
+      "fact": "央行开展4500亿元MLF操作，并从本月起将MLF由单一价位中标调整为多重价位中标。",
+      "sources": [
+        {
+          "title": "2025年中国货币政策大事记",
+          "publisher": "中国人民银行办公厅官方澎湃号",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+          "publicationDate": "2026-02-10",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2025-03-26",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "RECENT-20250410-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2025-04-10",
@@ -781,13 +1190,54 @@
       "period": "2025年3月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2025-04-11",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20250508-POLICY_RATE",
+      "oldCardId": "RECENT-20250508-POLICY_RATE",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "逆回购利率",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2025-05-08",
+      "eventDate": "2025-05-08",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "down",
+      "stage": "implementation",
+      "title": "7天逆回购政策利率下调",
+      "fact": "7天逆回购操作利率由1.50%调整为1.40%。",
+      "sources": [
+        {
+          "title": "2025年中国货币政策大事记",
+          "publisher": "中国人民银行办公厅官方澎湃号",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+          "publicationDate": "2026-02-10",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2025-05-09",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "RECENT-20250510-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2025-05-10",
@@ -815,13 +1265,54 @@
       "period": "2025年4月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2025-05-11",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20250704-HOUSING_RELENDING",
+      "oldCardId": "RECENT-20250704-HOUSING_RELENDING",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "保障性住房再贷款",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2025-07-04",
+      "eventDate": "2025-07-04",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "expand",
+      "stage": "decision",
+      "title": "拓宽保障性住房再贷款使用范围",
+      "fact": "央行印发通知拓宽保障性住房再贷款支持范围，给予地方政府更大自主权，推动存量商品房去库存。",
+      "sources": [
+        {
+          "title": "2025年中国货币政策大事记",
+          "publisher": "中国人民银行办公厅官方澎湃号",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+          "publicationDate": "2026-02-10",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2025-07-05",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "RECENT-20250709-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2025-07-09",
@@ -849,13 +1340,93 @@
       "period": "2025年6月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2025-07-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "PPI-20250910",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-09-10",
+      "eventDate": "2025-09-10",
+      "firstPublicDate": "2025-09-10",
+      "firstPublicTime": "09:30 Asia/Shanghai",
+      "direction": "release",
+      "stage": "data_release",
+      "title": "8月工业价格降幅收窄，环比由降转平",
+      "fact": "2025年8月份，全国工业生产者出厂价格同比下降2.9%，环比持平。",
+      "sources": [
+        {
+          "title": "8月工业价格降幅收窄，环比由降转平",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/zwfwck/sjfb/202509/t20250910_1961108.html",
+          "publicationDate": "2025-09-10",
+          "role": "官方统计发布",
+          "status": "本轮已打开核对PPI读数和发布日期"
+        }
+      ],
+      "verification": "本轮已核对官方PPI发布",
+      "sourceKind": "original_text",
+      "candidateEvidence": "2025年8月份，全国工业生产者出厂价格同比下降2.9%，降幅比上月收窄0.7个百分点，环比由下降0.2%转为持平。",
+      "expectationGap": null,
+      "period": "2025年8月份",
+      "notes": "PPI观察工业出厂价格；与CPI的消费价格口径不同。同比下降与环比变化需分开理解。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "PPI"
+      ],
+      "anchor": "2025-09-11",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
+    },
+    {
+      "id": "RECENT-20250919-REPO_AUCTION",
+      "oldCardId": "RECENT-20250919-REPO_AUCTION",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "逆回购招标机制",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2025-09-19",
+      "eventDate": "2025-09-19",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "reform",
+      "stage": "decision",
+      "title": "14天逆回购调整为利率招标和多重价位中标",
+      "fact": "14天期逆回购改为固定数量、利率招标、多重价位中标，操作时间与规模按流动性管理需要确定。",
+      "sources": [
+        {
+          "title": "2025年中国货币政策大事记",
+          "publisher": "中国人民银行办公厅官方澎湃号",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+          "publicationDate": "2026-02-10",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2025-09-20",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "RECENT-20251015-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2025-10-15",
@@ -883,13 +1454,18 @@
       "period": "2025年9月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2025-10-16",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20251109-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2025-11-09",
@@ -917,13 +1493,18 @@
       "period": "2025年10月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2025-11-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20251210-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2025-12-10",
@@ -951,13 +1532,18 @@
       "period": "2025年11月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2025-12-11",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20260109-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2026-01-09",
@@ -985,13 +1571,54 @@
       "period": "2025年12月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2026-01-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20260115-RELENDING_PACKAGE",
+      "oldCardId": "RECENT-20260115-RELENDING_PACKAGE",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "再贷款/再贴现",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2026-01-15",
+      "eventDate": "2026-01-15",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "down",
+      "stage": "announcement",
+      "title": "再贷款降息并增加支农支小和科技再贷款额度",
+      "fact": "央行通知自1月19日起下调再贷款、再贴现利率0.25个百分点，并增加支农支小再贷款额度5000亿元、科技创新和技术改造再贷款额度4000亿元。",
+      "sources": [
+        {
+          "title": "2026年上半年中国货币政策大事记",
+          "publisher": "广东省委金融办转载中国人民银行",
+          "url": "https://www.gdjr.gov.cn/gdjr/jrzx/jryw/content/post_44504.html",
+          "publicationDate": "2026-08-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2026-01-16",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     },
     {
       "id": "RECENT-20260309-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2026-03-09",
@@ -1019,13 +1646,18 @@
       "period": "2026年2月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2026-03-10",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20260410-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2026-04-10",
@@ -1053,13 +1685,18 @@
       "period": "2026年3月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2026-04-11",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
     },
     {
       "id": "RECENT-20260610-PRICES",
       "group": "cpi",
-      "name": "重要通胀数据",
-      "tool": "中国 CPI 发布",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
       "subject": "国家统计局",
       "region": "中国",
       "date": "2026-06-10",
@@ -1087,7 +1724,192 @@
       "period": "2026年5月份",
       "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
       "anchor": "2026-06-11",
-      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。"
+      "timeNote": "采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20260629-OVERNIGHT_REPO",
+      "oldCardId": "RECENT-20260629-OVERNIGHT_REPO",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "隔夜逆回购",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2026-06-29",
+      "eventDate": "2026-06-29",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "create",
+      "stage": "operation",
+      "title": "公开市场操作首次增加隔夜逆回购品种",
+      "fact": "央行首次在公开市场操作中增加隔夜逆回购操作品种，采用固定利率、数量招标。",
+      "sources": [
+        {
+          "title": "2026年上半年中国货币政策大事记",
+          "publisher": "广东省委金融办转载中国人民银行",
+          "url": "https://www.gdjr.gov.cn/gdjr/jrzx/jryw/content/post_44504.html",
+          "publicationDate": "2026-08-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2026-06-30",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
+    },
+    {
+      "id": "RECENT-20260709-PRICES",
+      "oldCardId": "RECENT-20260709-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI / PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-07-09",
+      "eventDate": "2026-07-09",
+      "firstPublicDate": "2026-07-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "stage": "data_release",
+      "title": "2026-07通胀数据发布：消费与工业价格对照",
+      "fact": "国家统计局发布本期数据：2026年6月份，全国居民消费价格同比上涨1.0%。 国家统计局公布：2026年6月份工业生产者出厂价格同比上涨4.1% 环比下降0.3%。",
+      "sources": [
+        {
+          "title": "2026年6月份居民消费价格同比上涨1.0%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964084.html",
+          "publicationDate": "2026-07-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "2026年6月份工业生产者出厂价格同比上涨4.1% 环比下降0.3%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964083.html",
+          "publicationDate": "2026-07-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "同时覆盖消费与工业价格。单项CPI或PPI案例只覆盖其中一侧，不能当作完整替代。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI",
+        "PPI"
+      ],
+      "anchor": "2026-07-10",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
+    },
+    {
+      "id": "RECENT-20260809-PRICES",
+      "oldCardId": "RECENT-20260809-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI / PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-08-09",
+      "eventDate": "2026-08-09",
+      "firstPublicDate": "2026-08-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "stage": "data_release",
+      "title": "2026-08通胀数据发布：消费与工业价格对照",
+      "fact": "国家统计局公布：2026年7月份居民消费价格同比上涨0.5%。 国家统计局发布本期数据：2026年7月份，全国工业生产者出厂价格同比上涨3.5%，环比下降0.7%。",
+      "sources": [
+        {
+          "title": "2026年7月份居民消费价格同比上涨0.5%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965008.html",
+          "publicationDate": "2026-08-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "2026年7月份工业生产者出厂价格同比上涨3.5%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965007.html",
+          "publicationDate": "2026-08-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "同时覆盖消费与工业价格。单项CPI或PPI案例只覆盖其中一侧，不能当作完整替代。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI",
+        "PPI"
+      ],
+      "anchor": "2026-08-10",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
+    },
+    {
+      "id": "RECENT-20260909-PRICES",
+      "oldCardId": "RECENT-20260909-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI / PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-09-09",
+      "eventDate": "2026-09-09",
+      "firstPublicDate": "2026-09-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "stage": "data_release",
+      "title": "2026-09通胀数据发布：消费与工业价格对照",
+      "fact": "国家统计局发布本期数据：2026年8月份，全国居民消费价格同比上涨0.8%。 国家统计局发布本期数据：2026年8月份，全国工业生产者出厂价格同比上涨3.8%，环比上涨0.4%。",
+      "sources": [
+        {
+          "title": "2026年8月份居民消费价格同比上涨0.8%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965263.html",
+          "publicationDate": "2026-09-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "2026年8月份工业生产者出厂价格同比上涨3.8% 环比上涨0.4%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965262.html",
+          "publicationDate": "2026-09-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "同时覆盖消费与工业价格。单项CPI或PPI案例只覆盖其中一侧，不能当作完整替代。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI",
+        "PPI"
+      ],
+      "anchor": "2026-09-10",
+      "timeNote": "按记录日期的次一日起选实际报价；保留公告/实施阶段差异，首发时分未全面复核。"
     }
   ],
   "assets": {
@@ -6897,9 +7719,9 @@
   "offlineAI": "Codex / Luna 参与资料整理；Codex 完成下列逐类预研片段。网页按选中案例和实际计算结果组装报告，不发起模型请求。",
   "notes": {
     "cnpolicy": {
-      "shared": "同一主体、同一LPR工具、同一调整方向，构成候选依据。",
-      "difference": "需逐条核对期限、幅度和当时融资环境；共同工具不意味着背景相同。",
-      "hypothesis": "LPR变化可能经融资成本与预期影响资产定价；当前材料没有证明这一传导，黄金还受汇率和全球因素影响。"
+      "shared": "依据事件主体、政策工具、行动方向与阶段寻找候选。相同工具优先；不同工具的关联案例单独标明局限。",
+      "difference": "同工具仍需核对期限、幅度、对象与宏观背景；跨工具只提供研究线索，不能视作同一种政策效果。",
+      "hypothesis": "不同货币政策工具可能经融资成本、流动性或信用供给传导；当前材料没有验证传导或剥离同期因素。"
     },
     "fed": {
       "shared": "同为FOMC利率决定，并匹配下调或维持方向；不混合讲话、纪要与正式决议。",
@@ -6907,9 +7729,9 @@
       "hypothesis": "利率路径可能与美元、实际利率及风险偏好共同作用。人民币黄金同时受人民币汇率影响，本产品未分解这些因素。"
     },
     "cpi": {
-      "shared": "同一统计机构、同一中国CPI发布主题与发布阶段，形成可检查的统计发布对照。",
-      "difference": "同比方向、统计月份与基数不同；比较中未录入一致口径的市场预期，预期差保持未知。",
-      "hypothesis": "通胀信息可能改变政策预期，但价格变化还可能伴随其他政策和风险事件；此处只做观察性对照。"
+      "shared": "围绕通胀与价格研究主题找可追溯的指标发布。共同指标优先，并显示查询与候选分别包含CPI、PPI中的哪些内容。",
+      "difference": "CPI观察消费端，PPI观察工业出厂端。联合发布与单项发布覆盖范围不同；跨指标只是相关价格观察，不能把数值、同比方向或资产反应等同。",
+      "hypothesis": "消费与工业价格的分化可能提示不同的需求、成本或基数变化，需要进一步验证。尚无统一预期值，不能计算预期差或直接归因市场涨跌。"
     }
   }
 }

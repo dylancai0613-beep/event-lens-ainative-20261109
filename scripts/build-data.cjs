@@ -42,3 +42,6 @@ fs.mkdirSync(path.join(root,'dist'),{recursive:true});fs.writeFileSync(path.join
 fs.mkdirSync(path.join(root,'evidence'),{recursive:true});
 fs.writeFileSync(path.join(root,'evidence/data-inventory.json'),JSON.stringify({preparedAt:data.preparedAt,scope:range,total:events.length,groups:Object.fromEntries(Object.keys(groups).map(k=>[k,events.filter(e=>e.group===k).length])),assets:Object.fromEntries(Object.entries(assets).map(([k,a])=>[k,{code:a.code,first:a.first,last:a.last,points:a.points.length,sha256:a.sha256}])),coverage:data.coverage},null,2));
 console.log('Built',events.length,'events',Object.keys(assets));
+
+// Add broad research samples after preparing the base snapshot.
+require('./expand-themes.cjs');
