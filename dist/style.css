@@ -226,6 +226,8 @@ details p { line-height: 1.85; }
 .case .basis { color: var(--accent-soft); font-size: 10px; }
 .case .difference { color: var(--muted); }
 .empty-state { padding: 26px 18px; border: 1px dashed var(--line-strong); border-radius: 6px; color: var(--muted); background: #141617; text-align: center; font-size: 12px; }
+.synthetic-banner { display: grid; grid-template-columns: max-content minmax(0, 1fr); align-items: start; gap: 12px; margin: 4px 0 18px; padding: 12px 14px; border: 1px solid #74543c; border-left: 3px solid var(--accent); border-radius: 6px; background: #211c18; color: var(--muted); font-size: 12px; line-height: 1.65; }
+.synthetic-banner strong { color: var(--accent-soft); font-size: 12px; white-space: nowrap; }
 .chart-controls { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
 .segmented { display: flex; gap: 3px; padding: 3px; border: 1px solid var(--line); border-radius: 7px; background: #121415; }
 .segmented button { min-height: 34px; padding: 6px 12px; color: var(--muted); font-size: 11px; }

@@ -1,6 +1,7 @@
-const fs=require('fs'),vm=require('vm'),crypto=require('crypto');
+const fs=require('fs'),vm=require('vm');
 const path=require('path'),root=path.resolve(__dirname,'..');
-const base='D:/光大/全能复盘王/source/ui2/fixtures/public/';
+const base=process.env.REPLAY_SNAPSHOT_DIR;
+if(!base)throw new Error('Set REPLAY_SNAPSHOT_DIR to the authorized local event snapshot directory. No source snapshot is bundled.');
 const ctx={window:{}};vm.createContext(ctx,{codeGeneration:{strings:false,wasm:false}});
 for(const name of ['replay-studio-data.js','event-catalogue-index.js'])vm.runInContext(fs.readFileSync(base+name,'utf8'),ctx,{timeout:15000});
 const w=ctx.window,fm=new Map(w.FINANCE_PREVIEW_DATA.events.map(x=>[x.id,x]));
@@ -29,19 +30,13 @@ for(const e of events){
 }
 events.sort((a,b)=>a.date.localeCompare(b.date));
 const nextDay=d=>new Date(Date.parse(d+'T00:00:00Z')+86400000).toISOString().slice(0,10);
-for(const e of events){e.anchor=nextDay(e.date);e.timeNote=e.group==='fed'?'以美国声明日的次一中国日历日开始选取实际报价；2024年9/18、11/7、12/18声明为美东14:00，北京时间次日凌晨。其余记录未重新核对时分。':'采用保守的日级观察：从所记录公告/事件日期的次一日开始取实际报价，避开未知日内顺序；可能遗漏公告当日变化。';}
-const server=JSON.parse(fs.readFileSync(path.join(root,'work/server-market.json'),'utf8'));
-const assets={};for(const [key,assetKey,code]of[['equity','china_equity','000001.SH'],['gold','gold','S000025544']]){
- const a=w.REPLAY_CHART_DATA.assets.find(x=>x.key===assetKey),m=new Map(a.points.filter(p=>p[0]>=range[0]&&p[0]<=range[1]).map(p=>[p[0],p[1]]));
- for(const [date,v]of Object.entries(server.series[code]||{}))if(date>=range[0]&&date<=range[1]&&typeof v==='number')m.set(date,v);
- const points=[...m].sort((a,b)=>a[0].localeCompare(b[0])).map(([date,close])=>({date,close}));
- assets[key]={name:a.name,code,unit:a.unit,points,first:points[0]?.date,last:points.at(-1)?.date,source:'复盘王已发布历史行情快照 / iFinD 字段代码 '+code,sha256:crypto.createHash('sha256').update(JSON.stringify(points)).digest('hex'),limitations:key==='gold'?'人民币 Au9999，非美元国际现货金；2026年历史连续性需逐窗口检查，最新供应商更新因配额耗尽失败。':'价格指数涨跌，不含分红再投资；报价日序列不等同于已独立核验的交易日历。'};
-}
-const data={version:'1.0.0',preparedAt:new Date().toISOString(),scope:range,coverage:'从已发布事件索引按三类筛选，另补官方回顾支持的LPR节点；属于范围内的部分候选集，未扫全所有新闻及月份。',groups,events,assets,latestCheck:server.status,rights:'事件仅保留事实摘要、必要引用和公开链接；行情为用户授权取用的既有研究演示快照，供应商再分发许可未证明，不宣称开放数据授权。可用自有获准数据替换。',offlineAI:'Codex / Luna 参与资料整理；Codex 完成下列逐类预研片段。网页按选中案例和实际计算结果组装报告，不发起模型请求。',notes:{cnpolicy:{shared:'同一主体、同一LPR工具、同一调整方向，构成候选依据。',difference:'需逐条核对期限、幅度和当时融资环境；共同工具不意味着背景相同。',hypothesis:'LPR变化可能经融资成本与预期影响资产定价；当前材料没有证明这一传导，黄金还受汇率和全球因素影响。'},fed:{shared:'同为FOMC利率决定，并匹配下调或维持方向；不混合讲话、纪要与正式决议。',difference:'需核对各次决议的调整幅度、目标区间以及就业和通胀背景；相同方向不能视作同一政策阶段。',hypothesis:'利率路径可能与美元、实际利率及风险偏好共同作用。人民币黄金同时受人民币汇率影响，本产品未分解这些因素。'},cpi:{shared:'同一统计机构、同一中国CPI发布主题与发布阶段，形成可检查的统计发布对照。',difference:'同比方向、统计月份与基数不同；比较中未录入一致口径的市场预期，预期差保持未知。',hypothesis:'通胀信息可能改变政策预期，但价格变化还可能伴随其他政策和风险事件；此处只做观察性对照。'}}};
+for(const e of events){e.anchor=nextDay(e.date);e.timeNote='演示对齐：从记录事件日次日起，在构造日期轴选择后续演示点；不代表真实市场交易时段。';}
+const assets={equity:{name:'上证指数示意',unit:'指数点（演示刻度）',points:[],source:'待由构造样例生成器填充',synthetic:true},gold:{name:'黄金价格示意',unit:'元/克（演示刻度）',points:[],source:'待由构造样例生成器填充',synthetic:true}};
+const data={version:'1.0.0',preparedAt:new Date().toISOString(),scope:range,coverage:'近三年范围内的部分研究样本：事件保留自然标题，纳入LPR、准备金率、再贷款、公开市场操作和CPI/PPI及联合发布。不是全部新闻或完整指标日历。',groups,events,assets,latestCheck:{status:'not_applicable',note:'本产品没有市场数据供应商和实时更新任务。'},rights:'事件条目保留来源链接和逐条核查状态。行情由构造样例生成器创建，不包含供应商行情或真实历史报价。',offlineAI:'Codex / Luna 参与离线资料整理；网页按选中案例和确定性演示计算组装报告，不发起模型请求。',notes:{cnpolicy:{shared:'依据事件主体、政策工具、行动方向与阶段寻找候选。相同工具优先；不同工具的关联案例单独标明局限。',difference:'同工具仍需核对期限、幅度、对象与宏观背景；跨工具只提供研究线索，不能视作同一种政策效果。',hypothesis:'不同货币政策工具可能经融资成本、流动性或信用供给传导；当前材料没有验证传导或剥离同期因素。'},fed:{shared:'同为FOMC正式利率决定并区分下调、维持方向；不混合讲话与纪要。',difference:'幅度、目标区间、就业与通胀环境不同；同方向并不代表同一政策阶段。',hypothesis:'利率路径可能与美元、实际利率及风险偏好共同作用；本产品没有因果识别。'},cpi:{shared:'围绕通胀与价格研究主题找可追溯的指标发布。共同指标优先，并显示查询与候选分别包含CPI、PPI中的哪些内容。',difference:'CPI观察消费端，PPI观察工业出厂端。联合发布与单项发布覆盖范围不同；跨指标只是相关价格观察，不能把数值、同比方向或资产反应等同。',hypothesis:'消费与工业价格的分化可能提示不同的需求、成本或基数变化，需要进一步验证。尚无统一预期值，不能计算预期差或直接归因市场涨跌。'}}};
 fs.mkdirSync(path.join(root,'dist'),{recursive:true});fs.writeFileSync(path.join(root,'dist/data.json'),JSON.stringify(data,null,2));
 fs.mkdirSync(path.join(root,'evidence'),{recursive:true});
 fs.writeFileSync(path.join(root,'evidence/data-inventory.json'),JSON.stringify({preparedAt:data.preparedAt,scope:range,total:events.length,groups:Object.fromEntries(Object.keys(groups).map(k=>[k,events.filter(e=>e.group===k).length])),assets:Object.fromEntries(Object.entries(assets).map(([k,a])=>[k,{code:a.code,first:a.first,last:a.last,points:a.points.length,sha256:a.sha256}])),coverage:data.coverage},null,2));
 console.log('Built',events.length,'events',Object.keys(assets));
 
-// Add broad research samples after preparing the base snapshot.
+// Add broad research samples. The expansion step ends by enforcing synthetic-only output.
 require('./expand-themes.cjs');

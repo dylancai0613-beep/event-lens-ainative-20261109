@@ -1,0 +1,3686 @@
+{
+  "schema_version": "macro-replay.candidates/1.0.0",
+  "batch_id": "batch_fdd524720e2ab86ee93205c90c4c2f77",
+  "scope": {
+    "from_date": "2023-11-09",
+    "to_date": "2026-11-09",
+    "topics": [
+      "货币政策与流动性",
+      "海外央行与利率",
+      "通胀与价格"
+    ],
+    "coverage_notes": [
+      "近三年范围内的部分研究样本：几个主题仅用于整理资料，事件保留自然标题；纳入LPR、准备金率、再贷款、公开市场操作和CPI/PPI及联合发布。不是全部新闻或完整指标日历。",
+      "资料为已发布事件卡与少量重新打开的公开来源；原卡摘录保留记录ID，不冒充全部访问过一手原文。",
+      "行情不写入候选契约；重要程度、完整程度、核实状态分开。"
+    ],
+    "scan_state": "partial",
+    "stop_reason": "本次冻结演示样本；无在线新闻API，未扫描全网。",
+    "continuation_hint": "按剩余月份和官方发布日历逐页补证，保留旧candidate_id，人工选择后再导入独立项目。"
+  },
+  "sources": [
+    {
+      "source_id": "S1",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20231115-MLF",
+      "title": "MLF操作14500亿元，利率2.50%与前次持平",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.thepaper.cn/newsDetail_forward_26316509",
+      "publication": {
+        "value": "2024-02-08",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20231115-MLF.summary",
+          "text": "MLF操作14500亿元，利率2.50%与前次持平。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20231115-MLF.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2023-11-15；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S2",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20231213-FOMC",
+      "title": "美联储FOMC利率决议：维持利率",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231213a.htm",
+      "publication": {
+        "value": "2023-12-13",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20231213-FOMC.summary",
+          "text": "FOMC声明原文决议：decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent."
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20231213-FOMC.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2023-12-13；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S3",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20231215-MLF",
+      "title": "MLF操作14500亿元，利率2.50%与前次持平",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.thepaper.cn/newsDetail_forward_26316509",
+      "publication": {
+        "value": "2024-02-08",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20231215-MLF.summary",
+          "text": "MLF操作14500亿元，利率2.50%与前次持平。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20231215-MLF.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2023-12-15；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S4",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240125-RELENDING_CUT",
+      "title": "支农支小再贷款和再贴现利率下调0.25个百分点",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+      "publication": {
+        "value": "2025-02-14",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240125-RELENDING_CUT.summary",
+          "text": "支农支小再贷款和再贴现利率下调0.25个百分点。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240125-RELENDING_CUT.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-01-25；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S5",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240205-RRR",
+      "title": "下调存款准备金率0.5个百分点，已执行5%的机构除外",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+      "publication": {
+        "value": "2025-02-14",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240205-RRR.summary",
+          "text": "下调存款准备金率0.5个百分点，已执行5%的机构除外。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240205-RRR.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-02-05；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S6",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240131-FOMC",
+      "title": "美联储FOMC利率决议：维持利率",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm",
+      "publication": {
+        "value": "2024-01-31",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240131-FOMC.summary",
+          "text": "FOMC声明原文决议：decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent."
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240131-FOMC.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-01-31；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S7",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240220-LPR_CUT",
+      "title": "5年期以上LPR下降0.25个百分点至3.95%，1年期保持3.45%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+      "publication": {
+        "value": "2025-02-14",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240220-LPR_CUT.summary",
+          "text": "5年期以上LPR下降0.25个百分点至3.95%，1年期保持3.45%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240220-LPR_CUT.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-02-20；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S8",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240320-FOMC",
+      "title": "美联储FOMC利率决议：维持利率",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm",
+      "publication": {
+        "value": "2024-03-20",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240320-FOMC.summary",
+          "text": "FOMC声明原文决议：decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent."
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240320-FOMC.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-03-20；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S9",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240401-TECH_RELENDING",
+      "title": "设立额度5000亿元、利率1.75%的科技创新和技术改造再贷款",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+      "publication": {
+        "value": "2025-02-14",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240401-TECH_RELENDING.summary",
+          "text": "设立额度5000亿元、利率1.75%的科技创新和技术改造再贷款。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240401-TECH_RELENDING.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-04-01；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S10",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240501-FOMC",
+      "title": "美联储FOMC利率决议：维持利率",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm",
+      "publication": {
+        "value": "2024-05-01",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240501-FOMC.summary",
+          "text": "FOMC声明原文决议：decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent."
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240501-FOMC.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-05-01；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S11",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240517-HOUSING",
+      "title": "保交房政策吹风会介绍保障性住房再贷款",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://app.www.gov.cn/govdata/gov/202405/17/515123/article.html",
+      "publication": {
+        "value": "2024-05-17",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240517-HOUSING.summary",
+          "text": "政策吹风会介绍保交房配套政策及3000亿元保障性住房再贷款安排，用于支持收购已建成未出售商品房。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240517-HOUSING.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-05-17；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S12",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240612-FOMC",
+      "title": "美联储FOMC利率决议：维持利率",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm",
+      "publication": {
+        "value": "2024-06-12",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240612-FOMC.summary",
+          "text": "FOMC声明原文决议：decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent."
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240612-FOMC.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-06-12；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S13",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240710-CPI",
+      "title": "2024年6月份居民消费价格同比上涨0.2%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202407/t20240710_1955508.html",
+      "publication": {
+        "value": "2024-07-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240710-CPI.summary",
+          "text": "国家统计局发布2024年6月份居民消费价格同比上涨0.2%。其中，城市上涨 0.2% ，农村上涨 0.4% ；食品价格下降 2.1% ，非食品价格上涨 0.8% ；消费品价格下降 0.1% ，服务价格上涨 0.7%。1   — 6 月平均，全国居民消费价格比上年同期上涨 0.1%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240710-CPI.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-07-10；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S14",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240722-LPR_CUT",
+      "title": "1年期与5年期以上LPR各下降0.1个百分点至3.35%和3.85%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+      "publication": {
+        "value": "2025-02-14",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240722-LPR_CUT.summary",
+          "text": "1年期与5年期以上LPR各下降0.1个百分点至3.35%和3.85%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240722-LPR_CUT.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-07-22；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S15",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240731-FOMC",
+      "title": "美联储FOMC利率决议：维持利率",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm",
+      "publication": {
+        "value": "2024-07-31",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240731-FOMC.summary",
+          "text": "FOMC声明原文决议：decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent."
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240731-FOMC.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-07-31；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S16",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240809-CPI",
+      "title": "2024年7月份居民消费价格上涨0.5%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202408/t20240809_1955948.html",
+      "publication": {
+        "value": "2024-08-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240809-CPI.summary",
+          "text": "国家统计局发布2024年7月份居民消费价格上涨0.5%。其中，城市上涨 0.5% ，农村上涨 0.7% ；食品价格持平，非食品价格上涨 0.7% ；消费品价格上涨 0.5% ，服务价格上涨 0.6%。1   — 7 月平均，全国居民消费价格比上年同期上涨 0.2%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240809-CPI.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-08-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S17",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240909-CPI",
+      "title": "2024年8月份居民消费价格同比上涨0.6%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240909_1956311.html",
+      "publication": {
+        "value": "2024-09-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240909-CPI.summary",
+          "text": "国家统计局发布2024年8月份居民消费价格同比上涨0.6%。其中，城市上涨 0.6% ，农村上涨 0.8% ；食品价格上涨 2.8% ，非食品价格上涨 0.2% ；消费品价格上涨 0.7% ，服务价格上涨 0.5%。1   — 8 月平均，全国居民消费价格比上年同期上涨 0.2%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240909-CPI.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-09-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S18",
+      "provider": "official_web",
+      "record_id": null,
+      "title": "工业品价格走弱：8月PPI同比下降1.8%",
+      "publisher": "国家统计局",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240909_1956310.html",
+      "publication": {
+        "value": "2024-09-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "original_text",
+          "locator": "官方发布正文",
+          "text": "2024年8月份，全国工业生产者出厂价格同比下降1.8%，环比下降0.7%；"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "original_text",
+          "locator": "已整理资料的日期说明；待人工核对完整日期",
+          "text": "来源记录日期：2024-09-09"
+        }
+      ]
+    },
+    {
+      "source_id": "S19",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20240918-FOMC",
+      "title": "美联储FOMC利率决议：降息",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+      "publication": {
+        "value": "2024-09-18",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240918-FOMC.summary",
+          "text": "FOMC声明原文决议：decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent."
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20240918-FOMC.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-09-18；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S20",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20241013-CPI",
+      "title": "2024年9月份居民消费价格同比上涨0.4%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202410/t20241013_1956899.html",
+      "publication": {
+        "value": "2024-10-13",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241013-CPI.summary",
+          "text": "国家统计局发布2024年9月份居民消费价格同比上涨0.4%。其中，城市上涨 0.4% ，农村上涨 0.6% ；食品价格上涨 3.3% ，非食品价格下降 0.2% ；消费品价格上涨 0.5% ，服务价格上涨 0.2%。1   — 9 月平均，全国居民消费价格比上年同期上涨 0.3%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241013-CPI.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-10-13；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S21",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20241018-SFISF",
+      "title": "证券基金保险公司互换便利正式启动操作，并发布回购增持再贷款通知",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+      "publication": {
+        "value": "2025-02-14",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241018-SFISF.summary",
+          "text": "证券基金保险公司互换便利正式启动操作，并发布回购增持再贷款通知。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241018-SFISF.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-10-18；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S22",
+      "provider": "official_web",
+      "record_id": null,
+      "title": "2024年中国货币政策大事记",
+      "publisher": "中国人民银行（上海市委金融办转载）",
+      "author": null,
+      "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+      "publication": {
+        "value": "2025-02-14",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "original_text",
+          "locator": "2024年中国货币政策大事记：10月21日条目",
+          "text": "10月21日，中国人民银行授权全国银行间同业拆借中心公布贷款市场报价利率（LPR），1年期LPR为3.1%，5年期以上LPR为3.6%，均较前次下降0.25个百分点。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "original_text",
+          "locator": "已整理资料的日期说明；待人工核对完整日期",
+          "text": "2024年中国货币政策大事记；10月21日。"
+        }
+      ]
+    },
+    {
+      "source_id": "S23",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20241107-FOMC",
+      "title": "美联储FOMC利率决议：降息",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm",
+      "publication": {
+        "value": "2024-11-07",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241107-FOMC.summary",
+          "text": "FOMC声明原文决议：decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/2 to 4-3/4 percent."
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241107-FOMC.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-11-07；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S24",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20241109-CPI",
+      "title": "2024年10月份居民消费价格同比上涨0.3%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202411/t20241109_1957353.html",
+      "publication": {
+        "value": "2024-11-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241109-CPI.summary",
+          "text": "国家统计局发布2024年10月份居民消费价格同比上涨0.3%。其中，城市上涨 0.2% ，农村上涨 0.3% ；食品价格上涨 2.9% ，非食品价格下降 0.3% ；消费品价格上涨 0.2% ，服务价格上涨 0.4%。1 — 10 月平均，全国居民消费价格比上年同期上涨 0.3%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241109-CPI.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-11-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S25",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20241209-CPI",
+      "title": "2024年11月份居民消费价格同比上涨0.2%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241209_1957689.html",
+      "publication": {
+        "value": "2024-12-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241209-CPI.summary",
+          "text": "国家统计局发布2024年11月份居民消费价格同比上涨0.2%。其中，城市上涨 0.1% ，农村上涨 0.2% ；食品价格上涨 1.0% ，非食品价格持平；消费品价格持平，服务价格上涨 0.4%。1   — 11 月平均，全国居民消费价格比上年同期上涨 0.3%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241209-CPI.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-12-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S26",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20241218-FOMC",
+      "title": "美联储FOMC利率决议：降息",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm",
+      "publication": {
+        "value": "2024-12-18",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241218-FOMC.summary",
+          "text": "FOMC声明原文决议：decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/4 to 4-1/2 percent."
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20241218-FOMC.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2024-12-18；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S27",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250209-PRICES",
+      "title": "2025年1月份居民消费价格同比上涨0.5%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202502/t20250209_1958646.html",
+      "publication": {
+        "value": "2025-02-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250209-PRICES.summary",
+          "text": "国家统计局公布：2025年1月份居民消费价格同比上涨0.5%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250209-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-02-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S28",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250220-LPR_HOLD",
+      "title": "2月LPR维持不变",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+      "publication": {
+        "value": "2026-02-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250220-LPR_HOLD.summary",
+          "text": "1年期LPR维持3.1%，5年期以上LPR维持3.6%；为宽松预期与实际贷款定价对照节点，不表述为新宽松。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250220-LPR_HOLD.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-02-20；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S29",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250309-PRICES",
+      "title": "2025年2月份居民消费价格同比下降0.7%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202503/t20250309_1958915.html",
+      "publication": {
+        "value": "2025-03-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250309-PRICES.summary",
+          "text": "国家统计局公布：2025年2月份居民消费价格同比下降0.7%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250309-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-03-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S30",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250325-MLF_AUCTION",
+      "title": "MLF转为多重价位中标",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+      "publication": {
+        "value": "2026-02-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250325-MLF_AUCTION.summary",
+          "text": "央行开展4500亿元MLF操作，并从本月起将MLF由单一价位中标调整为多重价位中标。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250325-MLF_AUCTION.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-03-25；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S31",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250410-PRICES",
+      "title": "2025年3月份居民消费价格同比下降0.1%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250410_1959261.html",
+      "publication": {
+        "value": "2025-04-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250410-PRICES.summary",
+          "text": "国家统计局公布：2025年3月份居民消费价格同比下降0.1%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250410-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-04-10；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S32",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250508-POLICY_RATE",
+      "title": "7天逆回购政策利率下调",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+      "publication": {
+        "value": "2026-02-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250508-POLICY_RATE.summary",
+          "text": "7天逆回购操作利率由1.50%调整为1.40%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250508-POLICY_RATE.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-05-08；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S33",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250510-PRICES",
+      "title": "2025年4月份居民消费价格同比下降0.1%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202505/t20250510_1959771.html",
+      "publication": {
+        "value": "2025-05-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250510-PRICES.summary",
+          "text": "国家统计局公布：2025年4月份居民消费价格同比下降0.1%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250510-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-05-10；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S34",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250704-HOUSING_RELENDING",
+      "title": "拓宽保障性住房再贷款使用范围",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+      "publication": {
+        "value": "2026-02-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250704-HOUSING_RELENDING.summary",
+          "text": "央行印发通知拓宽保障性住房再贷款支持范围，给予地方政府更大自主权，推动存量商品房去库存。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250704-HOUSING_RELENDING.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-07-04；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S35",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250709-PRICES",
+      "title": "2025年6月份居民消费价格同比上涨0.1%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202507/t20250709_1960370.html",
+      "publication": {
+        "value": "2025-07-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250709-PRICES.summary",
+          "text": "国家统计局公布：2025年6月份居民消费价格同比上涨0.1%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250709-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-07-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S36",
+      "provider": "official_web",
+      "record_id": null,
+      "title": "8月工业价格降幅收窄，环比由降转平",
+      "publisher": "国家统计局",
+      "author": null,
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202509/t20250910_1961108.html",
+      "publication": {
+        "value": "2025-09-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "original_text",
+          "locator": "官方发布正文",
+          "text": "2025年8月份，全国工业生产者出厂价格同比下降2.9%，降幅比上月收窄0.7个百分点，环比由下降0.2%转为持平。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "original_text",
+          "locator": "已整理资料的日期说明；待人工核对完整日期",
+          "text": "来源记录日期：2025-09-10"
+        }
+      ]
+    },
+    {
+      "source_id": "S37",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20250919-REPO_AUCTION",
+      "title": "14天逆回购调整为利率招标和多重价位中标",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+      "publication": {
+        "value": "2026-02-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250919-REPO_AUCTION.summary",
+          "text": "14天期逆回购改为固定数量、利率招标、多重价位中标，操作时间与规模按流动性管理需要确定。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20250919-REPO_AUCTION.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-09-19；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S38",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20251015-PRICES",
+      "title": "2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202510/t20251015_1961521.html",
+      "publication": {
+        "value": "2025-10-15",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20251015-PRICES.summary",
+          "text": "国家统计局公布：2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20251015-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-10-15；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S39",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20251109-PRICES",
+      "title": "2025年10月份居民消费价格同比上涨0.2% ... 1­­—10月平均，全国居民消费价格比上年同期下降0.1%。",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961826.html",
+      "publication": {
+        "value": "2025-11-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20251109-PRICES.summary",
+          "text": "国家统计局公布：2025年10月份居民消费价格同比上涨0.2% ... 1­­—10月平均，全国居民消费价格比上年同期下降0.1%。。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20251109-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-11-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S40",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20251210-PRICES",
+      "title": "2025年11月份居民消费价格同比上涨0.7%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251210_1962015.html",
+      "publication": {
+        "value": "2025-12-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20251210-PRICES.summary",
+          "text": "国家统计局公布：2025年11月份居民消费价格同比上涨0.7%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20251210-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2025-12-10；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S41",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20260109-PRICES",
+      "title": "2025年12月份居民消费价格同比上涨0.8%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202601/t20260109_1962273.html",
+      "publication": {
+        "value": "2026-01-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260109-PRICES.summary",
+          "text": "国家统计局公布：2025年12月份居民消费价格同比上涨0.8%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260109-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2026-01-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S42",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20260115-RELENDING_PACKAGE",
+      "title": "再贷款降息并增加支农支小和科技再贷款额度",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.gdjr.gov.cn/gdjr/jrzx/jryw/content/post_44504.html",
+      "publication": {
+        "value": "2026-08-14",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260115-RELENDING_PACKAGE.summary",
+          "text": "央行通知自1月19日起下调再贷款、再贴现利率0.25个百分点，并增加支农支小再贷款额度5000亿元、科技创新和技术改造再贷款额度4000亿元。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260115-RELENDING_PACKAGE.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2026-01-15；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S43",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20260309-PRICES",
+      "title": "2026年2月份居民消费价格同比上涨1.3%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202603/t20260309_1962732.html",
+      "publication": {
+        "value": "2026-03-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260309-PRICES.summary",
+          "text": "国家统计局公布：2026年2月份居民消费价格同比上涨1.3%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260309-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2026-03-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S44",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20260410-PRICES",
+      "title": "2026年3月份居民消费价格同比上涨1.0%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260410_1963264.html",
+      "publication": {
+        "value": "2026-04-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260410-PRICES.summary",
+          "text": "国家统计局公布：2026年3月份居民消费价格同比上涨1.0%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260410-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2026-04-10；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S45",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20260610-PRICES",
+      "title": "2026年5月份居民消费价格同比上涨1.2%",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202606/t20260610_1963923.html",
+      "publication": {
+        "value": "2026-06-10",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260610-PRICES.summary",
+          "text": "国家统计局公布：2026年5月份居民消费价格同比上涨1.2%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260610-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2026-06-10；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S46",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20260629-OVERNIGHT_REPO",
+      "title": "公开市场操作首次增加隔夜逆回购品种",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.gdjr.gov.cn/gdjr/jrzx/jryw/content/post_44504.html",
+      "publication": {
+        "value": "2026-08-14",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260629-OVERNIGHT_REPO.summary",
+          "text": "央行首次在公开市场操作中增加隔夜逆回购操作品种，采用固定利率、数量招标。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260629-OVERNIGHT_REPO.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2026-06-29；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S47",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20260709-PRICES",
+      "title": "2026-07通胀数据发布：消费与工业价格对照",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964084.html",
+      "publication": {
+        "value": "2026-07-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260709-PRICES.summary",
+          "text": "国家统计局发布本期数据：2026年6月份，全国居民消费价格同比上涨1.0%。 国家统计局公布：2026年6月份工业生产者出厂价格同比上涨4.1% 环比下降0.3%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260709-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2026-07-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S48",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20260809-PRICES",
+      "title": "2026-08通胀数据发布：消费与工业价格对照",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965008.html",
+      "publication": {
+        "value": "2026-08-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260809-PRICES.summary",
+          "text": "国家统计局公布：2026年7月份居民消费价格同比上涨0.5%。 国家统计局发布本期数据：2026年7月份，全国工业生产者出厂价格同比上涨3.5%，环比下降0.7%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260809-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2026-08-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    },
+    {
+      "source_id": "S49",
+      "provider": "existing_published_card",
+      "record_id": "RECENT-20260909-PRICES",
+      "title": "2026-09通胀数据发布：消费与工业价格对照",
+      "publisher": "复盘王已发布卡片",
+      "author": null,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965263.html",
+      "publication": {
+        "value": "2026-09-09",
+        "precision": "day",
+        "raw": null
+      },
+      "published_at": null,
+      "publication_raw": null,
+      "retrieved_at": "2026-11-10T02:53:03.739Z",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260909-PRICES.summary",
+          "text": "国家统计局发布本期数据：2026年8月份，全国居民消费价格同比上涨0.8%。 国家统计局发布本期数据：2026年8月份，全国工业生产者出厂价格同比上涨3.8%，环比上涨0.4%。"
+        },
+        {
+          "evidence_id": "E2",
+          "kind": "published_card_excerpt",
+          "locator": "RECENT-20260909-PRICES.occurred_on",
+          "text": "已发布原卡字段 occurred_on=2026-09-09；本次不声称重新确认首次公开时间。"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "cand_f933ae690277b5b4bf377d8366651d47",
+      "event": {
+        "title": "MLF操作14500亿元，利率2.50%与前次持平",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "维持MLF",
+        "stage": "other_occurrence",
+        "region": "中国",
+        "fact_summary": "MLF操作14500亿元，利率2.50%与前次持平。",
+        "time": {
+          "value": "2023-11-15",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S1"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S1",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S1",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_1331780393df2180c9ee25b35a7bc161",
+      "event": {
+        "title": "美联储FOMC利率决议：维持利率",
+        "category": "海外央行与利率",
+        "subject": "FOMC",
+        "action": "维持联邦基金利率目标区间",
+        "stage": "decision",
+        "region": "美国",
+        "fact_summary": "2023-12-13，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+        "time": {
+          "value": "2023-12-13",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S2"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S2",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S2",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_dca6d782048ade627d913ad5c390c2f9",
+      "event": {
+        "title": "MLF操作14500亿元，利率2.50%与前次持平",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "维持MLF",
+        "stage": "other_occurrence",
+        "region": "中国",
+        "fact_summary": "MLF操作14500亿元，利率2.50%与前次持平。",
+        "time": {
+          "value": "2023-12-15",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S3"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S3",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S3",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_766f5daf982ba6c02f53a7defdd02e34",
+      "event": {
+        "title": "支农支小再贷款和再贴现利率下调0.25个百分点",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "下调再贷款/再贴现",
+        "stage": "decision",
+        "region": "中国",
+        "fact_summary": "支农支小再贷款和再贴现利率下调0.25个百分点。",
+        "time": {
+          "value": "2024-01-25",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S4"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S4",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S4",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_620537cbeb424104cb0e51b69a209312",
+      "event": {
+        "title": "下调存款准备金率0.5个百分点，已执行5%的机构除外",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "下调存款准备金率",
+        "stage": "implementation",
+        "region": "中国",
+        "fact_summary": "下调存款准备金率0.5个百分点，已执行5%的机构除外。",
+        "time": {
+          "value": "2024-02-05",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S5"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S5",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S5",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_5ee49c1b2b3a868eab4dbda6e208515d",
+      "event": {
+        "title": "美联储FOMC利率决议：维持利率",
+        "category": "海外央行与利率",
+        "subject": "FOMC",
+        "action": "维持联邦基金利率目标区间",
+        "stage": "decision",
+        "region": "美国",
+        "fact_summary": "2024-01-31，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+        "time": {
+          "value": "2024-01-31",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S6"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S6",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S6",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_2a44931a03268a6f8058321e619e71d8",
+      "event": {
+        "title": "5年期以上LPR下降0.25个百分点至3.95%，1年期保持3.45%",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行授权公布 LPR",
+        "action": "下调LPR",
+        "stage": "decision",
+        "region": "中国",
+        "fact_summary": "5年期以上LPR下降0.25个百分点至3.95%，1年期保持3.45%。",
+        "time": {
+          "value": "2024-02-20",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S7"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S7",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S7",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_5fdfc871d33c777e160d5f5081030b2e",
+      "event": {
+        "title": "美联储FOMC利率决议：维持利率",
+        "category": "海外央行与利率",
+        "subject": "FOMC",
+        "action": "维持联邦基金利率目标区间",
+        "stage": "decision",
+        "region": "美国",
+        "fact_summary": "2024-03-20，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+        "time": {
+          "value": "2024-03-20",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S8"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S8",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S8",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_83776ab1d18efb6fa6ffd4b1eedf4669",
+      "event": {
+        "title": "设立额度5000亿元、利率1.75%的科技创新和技术改造再贷款",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "新设科技创新再贷款",
+        "stage": "decision",
+        "region": "中国",
+        "fact_summary": "设立额度5000亿元、利率1.75%的科技创新和技术改造再贷款。",
+        "time": {
+          "value": "2024-04-01",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S9"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S9",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S9",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_c4f19001db182d64f8cf7a426e4788f8",
+      "event": {
+        "title": "美联储FOMC利率决议：维持利率",
+        "category": "海外央行与利率",
+        "subject": "FOMC",
+        "action": "维持联邦基金利率目标区间",
+        "stage": "decision",
+        "region": "美国",
+        "fact_summary": "2024-05-01，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+        "time": {
+          "value": "2024-05-01",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S10"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S10",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S10",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_b72a8dde706d8af5e0dc6968f96510fb",
+      "event": {
+        "title": "保交房政策吹风会介绍保障性住房再贷款",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "沟通说明保障性住房再贷款",
+        "stage": "communication",
+        "region": "中国",
+        "fact_summary": "政策吹风会介绍保交房配套政策及3000亿元保障性住房再贷款安排，用于支持收购已建成未出售商品房。",
+        "time": {
+          "value": "2024-05-17",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S11"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S11",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S11",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_f4cc1fc3796f3120e1c246d55c2a7a8e",
+      "event": {
+        "title": "美联储FOMC利率决议：维持利率",
+        "category": "海外央行与利率",
+        "subject": "FOMC",
+        "action": "维持联邦基金利率目标区间",
+        "stage": "decision",
+        "region": "美国",
+        "fact_summary": "2024-06-12，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+        "time": {
+          "value": "2024-06-12",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S12"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S12",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S12",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_ef3eba500f6284c2898c9bdeb7b5146c",
+      "event": {
+        "title": "2024年6月份居民消费价格同比上涨0.2%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局发布2024年6月份居民消费价格同比上涨0.2%。",
+        "time": {
+          "value": "2024-07-10",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2024年6月份"
+      },
+      "source_refs": [
+        "S13"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S13",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S13",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_b618ea712756471814c375060585bb9f",
+      "event": {
+        "title": "1年期与5年期以上LPR各下降0.1个百分点至3.35%和3.85%",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行授权公布 LPR",
+        "action": "下调LPR",
+        "stage": "decision",
+        "region": "中国",
+        "fact_summary": "1年期与5年期以上LPR各下降0.1个百分点至3.35%和3.85%。",
+        "time": {
+          "value": "2024-07-22",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S14"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S14",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S14",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_c6744ba1189da2af841e68be2f74a34e",
+      "event": {
+        "title": "美联储FOMC利率决议：维持利率",
+        "category": "海外央行与利率",
+        "subject": "FOMC",
+        "action": "维持联邦基金利率目标区间",
+        "stage": "decision",
+        "region": "美国",
+        "fact_summary": "2024-07-31，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+        "time": {
+          "value": "2024-07-31",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S15"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S15",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S15",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_ec0a9349cf298db61e685b8dafe785c9",
+      "event": {
+        "title": "2024年7月份居民消费价格上涨0.5%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局发布2024年7月份居民消费价格上涨0.5%。",
+        "time": {
+          "value": "2024-08-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2024年7月份"
+      },
+      "source_refs": [
+        "S16"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S16",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S16",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "来源链接404，先补齐可访问证据。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_8ebc2a6707433a7dfff263cccdb4be16",
+      "event": {
+        "title": "2024年8月份居民消费价格同比上涨0.6%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局发布2024年8月份居民消费价格同比上涨0.6%。",
+        "time": {
+          "value": "2024-09-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2024年8月份"
+      },
+      "source_refs": [
+        "S17"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S17",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S17",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_443f3823a927762ffd331cd0cc2300fc",
+      "event": {
+        "title": "工业品价格走弱：8月PPI同比下降1.8%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布PPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "2024年8月份，全国工业生产者出厂价格同比下降1.8%，环比下降0.7%。",
+        "time": {
+          "value": null,
+          "precision": "unknown",
+          "raw": "来源记录日期2024-09-09；完整日期依据待管理员确认"
+        },
+        "scheduled_for": null,
+        "reference_period": "2024年8月份"
+      },
+      "source_refs": [
+        "S18"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S18",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_ddc2d2f6d718ed5d5abd87b1b78f18ed",
+      "event": {
+        "title": "美联储FOMC利率决议：降息",
+        "category": "海外央行与利率",
+        "subject": "FOMC",
+        "action": "下调联邦基金利率目标区间",
+        "stage": "decision",
+        "region": "美国",
+        "fact_summary": "2024-09-18，FOMC决定下调50个基点，调整后联邦基金利率目标区间为4.75%—5.00%。",
+        "time": {
+          "value": "2024-09-18",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S19"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S19",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S19",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_6bb61ec06b9289d10151d807b3a80fef",
+      "event": {
+        "title": "2024年9月份居民消费价格同比上涨0.4%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局发布2024年9月份居民消费价格同比上涨0.4%。",
+        "time": {
+          "value": "2024-10-13",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2024年9月份"
+      },
+      "source_refs": [
+        "S20"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S20",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S20",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_7a4e3460aaa99b7d55a05987c22c662c",
+      "event": {
+        "title": "证券基金保险公司互换便利正式启动操作，并发布回购增持再贷款通知",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "推出互换便利/回购增持再贷款",
+        "stage": "implementation",
+        "region": "中国",
+        "fact_summary": "证券基金保险公司互换便利正式启动操作，并发布回购增持再贷款通知。",
+        "time": {
+          "value": "2024-10-18",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S21"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S21",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S21",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_e90415c5ad174dea0611ffcc3a7c24ac",
+      "event": {
+        "title": "1年期和5年期以上 LPR 均下调25个基点",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行授权公布 LPR",
+        "action": "下调LPR",
+        "stage": "decision",
+        "region": "中国",
+        "fact_summary": "2024年10月21日，1年期 LPR 为3.10%，5年期以上 LPR 为3.60%，均较上期下调0.25个百分点。",
+        "time": {
+          "value": null,
+          "precision": "unknown",
+          "raw": "2024年度大事记记载10月21日，完整年月日需人工确认"
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S22"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S22",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_7b1eb4e7d7cd136e1ad26a880572afd1",
+      "event": {
+        "title": "美联储FOMC利率决议：降息",
+        "category": "海外央行与利率",
+        "subject": "FOMC",
+        "action": "下调联邦基金利率目标区间",
+        "stage": "decision",
+        "region": "美国",
+        "fact_summary": "2024-11-07，FOMC决定下调25个基点，调整后联邦基金利率目标区间为4.50%—4.75%。",
+        "time": {
+          "value": "2024-11-07",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S23"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S23",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S23",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_739abcc50131b58c5367dffe0dc6eb2b",
+      "event": {
+        "title": "2024年10月份居民消费价格同比上涨0.3%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局发布2024年10月份居民消费价格同比上涨0.3%。",
+        "time": {
+          "value": "2024-11-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2024年10月份"
+      },
+      "source_refs": [
+        "S24"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S24",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S24",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_eaf355a0bb1746e9658c09150414b710",
+      "event": {
+        "title": "2024年11月份居民消费价格同比上涨0.2%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局发布2024年11月份居民消费价格同比上涨0.2%。",
+        "time": {
+          "value": "2024-12-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2024年11月份"
+      },
+      "source_refs": [
+        "S25"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S25",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S25",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_9c13a5e9eb81c5f597f87ed1074ab72d",
+      "event": {
+        "title": "美联储FOMC利率决议：降息",
+        "category": "海外央行与利率",
+        "subject": "FOMC",
+        "action": "下调联邦基金利率目标区间",
+        "stage": "decision",
+        "region": "美国",
+        "fact_summary": "2024-12-18，FOMC决定下调25个基点，调整后联邦基金利率目标区间为4.25%—4.50%。",
+        "time": {
+          "value": "2024-12-18",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S26"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S26",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S26",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_fe694653b249fd527d606e6feb368ff7",
+      "event": {
+        "title": "2025年1月份居民消费价格同比上涨0.5%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2025年1月份居民消费价格同比上涨0.5%。",
+        "time": {
+          "value": "2025-02-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年1月份"
+      },
+      "source_refs": [
+        "S27"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S27",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S27",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_c0fb60c884676c1ed30f58477745b84b",
+      "event": {
+        "title": "2月LPR维持不变",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行授权公布 LPR",
+        "action": "维持LPR",
+        "stage": "decision",
+        "region": "中国",
+        "fact_summary": "1年期LPR维持3.1%，5年期以上LPR维持3.6%；为宽松预期与实际贷款定价对照节点，不表述为新宽松。",
+        "time": {
+          "value": "2025-02-20",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S28"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S28",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S28",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3b26eedc3bf298808e43ae9701713555",
+      "event": {
+        "title": "2025年2月份居民消费价格同比下降0.7%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2025年2月份居民消费价格同比下降0.7%。",
+        "time": {
+          "value": "2025-03-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年2月份"
+      },
+      "source_refs": [
+        "S29"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S29",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S29",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_b26bd9a156e521de08cc9ab60c360223",
+      "event": {
+        "title": "MLF转为多重价位中标",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "调整机制MLF",
+        "stage": "decision",
+        "region": "中国",
+        "fact_summary": "央行开展4500亿元MLF操作，并从本月起将MLF由单一价位中标调整为多重价位中标。",
+        "time": {
+          "value": "2025-03-25",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S30"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S30",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S30",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_808f3aac468eac529f3b693f1393e851",
+      "event": {
+        "title": "2025年3月份居民消费价格同比下降0.1%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2025年3月份居民消费价格同比下降0.1%。",
+        "time": {
+          "value": "2025-04-10",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年3月份"
+      },
+      "source_refs": [
+        "S31"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S31",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S31",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_7125a5e7e24f2e1bb4852a37a6501194",
+      "event": {
+        "title": "7天逆回购政策利率下调",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "下调逆回购利率",
+        "stage": "implementation",
+        "region": "中国",
+        "fact_summary": "7天逆回购操作利率由1.50%调整为1.40%。",
+        "time": {
+          "value": "2025-05-08",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S32"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S32",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S32",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_d53eaa18560434ce38b819bbc551b61c",
+      "event": {
+        "title": "2025年4月份居民消费价格同比下降0.1%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2025年4月份居民消费价格同比下降0.1%。",
+        "time": {
+          "value": "2025-05-10",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年4月份"
+      },
+      "source_refs": [
+        "S33"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S33",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S33",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_d18ff0156af37ef96c5c983cc5955018",
+      "event": {
+        "title": "拓宽保障性住房再贷款使用范围",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "扩展保障性住房再贷款",
+        "stage": "decision",
+        "region": "中国",
+        "fact_summary": "央行印发通知拓宽保障性住房再贷款支持范围，给予地方政府更大自主权，推动存量商品房去库存。",
+        "time": {
+          "value": "2025-07-04",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S34"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S34",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S34",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_963a5353cf5c9fac823b694de410761f",
+      "event": {
+        "title": "2025年6月份居民消费价格同比上涨0.1%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2025年6月份居民消费价格同比上涨0.1%。",
+        "time": {
+          "value": "2025-07-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年6月份"
+      },
+      "source_refs": [
+        "S35"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S35",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S35",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_1b0307067b8be46f04a87a680fe87679",
+      "event": {
+        "title": "8月工业价格降幅收窄，环比由降转平",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布PPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "2025年8月份，全国工业生产者出厂价格同比下降2.9%，环比持平。",
+        "time": {
+          "value": null,
+          "precision": "unknown",
+          "raw": "来源记录日期2025-09-10；完整日期依据待管理员确认"
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年8月份"
+      },
+      "source_refs": [
+        "S36"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S36",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_86911d78f7ff9f09640fd579d2937470",
+      "event": {
+        "title": "14天逆回购调整为利率招标和多重价位中标",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "调整机制逆回购招标机制",
+        "stage": "decision",
+        "region": "中国",
+        "fact_summary": "14天期逆回购改为固定数量、利率招标、多重价位中标，操作时间与规模按流动性管理需要确定。",
+        "time": {
+          "value": "2025-09-19",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S37"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S37",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S37",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_7f66fb2666e928ee3113ee6599d454c4",
+      "event": {
+        "title": "2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2025年9月份居民消费价格同比下降0.3%环比上涨0.1%。",
+        "time": {
+          "value": "2025-10-15",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年9月份"
+      },
+      "source_refs": [
+        "S38"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S38",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S38",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3ffaf21d105182509a971a9d01e67fa9",
+      "event": {
+        "title": "2025年10月份居民消费价格同比上涨0.2% ... 1­­—10月平均，全国居民消费价格比上年同期下降0.1%。",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2025年10月份居民消费价格同比上涨0.2%...1­­—10月平均，全国居民消费价格比上年同期下降0.1%。。",
+        "time": {
+          "value": "2025-11-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年10月份"
+      },
+      "source_refs": [
+        "S39"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S39",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S39",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_1c2d6c6b9debe96493cb7208b0156668",
+      "event": {
+        "title": "2025年11月份居民消费价格同比上涨0.7%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2025年11月份居民消费价格同比上涨0.7%。",
+        "time": {
+          "value": "2025-12-10",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年11月份"
+      },
+      "source_refs": [
+        "S40"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S40",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S40",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3c44f402b4e572da08723ae865a80b7d",
+      "event": {
+        "title": "2025年12月份居民消费价格同比上涨0.8%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2025年12月份居民消费价格同比上涨0.8%。",
+        "time": {
+          "value": "2026-01-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2025年12月份"
+      },
+      "source_refs": [
+        "S41"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S41",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S41",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_36233cca8f44451349b030d50f814898",
+      "event": {
+        "title": "再贷款降息并增加支农支小和科技再贷款额度",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "下调再贷款/再贴现",
+        "stage": "announcement",
+        "region": "中国",
+        "fact_summary": "央行通知自1月19日起下调再贷款、再贴现利率0.25个百分点，并增加支农支小再贷款额度5000亿元、科技创新和技术改造再贷款额度4000亿元。",
+        "time": {
+          "value": "2026-01-15",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S42"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S42",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S42",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_d2a088649b168381dcd2398a04142399",
+      "event": {
+        "title": "2026年2月份居民消费价格同比上涨1.3%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2026年2月份居民消费价格同比上涨1.3%。",
+        "time": {
+          "value": "2026-03-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2026年2月份"
+      },
+      "source_refs": [
+        "S43"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S43",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S43",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_cbd50d308e68b9fc1449624c1cb5d454",
+      "event": {
+        "title": "2026年3月份居民消费价格同比上涨1.0%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2026年3月份居民消费价格同比上涨1.0%。",
+        "time": {
+          "value": "2026-04-10",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2026年3月份"
+      },
+      "source_refs": [
+        "S44"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S44",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S44",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_7a7de841eccde9f79472600e888afe1b",
+      "event": {
+        "title": "2026年5月份居民消费价格同比上涨1.2%",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2026年5月份居民消费价格同比上涨1.2%。",
+        "time": {
+          "value": "2026-06-10",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": "2026年5月份"
+      },
+      "source_refs": [
+        "S45"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S45",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S45",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_fc58d74c58ccb432bd6a363dc8b539d4",
+      "event": {
+        "title": "公开市场操作首次增加隔夜逆回购品种",
+        "category": "货币政策与流动性",
+        "subject": "中国人民银行",
+        "action": "新设隔夜逆回购",
+        "stage": "other_occurrence",
+        "region": "中国",
+        "fact_summary": "央行首次在公开市场操作中增加隔夜逆回购操作品种，采用固定利率、数量招标。",
+        "time": {
+          "value": "2026-06-29",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S46"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S46",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S46",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "high",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_d9e52d8c712003abbbfacfcf8fbbed6d",
+      "event": {
+        "title": "2026-07通胀数据发布：消费与工业价格对照",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI / PPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局发布本期数据：2026年6月份，全国居民消费价格同比上涨1.0%。 国家统计局公布：2026年6月份工业生产者出厂价格同比上涨4.1% 环比下降0.3%。",
+        "time": {
+          "value": "2026-07-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S47"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S47",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S47",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_63da6de975690e31477fc9fe3cf2af68",
+      "event": {
+        "title": "2026-08通胀数据发布：消费与工业价格对照",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI / PPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局公布：2026年7月份居民消费价格同比上涨0.5%。 国家统计局发布本期数据：2026年7月份，全国工业生产者出厂价格同比上涨3.5%，环比下降0.7%。",
+        "time": {
+          "value": "2026-08-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S48"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S48",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S48",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_0c40b5112fc147decf925aa0fceb0f73",
+      "event": {
+        "title": "2026-09通胀数据发布：消费与工业价格对照",
+        "category": "通胀与价格",
+        "subject": "国家统计局",
+        "action": "发布CPI / PPI统计",
+        "stage": "data_release",
+        "region": "中国",
+        "fact_summary": "国家统计局发布本期数据：2026年8月份，全国居民消费价格同比上涨0.8%。 国家统计局发布本期数据：2026年8月份，全国工业生产者出厂价格同比上涨3.8%，环比上涨0.4%。",
+        "time": {
+          "value": "2026-09-09",
+          "precision": "day",
+          "raw": null
+        },
+        "scheduled_for": null,
+        "reference_period": null
+      },
+      "source_refs": [
+        "S49"
+      ],
+      "fact_evidence_refs": [
+        {
+          "source_id": "S49",
+          "evidence_id": "E1"
+        }
+      ],
+      "date_evidence_refs": [
+        {
+          "source_id": "S49",
+          "evidence_id": "E2"
+        }
+      ],
+      "assessment": {
+        "tier": "needs_evidence",
+        "importance": "medium",
+        "reason": "纳入展示资料候选；是否可比仍需核对具体工具、方向、日期和背景。",
+        "evidence_completeness": "partial",
+        "verification_status": "source_supported",
+        "open_questions": [
+          "核对原文和首发时刻；机器格式通过不等于事实已独立核实。"
+        ]
+      }
+    }
+  ],
+  "unverified_leads": []
+}

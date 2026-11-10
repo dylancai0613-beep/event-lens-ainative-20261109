@@ -1,0 +1,58 @@
+{
+  "preparedAt": "2026-11-10T02:53:03.739Z",
+  "scope": [
+    "2023-11-09",
+    "2026-11-09"
+  ],
+  "total": 49,
+  "groups": {
+    "cnpolicy": 17,
+    "fed": 9,
+    "cpi": 23
+  },
+  "assets": {
+    "equity": {
+      "name": "上证指数示意",
+      "unit": "指数点（演示刻度）",
+      "first": "2023-11-09",
+      "last": "2026-11-09",
+      "points": 783,
+      "sha256": "1eb5aac3a7b0e45ed1fec515ecee0e34f3a205d40504d83db316cfe4928c6d57",
+      "synthetic": true,
+      "source": "本地固定种子生成的构造序列（非市场报价）"
+    },
+    "gold": {
+      "name": "黄金价格示意",
+      "unit": "元/克（演示刻度）",
+      "first": "2023-11-09",
+      "last": "2026-11-09",
+      "points": 783,
+      "sha256": "eacd9316ea863d50c1392e85212bea3847f4d027e2f75c91369ef692c2b7283b",
+      "synthetic": true,
+      "source": "本地固定种子生成的构造序列（非市场报价）"
+    }
+  },
+  "coverage": "近三年范围内的部分研究样本：几个主题仅用于整理资料，事件保留自然标题；纳入LPR、准备金率、再贷款、公开市场操作和CPI/PPI及联合发布。不是全部新闻或完整指标日历。",
+  "marketDataMode": {
+    "type": "synthetic_demo",
+    "generated_by": "scripts/build-synthetic-market.cjs",
+    "notice": "构造演示价格；不是实际历史行情，不代表真实资产表现，不应用于投资决策。日期轴也不是交易所交易日历。",
+    "series_specs": {
+      "equity": {
+        "name": "上证指数示意",
+        "unit": "指数点（演示刻度）",
+        "initial": 3200,
+        "seed": 439041101,
+        "daily_volatility": 0.008
+      },
+      "gold": {
+        "name": "黄金价格示意",
+        "unit": "元/克（演示刻度）",
+        "initial": 520,
+        "seed": 1592629657,
+        "daily_volatility": 0.007
+      }
+    },
+    "relation_to_events": "价格变化由独立固定种子生成，与事件日期、事件类型和事件结果无关。"
+  }
+}
