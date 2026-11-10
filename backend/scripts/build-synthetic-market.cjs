@@ -3,8 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const root = path.resolve(__dirname, '..');
-const file = path.join(root, 'dist/data.json');
+const root = path.resolve(__dirname, '../..');
+const file = path.join(root, 'frontend/data.json');
 const data = JSON.parse(fs.readFileSync(file, 'utf8'));
 
 function random(seed) {
@@ -64,7 +64,7 @@ for (const event of data.events) {
 
 data.marketDataMode = {
   type: 'synthetic_demo',
-  generated_by: 'scripts/build-synthetic-market.cjs',
+  generated_by: 'backend/scripts/build-synthetic-market.cjs',
   notice,
   series_specs: {
     equity: { name: '上证指数示意', unit: '指数点（演示刻度）', initial: 3200, seed: 0x1A2B3C4D, daily_volatility: 0.008 },

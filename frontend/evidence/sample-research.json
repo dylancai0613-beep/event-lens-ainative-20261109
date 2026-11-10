@@ -4,7 +4,7 @@
   "warning": "构造演示价格；不是实际历史行情，不代表真实资产表现，不应用于投资决策。日期轴也不是交易所交易日历。",
   "market_data_mode": {
     "type": "synthetic_demo",
-    "generated_by": "scripts/build-synthetic-market.cjs",
+    "generated_by": "backend/scripts/build-synthetic-market.cjs",
     "notice": "构造演示价格；不是实际历史行情，不代表真实资产表现，不应用于投资决策。日期轴也不是交易所交易日历。",
     "series_specs": {
       "equity": {

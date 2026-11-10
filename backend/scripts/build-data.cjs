@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm');
-const path=require('path'),root=path.resolve(__dirname,'..');
+const path=require('path'),root=path.resolve(__dirname,'../..');
 const base=process.env.REPLAY_SNAPSHOT_DIR;
 if(!base)throw new Error('Set REPLAY_SNAPSHOT_DIR to the authorized local event snapshot directory. No source snapshot is bundled.');
 const ctx={window:{}};vm.createContext(ctx,{codeGeneration:{strings:false,wasm:false}});
@@ -33,7 +33,7 @@ const nextDay=d=>new Date(Date.parse(d+'T00:00:00Z')+86400000).toISOString().sli
 for(const e of events){e.anchor=nextDay(e.date);e.timeNote='演示对齐：从记录事件日次日起，在构造日期轴选择后续演示点；不代表真实市场交易时段。';}
 const assets={equity:{name:'上证指数示意',unit:'指数点（演示刻度）',points:[],source:'待由构造样例生成器填充',synthetic:true},gold:{name:'黄金价格示意',unit:'元/克（演示刻度）',points:[],source:'待由构造样例生成器填充',synthetic:true}};
 const data={version:'1.0.0',preparedAt:new Date().toISOString(),scope:range,coverage:'近三年范围内的部分研究样本：事件保留自然标题，纳入LPR、准备金率、再贷款、公开市场操作和CPI/PPI及联合发布。不是全部新闻或完整指标日历。',groups,events,assets,latestCheck:{status:'not_applicable',note:'本产品没有市场数据供应商和实时更新任务。'},rights:'事件条目保留来源链接和逐条核查状态。行情由构造样例生成器创建，不包含供应商行情或真实历史报价。',offlineAI:'Codex / Luna 参与离线资料整理；网页按选中案例和确定性演示计算组装报告，不发起模型请求。',notes:{cnpolicy:{shared:'依据事件主体、政策工具、行动方向与阶段寻找候选。相同工具优先；不同工具的关联案例单独标明局限。',difference:'同工具仍需核对期限、幅度、对象与宏观背景；跨工具只提供研究线索，不能视作同一种政策效果。',hypothesis:'不同货币政策工具可能经融资成本、流动性或信用供给传导；当前材料没有验证传导或剥离同期因素。'},fed:{shared:'同为FOMC正式利率决定并区分下调、维持方向；不混合讲话与纪要。',difference:'幅度、目标区间、就业与通胀环境不同；同方向并不代表同一政策阶段。',hypothesis:'利率路径可能与美元、实际利率及风险偏好共同作用；本产品没有因果识别。'},cpi:{shared:'围绕通胀与价格研究主题找可追溯的指标发布。共同指标优先，并显示查询与候选分别包含CPI、PPI中的哪些内容。',difference:'CPI观察消费端，PPI观察工业出厂端。联合发布与单项发布覆盖范围不同；跨指标只是相关价格观察，不能把数值、同比方向或资产反应等同。',hypothesis:'消费与工业价格的分化可能提示不同的需求、成本或基数变化，需要进一步验证。尚无统一预期值，不能计算预期差或直接归因市场涨跌。'}}};
-fs.mkdirSync(path.join(root,'dist'),{recursive:true});fs.writeFileSync(path.join(root,'dist/data.json'),JSON.stringify(data,null,2));
+fs.mkdirSync(path.join(root,'frontend'),{recursive:true});fs.writeFileSync(path.join(root,'frontend/data.json'),JSON.stringify(data,null,2));
 fs.mkdirSync(path.join(root,'evidence'),{recursive:true});
 fs.writeFileSync(path.join(root,'evidence/data-inventory.json'),JSON.stringify({preparedAt:data.preparedAt,scope:range,total:events.length,groups:Object.fromEntries(Object.keys(groups).map(k=>[k,events.filter(e=>e.group===k).length])),assets:Object.fromEntries(Object.entries(assets).map(([k,a])=>[k,{code:a.code,first:a.first,last:a.last,points:a.points.length,sha256:a.sha256}])),coverage:data.coverage},null,2));
 console.log('Built',events.length,'events',Object.keys(assets));

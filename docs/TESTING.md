@@ -1,6 +1,6 @@
 # 测试说明与实际结果
 
-运行：`npm test`（Node内置test runner，零测试依赖）；`npm run build`检查静态产物；`node --check dist/app.js`。
+运行：`npm test`（Node内置test runner，零测试依赖）；`npm run build`检查静态产物；`node --check frontend/app.js`。
 
 ## 已执行程序测试
 

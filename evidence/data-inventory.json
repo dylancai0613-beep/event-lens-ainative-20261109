@@ -35,7 +35,7 @@
   "coverage": "近三年范围内的部分研究样本：几个主题仅用于整理资料，事件保留自然标题；纳入LPR、准备金率、再贷款、公开市场操作和CPI/PPI及联合发布。不是全部新闻或完整指标日历。",
   "marketDataMode": {
     "type": "synthetic_demo",
-    "generated_by": "scripts/build-synthetic-market.cjs",
+    "generated_by": "backend/scripts/build-synthetic-market.cjs",
     "notice": "构造演示价格；不是实际历史行情，不代表真实资产表现，不应用于投资决策。日期轴也不是交易所交易日历。",
     "series_specs": {
       "equity": {

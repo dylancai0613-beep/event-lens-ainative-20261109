@@ -20,9 +20,9 @@ npm run build
 npm run build:demo # 可复现地重建构造行情和演示报告
 ```
 
-默认端口18791，可通过 `PORT` 环境变量修改。**无需任何行情或模型环境变量**。直接双击HTML会因本地文件fetch限制而失败，请使用HTTP服务器。也可以 `npx http-server dist`，这会按需下载该第三方工具；内置start无需下载。
+默认端口18791，可通过 `PORT` 环境变量修改。**无需任何行情或模型环境变量**。直接双击HTML会因本地文件fetch限制而失败，请使用HTTP服务器。也可以 `npx http-server frontend`，这会按需下载该第三方工具；内置start无需下载。
 
-`dist/` 是可部署静态文件。`scripts/build-data.cjs`、`expand-themes.cjs`和`export-candidates.cjs`是离线事件整理工具，需要通过`REPLAY_SNAPSHOT_DIR`显式指向有权使用的本地事件资料；源资料不随仓库分发。运行数据生成脚本时，构造行情生成器会在最后执行，发布产物只保留合成示意序列。`npm run build:demo`可在无需源项目的情况下，以固定种子重建两条构造价格序列及示范报告。产品运行、测试和静态打包不依赖原服务器或API。`evidence/data-inventory.json`保留事件范围、生成样例数量和哈希。
+`frontend/` 是可部署静态文件。`backend/scripts/build-data.cjs`、`backend/scripts/expand-themes.cjs`和`backend/scripts/export-candidates.cjs`是离线事件整理工具，需要通过`REPLAY_SNAPSHOT_DIR`显式指向有权使用的本地事件资料；源资料不随仓库分发。运行数据生成脚本时，构造行情生成器会在最后执行，发布产物只保留合成示意序列。`npm run build:demo`可在无需源项目的情况下，以固定种子重建两条构造价格序列及示范报告。产品运行、测试和静态打包不依赖原服务器或API。`evidence/data-inventory.json`保留事件范围、生成样例数量和哈希。
 
 ## 评审的三分钟操作
 
@@ -38,7 +38,7 @@ npm run build:demo # 可复现地重建构造行情和演示报告
 
 事件筛选范围固定为 **2023-11-09—2026-11-09**，包含49条候选（国内货币政策17、海外利率9、通胀价格23）。保留原库的自然标题，新增准备金率、再贷款、公开市场操作、PPI及消费与工业价格联合发布。它们是范围内的部分事件样本，不是新闻全量。每条保留来源、资料发布日期、事件日、首次公开日期与核实状态。原卡引用使用 `published_card_excerpt` 并保留旧卡ID；少量官方页面在本次重新打开。已知一条原链接404，显示待补证，不进入自动匹配。
 
-**行情是构造演示数据。**原有上证与黄金历史行情公开再分发权未能核实，已从当前发布版本替换。上海黄金交易所的官方行情产品说明要求取得许可后传播交易信息；本版不随产品发布供应商行情。构造数据由 `scripts/build-synthetic-market.cjs` 生成，共783个点/资产，使用固定种子，与真实市场和具体事件无关；日期轴只是周一至周五，并非交易所日历。SHA-256、生成方式和范围见 `evidence/data-inventory.json`。UI、报告和导出的JSON均标明其非真实行情，不可用于投资研究或绩效判断。
+**行情是构造演示数据。**原有上证与黄金历史行情公开再分发权未能核实，已从当前发布版本替换。上海黄金交易所的官方行情产品说明要求取得许可后传播交易信息；本版不随产品发布供应商行情。构造数据由 `backend/scripts/build-synthetic-market.cjs` 生成，共783个点/资产，使用固定种子，与真实市场和具体事件无关；日期轴只是周一至周五，并非交易所日历。SHA-256、生成方式和范围见 `evidence/data-inventory.json`。UI、报告和导出的JSON均标明其非真实行情，不可用于投资研究或绩效判断。
 
 本产品采用保守日级演示：从记录的公告/事件日次一日起，从构造工作日序列取值；基准是起点前最后一个演示值。日期和值均为合成示例，不能体现美联储时区、真实市场休市或黄金交易时段。两条序列只用于演示同一计算函数。
 
@@ -56,9 +56,23 @@ npm run build:demo # 可复现地重建构造行情和演示报告
 
 见 [测试说明](docs/TESTING.md)、[AI使用与验证记录](docs/AI_USAGE.md)、[离线 AI 筛选实例](evidence/ai-case-study.md)、[价值验证方案](docs/VALUE_VALIDATION.md)和[来源复核](docs/SOURCES.md)。不做因果识别、确定性预测、个股推荐、直接交易、收益承诺、在线全网新闻或定时更新。筛选和AI预研离线完成，主链路不依赖频繁采集。市场许可未获确认前只用清楚标明的构造演示数据。大原始数据、依赖环境和原站部署包不进入提交附件。
 
-## 目录
+## 目录结构
 
-`dist/`静态应用及精选研究快照；`scripts/`HTTP预览与离线准备；`tests/`计算、缺失、匹配测试；`skills/`用户提供的候选池技能；`evidence/`候选JSON、校验、来源/行情清单及截图；`docs/`交付说明。`.openai/hosting.json`绑定唯一Sites项目。
+```text
+event-lens/
+├── frontend/                  # 可部署静态产品、运行数据和随站点发布的资料副本
+├── backend/
+│   ├── README.md              # 离线工具说明；本版没有在线后端 API
+│   ├── scripts/               # 离线数据整理、候选导出、校验和本地预览
+│   └── skills/                # 候选池筛选 skill 与规则
+├── docs/                      # 提交文档主版本
+├── evidence/                  # 候选数据和复核记录主版本
+├── tests/                     # 确定性计算测试
+├── package.json
+└── .openai/hosting.json        # Sites 静态目录指向 frontend/
+```
+
+计算引擎在浏览器中运行。`backend/` 只用于离线准备资料和本地预览，不提供线上服务。`frontend/docs/` 与 `frontend/evidence/` 是随静态产品发布的精选副本；仓库根目录的 `docs/` 和 `evidence/` 是交付记录的主版本。
 
 ## 复用范围
 
