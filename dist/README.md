@@ -4,7 +4,7 @@
 
 ## 产品入口与源码
 
-- 产品：https://macro-event-replay-luna.opalescentdisco1.chatgpt.site （线上版本3尚未同步本次构造行情修订；本仓库和提交包包含最新静态版本。线上更新待Sites源仓库连接恢复后完成。）
+- 产品：https://macro-event-replay-luna.opalescentdisco1.chatgpt.site （线上演示使用明确标注的构造行情数据，不代表真实市场表现。）
 - GitHub仓库：https://github.com/dylancai0613-beep/event-lens-ainative-20261109 。
 - 无登录、无需API Key。研究结果可导出JSON与HTML简报。
 
