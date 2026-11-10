@@ -2,6 +2,8 @@
 
 运行：`npm test`（Node内置test runner，零测试依赖）；`npm run build`检查静态产物；`node --check frontend/app.js`。
 
+2026-11-10目录重排后执行了 `node backend/scripts/build-site.cjs`，并完成 Sites 保存与部署；没有重跑 `npm test` 或浏览器回归。下方10项通过记录与浏览器验收均来自目录重排前，不应视为重排后的回归结果。
+
 ## 已执行程序测试
 
 10项通过，见evidence/engine-tests.txt：构造样本基准/端点/公式；仅历史在前且同工具同方向、无事后收益筛选；缺行情/零价格/非法日期/窗口不足/大断层不填收益；三个默认演示入口两资产20观测完整；数据范围/排序/单位/未知预期差；报告引用来自本次案例及参数变化。
