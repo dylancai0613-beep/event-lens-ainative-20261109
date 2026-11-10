@@ -1,0 +1,8250 @@
+{
+  "version": "1.1.0",
+  "preparedAt": "2026-11-10T02:53:03.739Z",
+  "scope": [
+    "2023-11-09",
+    "2026-11-09"
+  ],
+  "coverage": "近三年范围内的部分研究样本：几个主题仅用于整理资料，事件保留自然标题；纳入LPR、准备金率、再贷款、公开市场操作和CPI/PPI及联合发布。不是全部新闻或完整指标日历。",
+  "groups": {
+    "cnpolicy": {
+      "name": "货币政策与流动性",
+      "tool": "LPR",
+      "subject": "中国人民银行授权公布 LPR",
+      "region": "中国"
+    },
+    "fed": {
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国"
+    },
+    "cpi": {
+      "name": "通胀与价格",
+      "tool": "中国 CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国"
+    }
+  },
+  "events": [
+    {
+      "id": "RECENT-20231115-MLF",
+      "oldCardId": "RECENT-20231115-MLF",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "MLF",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2023-11-15",
+      "eventDate": "2023-11-15",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "hold",
+      "stage": "operation",
+      "title": "MLF操作14500亿元，利率2.50%与前次持平",
+      "fact": "MLF操作14500亿元，利率2.50%与前次持平。",
+      "sources": [
+        {
+          "title": "2023年中国货币政策大事记",
+          "publisher": "中国人民银行机构账号（澎湃政务平台）",
+          "url": "https://www.thepaper.cn/newsDetail_forward_26316509",
+          "publicationDate": "2024-02-08",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2023-11-16",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20231213-FOMC",
+      "group": "fed",
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国",
+      "date": "2023-12-13",
+      "eventDate": "2023-12-13",
+      "firstPublicDate": "2023-12-13",
+      "firstPublicTime": null,
+      "direction": "hold",
+      "title": "美联储FOMC利率决议：维持利率",
+      "fact": "2023-12-13，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "美联储FOMC利率决议：维持利率",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231213a.htm",
+          "publicationDate": "2023-12-13",
+          "role": "官方统计/决议发布",
+          "status": "本次已打开官方来源；只支持事实与公开日期"
+        }
+      ],
+      "verification": "本次已打开官方来源核对事实",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20231213-FOMC",
+      "expectationGap": null,
+      "period": null,
+      "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
+      "anchor": "2023-12-14",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20231215-MLF",
+      "oldCardId": "RECENT-20231215-MLF",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "MLF",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2023-12-15",
+      "eventDate": "2023-12-15",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "hold",
+      "stage": "operation",
+      "title": "MLF操作14500亿元，利率2.50%与前次持平",
+      "fact": "MLF操作14500亿元，利率2.50%与前次持平。",
+      "sources": [
+        {
+          "title": "2023年中国货币政策大事记",
+          "publisher": "中国人民银行机构账号（澎湃政务平台）",
+          "url": "https://www.thepaper.cn/newsDetail_forward_26316509",
+          "publicationDate": "2024-02-08",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2023-12-16",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20240125-RELENDING_CUT",
+      "oldCardId": "RECENT-20240125-RELENDING_CUT",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "再贷款/再贴现",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-01-24",
+      "eventDate": "2024-01-25",
+      "firstPublicDate": "2024-01-24",
+      "firstPublicTime": null,
+      "direction": "down",
+      "stage": "decision",
+      "title": "支农支小再贷款和再贴现利率下调0.25个百分点",
+      "fact": "支农支小再贷款和再贴现利率下调0.25个百分点。",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "支农支小再贷款和再贴现利率下调0.25个百分点：公开日期核验",
+          "publisher": "同期来源，详见核查记录",
+          "url": "https://www.safe.gov.cn/safe/2024/0124/23903.html",
+          "publicationDate": "2024-01-24",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-01-25",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20240205-RRR",
+      "oldCardId": "RECENT-20240205-RRR",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "存款准备金率",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-01-24",
+      "eventDate": "2024-02-05",
+      "firstPublicDate": "2024-01-24",
+      "firstPublicTime": null,
+      "direction": "down",
+      "stage": "implementation",
+      "title": "下调存款准备金率0.5个百分点，已执行5%的机构除外",
+      "fact": "下调存款准备金率0.5个百分点，已执行5%的机构除外。",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "下调存款准备金率0.5个百分点，已执行5%的机构除外：公开日期核验",
+          "publisher": "同期来源，详见核查记录",
+          "url": "https://www.safe.gov.cn/safe/2024/0124/23903.html",
+          "publicationDate": "2024-01-24",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-01-25",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20240131-FOMC",
+      "group": "fed",
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国",
+      "date": "2024-01-31",
+      "eventDate": "2024-01-31",
+      "firstPublicDate": "2024-01-31",
+      "firstPublicTime": null,
+      "direction": "hold",
+      "title": "美联储FOMC利率决议：维持利率",
+      "fact": "2024-01-31，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "美联储FOMC利率决议：维持利率",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm",
+          "publicationDate": "2024-01-31",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240131-FOMC",
+      "expectationGap": null,
+      "period": null,
+      "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
+      "anchor": "2024-02-01",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20240220-LPR_CUT",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "LPR",
+      "subject": "中国人民银行授权公布 LPR",
+      "region": "中国",
+      "date": "2024-02-20",
+      "eventDate": "2024-02-20",
+      "firstPublicDate": "2024-02-20",
+      "firstPublicTime": null,
+      "direction": "down",
+      "title": "5年期以上LPR下降0.25个百分点至3.95%，1年期保持3.45%",
+      "fact": "5年期以上LPR下降0.25个百分点至3.95%，1年期保持3.45%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "事后官方回顾",
+          "status": "本次已打开，仅核对事件事实及日期"
+        },
+        {
+          "title": "5年期以上LPR下降0.25个百分点至3.95%，1年期保持3.45%：公开日期核验",
+          "publisher": "同期来源，详见核查记录",
+          "url": "https://www.xinhuanet.com/fortune/20240220/999f2a10aecf446499374c7410d25be0/c.html",
+          "publicationDate": "2024-02-20",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "已核对关联公开来源",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240220-LPR_CUT",
+      "expectationGap": null,
+      "period": null,
+      "notes": "只下调5年期以上LPR 25基点，1年期维持不变；与两个期限同时调整存在差异。",
+      "anchor": "2024-02-21",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy"
+    },
+    {
+      "id": "RECENT-20240320-FOMC",
+      "group": "fed",
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国",
+      "date": "2024-03-20",
+      "eventDate": "2024-03-20",
+      "firstPublicDate": "2024-03-20",
+      "firstPublicTime": null,
+      "direction": "hold",
+      "title": "美联储FOMC利率决议：维持利率",
+      "fact": "2024-03-20，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "美联储FOMC利率决议：维持利率",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm",
+          "publicationDate": "2024-03-20",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240320-FOMC",
+      "expectationGap": null,
+      "period": null,
+      "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
+      "anchor": "2024-03-21",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20240401-TECH_RELENDING",
+      "oldCardId": "RECENT-20240401-TECH_RELENDING",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "科技创新再贷款",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-04-01",
+      "eventDate": "2024-04-01",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "create",
+      "stage": "decision",
+      "title": "设立额度5000亿元、利率1.75%的科技创新和技术改造再贷款",
+      "fact": "设立额度5000亿元、利率1.75%的科技创新和技术改造再贷款。",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-04-02",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20240501-FOMC",
+      "group": "fed",
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国",
+      "date": "2024-05-01",
+      "eventDate": "2024-05-01",
+      "firstPublicDate": "2024-05-01",
+      "firstPublicTime": null,
+      "direction": "hold",
+      "title": "美联储FOMC利率决议：维持利率",
+      "fact": "2024-05-01，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "美联储FOMC利率决议：维持利率",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm",
+          "publicationDate": "2024-05-01",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240501-FOMC",
+      "expectationGap": null,
+      "period": null,
+      "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
+      "anchor": "2024-05-02",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20240517-HOUSING",
+      "oldCardId": "RECENT-20240517-HOUSING",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "保障性住房再贷款",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-05-17",
+      "eventDate": "2024-05-17",
+      "firstPublicDate": "2024-05-17",
+      "firstPublicTime": null,
+      "direction": "communication",
+      "stage": "communication",
+      "title": "保交房政策吹风会介绍保障性住房再贷款",
+      "fact": "政策吹风会介绍保交房配套政策及3000亿元保障性住房再贷款安排，用于支持收购已建成未出售商品房。",
+      "sources": [
+        {
+          "title": "保交房政策吹风会介绍保障性住房再贷款",
+          "publisher": "中国政府网",
+          "url": "https://app.www.gov.cn/govdata/gov/202405/17/515123/article.html",
+          "publicationDate": "2024-05-17",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-05-18",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20240612-FOMC",
+      "group": "fed",
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国",
+      "date": "2024-06-12",
+      "eventDate": "2024-06-12",
+      "firstPublicDate": "2024-06-12",
+      "firstPublicTime": null,
+      "direction": "hold",
+      "title": "美联储FOMC利率决议：维持利率",
+      "fact": "2024-06-12，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "美联储FOMC利率决议：维持利率",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm",
+          "publicationDate": "2024-06-12",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240612-FOMC",
+      "expectationGap": null,
+      "period": null,
+      "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
+      "anchor": "2024-06-13",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20240710-CPI",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2024-07-10",
+      "eventDate": "2024-07-10",
+      "firstPublicDate": "2024-07-10",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2024年6月份居民消费价格同比上涨0.2%",
+      "fact": "国家统计局发布2024年6月份居民消费价格同比上涨0.2%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2024年6月份居民消费价格同比上涨0.2%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202407/t20240710_1955508.html",
+          "publicationDate": "2024-07-10",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240710-CPI",
+      "expectationGap": null,
+      "period": "2024年6月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2024-07-11",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20240722-LPR_CUT",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "LPR",
+      "subject": "中国人民银行授权公布 LPR",
+      "region": "中国",
+      "date": "2024-07-22",
+      "eventDate": "2024-07-22",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "down",
+      "title": "1年期与5年期以上LPR各下降0.1个百分点至3.35%和3.85%",
+      "fact": "1年期与5年期以上LPR各下降0.1个百分点至3.35%和3.85%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "事后官方回顾",
+          "status": "本次已打开，仅核对事件事实及日期"
+        }
+      ],
+      "verification": "已核对关联公开来源",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240722-LPR_CUT",
+      "expectationGap": null,
+      "period": null,
+      "notes": "1年期与5年期以上LPR各下调10基点，幅度与2024年2月、10月不同。",
+      "anchor": "2024-07-23",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy"
+    },
+    {
+      "id": "RECENT-20240731-FOMC",
+      "group": "fed",
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国",
+      "date": "2024-07-31",
+      "eventDate": "2024-07-31",
+      "firstPublicDate": "2024-07-31",
+      "firstPublicTime": null,
+      "direction": "hold",
+      "title": "美联储FOMC利率决议：维持利率",
+      "fact": "2024-07-31，FOMC决定维持联邦基金利率目标区间为5.25%—5.50%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "美联储FOMC利率决议：维持利率",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm",
+          "publicationDate": "2024-07-31",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240731-FOMC",
+      "expectationGap": null,
+      "period": null,
+      "notes": "当次决定维持5.25%—5.50%；维持利率不等于预期路径相同。",
+      "anchor": "2024-08-01",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20240809-CPI",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2024-08-09",
+      "eventDate": "2024-08-09",
+      "firstPublicDate": "2024-08-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2024年7月份居民消费价格上涨0.5%",
+      "fact": "国家统计局发布2024年7月份居民消费价格上涨0.5%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2024年7月份居民消费价格上涨0.5%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202408/t20240809_1955948.html",
+          "publicationDate": "2024-08-09",
+          "role": "官方统计/决议发布",
+          "status": "本次访问404，未重新核实原文"
+        }
+      ],
+      "verification": "本次访问原链接返回404，待补证",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240809-CPI",
+      "expectationGap": null,
+      "period": "2024年7月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "sourceProblem": true,
+      "anchor": "2024-08-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20240909-CPI",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2024-09-09",
+      "eventDate": "2024-09-09",
+      "firstPublicDate": "2024-09-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2024年8月份居民消费价格同比上涨0.6%",
+      "fact": "国家统计局发布2024年8月份居民消费价格同比上涨0.6%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2024年8月份居民消费价格同比上涨0.6%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240909_1956311.html",
+          "publicationDate": "2024-09-09",
+          "role": "官方统计/决议发布",
+          "status": "本次已打开，仅核对事件事实及日期"
+        }
+      ],
+      "verification": "已核对关联公开来源",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240909-CPI",
+      "expectationGap": null,
+      "period": "2024年8月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2024-09-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "PPI-20240909",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2024-09-09",
+      "eventDate": "2024-09-09",
+      "firstPublicDate": "2024-09-09",
+      "firstPublicTime": "09:30 Asia/Shanghai",
+      "direction": "release",
+      "stage": "data_release",
+      "title": "工业品价格走弱：8月PPI同比下降1.8%",
+      "fact": "2024年8月份，全国工业生产者出厂价格同比下降1.8%，环比下降0.7%。",
+      "sources": [
+        {
+          "title": "工业品价格走弱：8月PPI同比下降1.8%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240909_1956310.html",
+          "publicationDate": "2024-09-09",
+          "role": "官方统计发布",
+          "status": "本轮已打开核对PPI读数和发布日期"
+        }
+      ],
+      "verification": "本轮已核对官方PPI发布",
+      "sourceKind": "original_text",
+      "candidateEvidence": "2024年8月份，全国工业生产者出厂价格同比下降1.8%，环比下降0.7%；",
+      "expectationGap": null,
+      "period": "2024年8月份",
+      "notes": "PPI观察工业出厂价格；与CPI的消费价格口径不同。同比下降与环比变化需分开理解。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "PPI"
+      ],
+      "anchor": "2024-09-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20240918-FOMC",
+      "group": "fed",
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国",
+      "date": "2024-09-18",
+      "eventDate": "2024-09-18",
+      "firstPublicDate": "2024-09-18",
+      "firstPublicTime": null,
+      "direction": "down",
+      "title": "美联储FOMC利率决议：降息",
+      "fact": "2024-09-18，FOMC决定下调50个基点，调整后联邦基金利率目标区间为4.75%—5.00%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "美联储FOMC利率决议：降息",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "publicationDate": "2024-09-18",
+          "role": "官方统计/决议发布",
+          "status": "本次已打开，仅核对事件事实及日期"
+        }
+      ],
+      "verification": "已核对关联公开来源",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20240918-FOMC",
+      "expectationGap": null,
+      "period": null,
+      "notes": "当次下调50个基点至4.75%—5.00%；幅度与政策阶段均需单独比较。",
+      "anchor": "2024-09-19",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20241013-CPI",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2024-10-13",
+      "eventDate": "2024-10-13",
+      "firstPublicDate": "2024-10-13",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2024年9月份居民消费价格同比上涨0.4%",
+      "fact": "国家统计局发布2024年9月份居民消费价格同比上涨0.4%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2024年9月份居民消费价格同比上涨0.4%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202410/t20241013_1956899.html",
+          "publicationDate": "2024-10-13",
+          "role": "官方统计/决议发布",
+          "status": "本次已打开，仅核对事件事实及日期"
+        }
+      ],
+      "verification": "已核对关联公开来源",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20241013-CPI",
+      "expectationGap": null,
+      "period": "2024年9月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2024-10-14",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20241018-SFISF",
+      "oldCardId": "RECENT-20241018-SFISF",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "互换便利/回购增持再贷款",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2024-10-18",
+      "eventDate": "2024-10-18",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "launch",
+      "stage": "implementation",
+      "title": "证券基金保险公司互换便利正式启动操作，并发布回购增持再贷款通知",
+      "fact": "证券基金保险公司互换便利正式启动操作，并发布回购增持再贷款通知。",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "上海市委金融办转载中国人民银行",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2024-10-19",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "LPR-20241021",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "LPR",
+      "subject": "中国人民银行授权公布 LPR",
+      "region": "中国",
+      "date": "2024-10-21",
+      "eventDate": "2024-10-21",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "down",
+      "title": "1年期和5年期以上 LPR 均下调25个基点",
+      "fact": "2024年10月21日，1年期 LPR 为3.10%，5年期以上 LPR 为3.60%，均较上期下调0.25个百分点。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "2024年中国货币政策大事记",
+          "publisher": "中国人民银行（上海市委金融办转载）",
+          "url": "https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html",
+          "publicationDate": "2025-02-14",
+          "role": "事后官方回顾",
+          "status": "本次已打开；不能证明最早公开时刻"
+        }
+      ],
+      "verification": "官方事后回顾支持事实，首发时刻待核",
+      "sourceKind": "original_text",
+      "expectationGap": null,
+      "period": null,
+      "notes": "同时下调两个期限，与2024年2月仅5年期以上LPR下调存在差异。",
+      "anchor": "2024-10-22",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy"
+    },
+    {
+      "id": "RECENT-20241107-FOMC",
+      "group": "fed",
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国",
+      "date": "2024-11-07",
+      "eventDate": "2024-11-07",
+      "firstPublicDate": "2024-11-07",
+      "firstPublicTime": null,
+      "direction": "down",
+      "title": "美联储FOMC利率决议：降息",
+      "fact": "2024-11-07，FOMC决定下调25个基点，调整后联邦基金利率目标区间为4.50%—4.75%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "美联储FOMC利率决议：降息",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm",
+          "publicationDate": "2024-11-07",
+          "role": "官方统计/决议发布",
+          "status": "本次已打开，仅核对事件事实及日期"
+        }
+      ],
+      "verification": "已核对关联公开来源",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20241107-FOMC",
+      "expectationGap": null,
+      "period": null,
+      "notes": "当次下调25个基点至4.50%—4.75%；幅度与政策阶段均需单独比较。",
+      "anchor": "2024-11-08",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20241109-CPI",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2024-11-09",
+      "eventDate": "2024-11-09",
+      "firstPublicDate": "2024-11-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2024年10月份居民消费价格同比上涨0.3%",
+      "fact": "国家统计局发布2024年10月份居民消费价格同比上涨0.3%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2024年10月份居民消费价格同比上涨0.3%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202411/t20241109_1957353.html",
+          "publicationDate": "2024-11-09",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20241109-CPI",
+      "expectationGap": null,
+      "period": "2024年10月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2024-11-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20241209-CPI",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2024-12-09",
+      "eventDate": "2024-12-09",
+      "firstPublicDate": "2024-12-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2024年11月份居民消费价格同比上涨0.2%",
+      "fact": "国家统计局发布2024年11月份居民消费价格同比上涨0.2%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2024年11月份居民消费价格同比上涨0.2%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241209_1957689.html",
+          "publicationDate": "2024-12-09",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20241209-CPI",
+      "expectationGap": null,
+      "period": "2024年11月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2024-12-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20241218-FOMC",
+      "group": "fed",
+      "name": "海外央行与利率",
+      "tool": "联邦基金利率目标区间",
+      "subject": "FOMC",
+      "region": "美国",
+      "date": "2024-12-18",
+      "eventDate": "2024-12-18",
+      "firstPublicDate": "2024-12-18",
+      "firstPublicTime": null,
+      "direction": "down",
+      "title": "美联储FOMC利率决议：降息",
+      "fact": "2024-12-18，FOMC决定下调25个基点，调整后联邦基金利率目标区间为4.25%—4.50%。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "美联储FOMC利率决议：降息",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm",
+          "publicationDate": "2024-12-18",
+          "role": "官方统计/决议发布",
+          "status": "本次已打开，仅核对事件事实及日期"
+        }
+      ],
+      "verification": "已核对关联公开来源",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20241218-FOMC",
+      "expectationGap": null,
+      "period": null,
+      "notes": "当次下调25个基点至4.25%—4.50%；幅度与政策阶段均需单独比较。",
+      "anchor": "2024-12-19",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "FOMC",
+      "family": "central_bank_rates"
+    },
+    {
+      "id": "RECENT-20250209-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-02-09",
+      "eventDate": "2025-02-09",
+      "firstPublicDate": "2025-02-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2025年1月份居民消费价格同比上涨0.5%",
+      "fact": "国家统计局公布：2025年1月份居民消费价格同比上涨0.5%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2025年1月份居民消费价格同比上涨0.5%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202502/t20250209_1958646.html",
+          "publicationDate": "2025-02-09",
+          "role": "官方统计/决议发布",
+          "status": "本次已打开官方来源；只支持事实与公开日期"
+        }
+      ],
+      "verification": "本次已打开官方来源核对事实",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20250209-PRICES",
+      "expectationGap": null,
+      "period": "2025年1月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2025-02-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20250220-LPR_HOLD",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "LPR",
+      "subject": "中国人民银行授权公布 LPR",
+      "region": "中国",
+      "date": "2025-02-20",
+      "eventDate": "2025-02-20",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "hold",
+      "title": "2月LPR维持不变",
+      "fact": "1年期LPR维持3.1%，5年期以上LPR维持3.6%；为宽松预期与实际贷款定价对照节点，不表述为新宽松。",
+      "stage": "decision",
+      "sources": [
+        {
+          "title": "2025年中国货币政策大事记",
+          "publisher": "中国人民银行办公厅官方澎湃号",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+          "publicationDate": "2026-02-10",
+          "role": "事后官方回顾",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20250220-LPR_HOLD",
+      "expectationGap": null,
+      "period": null,
+      "notes": "LPR 调整涉及不同期限；贷款报价与实际贷款利率、政策利率并不等同。",
+      "anchor": "2025-02-21",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy"
+    },
+    {
+      "id": "RECENT-20250309-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-03-09",
+      "eventDate": "2025-03-09",
+      "firstPublicDate": "2025-03-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2025年2月份居民消费价格同比下降0.7%",
+      "fact": "国家统计局公布：2025年2月份居民消费价格同比下降0.7%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2025年2月份居民消费价格同比下降0.7%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202503/t20250309_1958915.html",
+          "publicationDate": "2025-03-09",
+          "role": "官方统计/决议发布",
+          "status": "本次已打开官方来源；只支持事实与公开日期"
+        }
+      ],
+      "verification": "本次已打开官方来源核对事实",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20250309-PRICES",
+      "expectationGap": null,
+      "period": "2025年2月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2025-03-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20250325-MLF_AUCTION",
+      "oldCardId": "RECENT-20250325-MLF_AUCTION",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "MLF",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2025-03-25",
+      "eventDate": "2025-03-25",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "reform",
+      "stage": "decision",
+      "title": "MLF转为多重价位中标",
+      "fact": "央行开展4500亿元MLF操作，并从本月起将MLF由单一价位中标调整为多重价位中标。",
+      "sources": [
+        {
+          "title": "2025年中国货币政策大事记",
+          "publisher": "中国人民银行办公厅官方澎湃号",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+          "publicationDate": "2026-02-10",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2025-03-26",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20250410-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-04-10",
+      "eventDate": "2025-04-10",
+      "firstPublicDate": "2025-04-10",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2025年3月份居民消费价格同比下降0.1%",
+      "fact": "国家统计局公布：2025年3月份居民消费价格同比下降0.1%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2025年3月份居民消费价格同比下降0.1%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250410_1959261.html",
+          "publicationDate": "2025-04-10",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20250410-PRICES",
+      "expectationGap": null,
+      "period": "2025年3月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2025-04-11",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20250508-POLICY_RATE",
+      "oldCardId": "RECENT-20250508-POLICY_RATE",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "逆回购利率",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2025-05-08",
+      "eventDate": "2025-05-08",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "down",
+      "stage": "implementation",
+      "title": "7天逆回购政策利率下调",
+      "fact": "7天逆回购操作利率由1.50%调整为1.40%。",
+      "sources": [
+        {
+          "title": "2025年中国货币政策大事记",
+          "publisher": "中国人民银行办公厅官方澎湃号",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+          "publicationDate": "2026-02-10",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2025-05-09",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20250510-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-05-10",
+      "eventDate": "2025-05-10",
+      "firstPublicDate": "2025-05-10",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2025年4月份居民消费价格同比下降0.1%",
+      "fact": "国家统计局公布：2025年4月份居民消费价格同比下降0.1%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2025年4月份居民消费价格同比下降0.1%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202505/t20250510_1959771.html",
+          "publicationDate": "2025-05-10",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20250510-PRICES",
+      "expectationGap": null,
+      "period": "2025年4月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2025-05-11",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20250704-HOUSING_RELENDING",
+      "oldCardId": "RECENT-20250704-HOUSING_RELENDING",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "保障性住房再贷款",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2025-07-04",
+      "eventDate": "2025-07-04",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "expand",
+      "stage": "decision",
+      "title": "拓宽保障性住房再贷款使用范围",
+      "fact": "央行印发通知拓宽保障性住房再贷款支持范围，给予地方政府更大自主权，推动存量商品房去库存。",
+      "sources": [
+        {
+          "title": "2025年中国货币政策大事记",
+          "publisher": "中国人民银行办公厅官方澎湃号",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+          "publicationDate": "2026-02-10",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2025-07-05",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20250709-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-07-09",
+      "eventDate": "2025-07-09",
+      "firstPublicDate": "2025-07-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2025年6月份居民消费价格同比上涨0.1%",
+      "fact": "国家统计局公布：2025年6月份居民消费价格同比上涨0.1%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2025年6月份居民消费价格同比上涨0.1%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202507/t20250709_1960370.html",
+          "publicationDate": "2025-07-09",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20250709-PRICES",
+      "expectationGap": null,
+      "period": "2025年6月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2025-07-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "PPI-20250910",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-09-10",
+      "eventDate": "2025-09-10",
+      "firstPublicDate": "2025-09-10",
+      "firstPublicTime": "09:30 Asia/Shanghai",
+      "direction": "release",
+      "stage": "data_release",
+      "title": "8月工业价格降幅收窄，环比由降转平",
+      "fact": "2025年8月份，全国工业生产者出厂价格同比下降2.9%，环比持平。",
+      "sources": [
+        {
+          "title": "8月工业价格降幅收窄，环比由降转平",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/zwfwck/sjfb/202509/t20250910_1961108.html",
+          "publicationDate": "2025-09-10",
+          "role": "官方统计发布",
+          "status": "本轮已打开核对PPI读数和发布日期"
+        }
+      ],
+      "verification": "本轮已核对官方PPI发布",
+      "sourceKind": "original_text",
+      "candidateEvidence": "2025年8月份，全国工业生产者出厂价格同比下降2.9%，降幅比上月收窄0.7个百分点，环比由下降0.2%转为持平。",
+      "expectationGap": null,
+      "period": "2025年8月份",
+      "notes": "PPI观察工业出厂价格；与CPI的消费价格口径不同。同比下降与环比变化需分开理解。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "PPI"
+      ],
+      "anchor": "2025-09-11",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20250919-REPO_AUCTION",
+      "oldCardId": "RECENT-20250919-REPO_AUCTION",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "逆回购招标机制",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2025-09-19",
+      "eventDate": "2025-09-19",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "reform",
+      "stage": "decision",
+      "title": "14天逆回购调整为利率招标和多重价位中标",
+      "fact": "14天期逆回购改为固定数量、利率招标、多重价位中标，操作时间与规模按流动性管理需要确定。",
+      "sources": [
+        {
+          "title": "2025年中国货币政策大事记",
+          "publisher": "中国人民银行办公厅官方澎湃号",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32576463",
+          "publicationDate": "2026-02-10",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2025-09-20",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20251015-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-10-15",
+      "eventDate": "2025-10-15",
+      "firstPublicDate": "2025-10-15",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%",
+      "fact": "国家统计局公布：2025年9月份居民消费价格同比下降0.3%环比上涨0.1%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/zwfwck/sjfb/202510/t20251015_1961521.html",
+          "publicationDate": "2025-10-15",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20251015-PRICES",
+      "expectationGap": null,
+      "period": "2025年9月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2025-10-16",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20251109-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-11-09",
+      "eventDate": "2025-11-09",
+      "firstPublicDate": "2025-11-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2025年10月份居民消费价格同比上涨0.2% ... 1­­—10月平均，全国居民消费价格比上年同期下降0.1%。",
+      "fact": "国家统计局公布：2025年10月份居民消费价格同比上涨0.2%...1­­—10月平均，全国居民消费价格比上年同期下降0.1%。。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2025年10月份居民消费价格同比上涨0.2% ... 1­­—10月平均，全国居民消费价格比上年同期下降0.1%。",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961826.html",
+          "publicationDate": "2025-11-09",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20251109-PRICES",
+      "expectationGap": null,
+      "period": "2025年10月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2025-11-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20251210-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2025-12-10",
+      "eventDate": "2025-12-10",
+      "firstPublicDate": "2025-12-10",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2025年11月份居民消费价格同比上涨0.7%",
+      "fact": "国家统计局公布：2025年11月份居民消费价格同比上涨0.7%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2025年11月份居民消费价格同比上涨0.7%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251210_1962015.html",
+          "publicationDate": "2025-12-10",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20251210-PRICES",
+      "expectationGap": null,
+      "period": "2025年11月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2025-12-11",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20260109-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-01-09",
+      "eventDate": "2026-01-09",
+      "firstPublicDate": "2026-01-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2025年12月份居民消费价格同比上涨0.8%",
+      "fact": "国家统计局公布：2025年12月份居民消费价格同比上涨0.8%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2025年12月份居民消费价格同比上涨0.8%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202601/t20260109_1962273.html",
+          "publicationDate": "2026-01-09",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20260109-PRICES",
+      "expectationGap": null,
+      "period": "2025年12月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2026-01-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20260115-RELENDING_PACKAGE",
+      "oldCardId": "RECENT-20260115-RELENDING_PACKAGE",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "再贷款/再贴现",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2026-01-15",
+      "eventDate": "2026-01-15",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "down",
+      "stage": "announcement",
+      "title": "再贷款降息并增加支农支小和科技再贷款额度",
+      "fact": "央行通知自1月19日起下调再贷款、再贴现利率0.25个百分点，并增加支农支小再贷款额度5000亿元、科技创新和技术改造再贷款额度4000亿元。",
+      "sources": [
+        {
+          "title": "2026年上半年中国货币政策大事记",
+          "publisher": "广东省委金融办转载中国人民银行",
+          "url": "https://www.gdjr.gov.cn/gdjr/jrzx/jryw/content/post_44504.html",
+          "publicationDate": "2026-08-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2026-01-16",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20260309-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-03-09",
+      "eventDate": "2026-03-09",
+      "firstPublicDate": "2026-03-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2026年2月份居民消费价格同比上涨1.3%",
+      "fact": "国家统计局公布：2026年2月份居民消费价格同比上涨1.3%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2026年2月份居民消费价格同比上涨1.3%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202603/t20260309_1962732.html",
+          "publicationDate": "2026-03-09",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20260309-PRICES",
+      "expectationGap": null,
+      "period": "2026年2月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2026-03-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20260410-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-04-10",
+      "eventDate": "2026-04-10",
+      "firstPublicDate": "2026-04-10",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2026年3月份居民消费价格同比上涨1.0%",
+      "fact": "国家统计局公布：2026年3月份居民消费价格同比上涨1.0%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2026年3月份居民消费价格同比上涨1.0%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260410_1963264.html",
+          "publicationDate": "2026-04-10",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20260410-PRICES",
+      "expectationGap": null,
+      "period": "2026年3月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2026-04-11",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20260610-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-06-10",
+      "eventDate": "2026-06-10",
+      "firstPublicDate": "2026-06-10",
+      "firstPublicTime": null,
+      "direction": "release",
+      "title": "2026年5月份居民消费价格同比上涨1.2%",
+      "fact": "国家统计局公布：2026年5月份居民消费价格同比上涨1.2%。",
+      "stage": "data_release",
+      "sources": [
+        {
+          "title": "2026年5月份居民消费价格同比上涨1.2%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/zwfwck/sjfb/202606/t20260610_1963923.html",
+          "publicationDate": "2026-06-10",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ],
+      "verification": "原库事件，待重新核对原文",
+      "sourceKind": "published_card_excerpt",
+      "oldCardId": "RECENT-20260610-PRICES",
+      "expectationGap": null,
+      "period": "2026年5月份",
+      "notes": "统计期与发布日期不同；同比、环比和基数效应需分别理解。",
+      "anchor": "2026-06-11",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI"
+      ]
+    },
+    {
+      "id": "RECENT-20260629-OVERNIGHT_REPO",
+      "oldCardId": "RECENT-20260629-OVERNIGHT_REPO",
+      "group": "cnpolicy",
+      "name": "货币政策与流动性",
+      "tool": "隔夜逆回购",
+      "subject": "中国人民银行",
+      "region": "中国",
+      "date": "2026-06-29",
+      "eventDate": "2026-06-29",
+      "firstPublicDate": null,
+      "firstPublicTime": null,
+      "direction": "create",
+      "stage": "operation",
+      "title": "公开市场操作首次增加隔夜逆回购品种",
+      "fact": "央行首次在公开市场操作中增加隔夜逆回购操作品种，采用固定利率、数量招标。",
+      "sources": [
+        {
+          "title": "2026年上半年中国货币政策大事记",
+          "publisher": "广东省委金融办转载中国人民银行",
+          "url": "https://www.gdjr.gov.cn/gdjr/jrzx/jryw/content/post_44504.html",
+          "publicationDate": "2026-08-14",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "具体工具、适用机构、操作阶段和政策力度不同；主题相关不代表同一政策操作。",
+      "actor": "中国人民银行",
+      "family": "monetary_policy",
+      "anchor": "2026-06-30",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20260709-PRICES",
+      "oldCardId": "RECENT-20260709-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI / PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-07-09",
+      "eventDate": "2026-07-09",
+      "firstPublicDate": "2026-07-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "stage": "data_release",
+      "title": "2026-07通胀数据发布：消费与工业价格对照",
+      "fact": "国家统计局发布本期数据：2026年6月份，全国居民消费价格同比上涨1.0%。 国家统计局公布：2026年6月份工业生产者出厂价格同比上涨4.1% 环比下降0.3%。",
+      "sources": [
+        {
+          "title": "2026年6月份居民消费价格同比上涨1.0%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964084.html",
+          "publicationDate": "2026-07-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "2026年6月份工业生产者出厂价格同比上涨4.1% 环比下降0.3%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964083.html",
+          "publicationDate": "2026-07-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "同时覆盖消费与工业价格。单项CPI或PPI案例只覆盖其中一侧，不能当作完整替代。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI",
+        "PPI"
+      ],
+      "anchor": "2026-07-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20260809-PRICES",
+      "oldCardId": "RECENT-20260809-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI / PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-08-09",
+      "eventDate": "2026-08-09",
+      "firstPublicDate": "2026-08-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "stage": "data_release",
+      "title": "2026-08通胀数据发布：消费与工业价格对照",
+      "fact": "国家统计局公布：2026年7月份居民消费价格同比上涨0.5%。 国家统计局发布本期数据：2026年7月份，全国工业生产者出厂价格同比上涨3.5%，环比下降0.7%。",
+      "sources": [
+        {
+          "title": "2026年7月份居民消费价格同比上涨0.5%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965008.html",
+          "publicationDate": "2026-08-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "2026年7月份工业生产者出厂价格同比上涨3.5%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965007.html",
+          "publicationDate": "2026-08-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "同时覆盖消费与工业价格。单项CPI或PPI案例只覆盖其中一侧，不能当作完整替代。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI",
+        "PPI"
+      ],
+      "anchor": "2026-08-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    },
+    {
+      "id": "RECENT-20260909-PRICES",
+      "oldCardId": "RECENT-20260909-PRICES",
+      "group": "cpi",
+      "name": "通胀与价格",
+      "tool": "CPI / PPI 发布",
+      "subject": "国家统计局",
+      "region": "中国",
+      "date": "2026-09-09",
+      "eventDate": "2026-09-09",
+      "firstPublicDate": "2026-09-09",
+      "firstPublicTime": null,
+      "direction": "release",
+      "stage": "data_release",
+      "title": "2026-09通胀数据发布：消费与工业价格对照",
+      "fact": "国家统计局发布本期数据：2026年8月份，全国居民消费价格同比上涨0.8%。 国家统计局发布本期数据：2026年8月份，全国工业生产者出厂价格同比上涨3.8%，环比上涨0.4%。",
+      "sources": [
+        {
+          "title": "2026年8月份居民消费价格同比上涨0.8%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965263.html",
+          "publicationDate": "2026-09-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        },
+        {
+          "title": "2026年8月份工业生产者出厂价格同比上涨3.8% 环比上涨0.4%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965262.html",
+          "publicationDate": "2026-09-09",
+          "role": "原库关联来源",
+          "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+        }
+      ],
+      "verification": "原库事件，来源与时点待复核",
+      "sourceKind": "published_card_excerpt",
+      "expectationGap": null,
+      "period": null,
+      "notes": "同时覆盖消费与工业价格。单项CPI或PPI案例只覆盖其中一侧，不能当作完整替代。",
+      "actor": "国家统计局",
+      "family": "inflation",
+      "indicators": [
+        "CPI",
+        "PPI"
+      ],
+      "anchor": "2026-09-10",
+      "timeNote": "演示对齐：从记录事件日的次日起，在构造的周一至周五日期轴选取后续演示点；基准为前一个演示点。该日期轴不代表交易日历。"
+    }
+  ],
+  "assets": {
+    "equity": {
+      "name": "上证指数示意",
+      "unit": "指数点（演示刻度）",
+      "points": [
+        {
+          "date": "2023-11-09",
+          "close": 3165.48
+        },
+        {
+          "date": "2023-11-10",
+          "close": 3154.63
+        },
+        {
+          "date": "2023-11-13",
+          "close": 3163.17
+        },
+        {
+          "date": "2023-11-14",
+          "close": 3118.24
+        },
+        {
+          "date": "2023-11-15",
+          "close": 3104.12
+        },
+        {
+          "date": "2023-11-16",
+          "close": 3130.63
+        },
+        {
+          "date": "2023-11-17",
+          "close": 3115.21
+        },
+        {
+          "date": "2023-11-20",
+          "close": 3111.61
+        },
+        {
+          "date": "2023-11-21",
+          "close": 3111.69
+        },
+        {
+          "date": "2023-11-22",
+          "close": 3101.4
+        },
+        {
+          "date": "2023-11-23",
+          "close": 3104.23
+        },
+        {
+          "date": "2023-11-24",
+          "close": 3104.68
+        },
+        {
+          "date": "2023-11-27",
+          "close": 3123.51
+        },
+        {
+          "date": "2023-11-28",
+          "close": 3156.54
+        },
+        {
+          "date": "2023-11-29",
+          "close": 3147.24
+        },
+        {
+          "date": "2023-11-30",
+          "close": 3168.1
+        },
+        {
+          "date": "2023-12-01",
+          "close": 3147.78
+        },
+        {
+          "date": "2023-12-04",
+          "close": 3136.61
+        },
+        {
+          "date": "2023-12-05",
+          "close": 3126.01
+        },
+        {
+          "date": "2023-12-06",
+          "close": 3158.37
+        },
+        {
+          "date": "2023-12-07",
+          "close": 3148.54
+        },
+        {
+          "date": "2023-12-08",
+          "close": 3171.75
+        },
+        {
+          "date": "2023-12-11",
+          "close": 3169.07
+        },
+        {
+          "date": "2023-12-12",
+          "close": 3195.74
+        },
+        {
+          "date": "2023-12-13",
+          "close": 3215.02
+        },
+        {
+          "date": "2023-12-14",
+          "close": 3229.7
+        },
+        {
+          "date": "2023-12-15",
+          "close": 3210.58
+        },
+        {
+          "date": "2023-12-18",
+          "close": 3218.95
+        },
+        {
+          "date": "2023-12-19",
+          "close": 3241.68
+        },
+        {
+          "date": "2023-12-20",
+          "close": 3198.73
+        },
+        {
+          "date": "2023-12-21",
+          "close": 3244.38
+        },
+        {
+          "date": "2023-12-22",
+          "close": 3208.81
+        },
+        {
+          "date": "2023-12-25",
+          "close": 3250.64
+        },
+        {
+          "date": "2023-12-26",
+          "close": 3279.9
+        },
+        {
+          "date": "2023-12-27",
+          "close": 3311.4
+        },
+        {
+          "date": "2023-12-28",
+          "close": 3353.29
+        },
+        {
+          "date": "2023-12-29",
+          "close": 3372.19
+        },
+        {
+          "date": "2024-01-01",
+          "close": 3393.87
+        },
+        {
+          "date": "2024-01-02",
+          "close": 3385.49
+        },
+        {
+          "date": "2024-01-03",
+          "close": 3403.97
+        },
+        {
+          "date": "2024-01-04",
+          "close": 3442.52
+        },
+        {
+          "date": "2024-01-05",
+          "close": 3389.39
+        },
+        {
+          "date": "2024-01-08",
+          "close": 3404.33
+        },
+        {
+          "date": "2024-01-09",
+          "close": 3399.9
+        },
+        {
+          "date": "2024-01-10",
+          "close": 3381.01
+        },
+        {
+          "date": "2024-01-11",
+          "close": 3370.82
+        },
+        {
+          "date": "2024-01-12",
+          "close": 3393.14
+        },
+        {
+          "date": "2024-01-15",
+          "close": 3430.67
+        },
+        {
+          "date": "2024-01-16",
+          "close": 3402.35
+        },
+        {
+          "date": "2024-01-17",
+          "close": 3425.5
+        },
+        {
+          "date": "2024-01-18",
+          "close": 3408.12
+        },
+        {
+          "date": "2024-01-19",
+          "close": 3399.81
+        },
+        {
+          "date": "2024-01-22",
+          "close": 3391.12
+        },
+        {
+          "date": "2024-01-23",
+          "close": 3416.73
+        },
+        {
+          "date": "2024-01-24",
+          "close": 3427.58
+        },
+        {
+          "date": "2024-01-25",
+          "close": 3440.03
+        },
+        {
+          "date": "2024-01-26",
+          "close": 3461.24
+        },
+        {
+          "date": "2024-01-29",
+          "close": 3464.25
+        },
+        {
+          "date": "2024-01-30",
+          "close": 3492.67
+        },
+        {
+          "date": "2024-01-31",
+          "close": 3513.87
+        },
+        {
+          "date": "2024-02-01",
+          "close": 3533.93
+        },
+        {
+          "date": "2024-02-02",
+          "close": 3541.76
+        },
+        {
+          "date": "2024-02-05",
+          "close": 3564.89
+        },
+        {
+          "date": "2024-02-06",
+          "close": 3552.11
+        },
+        {
+          "date": "2024-02-07",
+          "close": 3574.68
+        },
+        {
+          "date": "2024-02-08",
+          "close": 3556.08
+        },
+        {
+          "date": "2024-02-09",
+          "close": 3576.84
+        },
+        {
+          "date": "2024-02-12",
+          "close": 3604.19
+        },
+        {
+          "date": "2024-02-13",
+          "close": 3606.03
+        },
+        {
+          "date": "2024-02-14",
+          "close": 3595.15
+        },
+        {
+          "date": "2024-02-15",
+          "close": 3590.89
+        },
+        {
+          "date": "2024-02-16",
+          "close": 3611.6
+        },
+        {
+          "date": "2024-02-19",
+          "close": 3590.44
+        },
+        {
+          "date": "2024-02-20",
+          "close": 3547.44
+        },
+        {
+          "date": "2024-02-21",
+          "close": 3573.78
+        },
+        {
+          "date": "2024-02-22",
+          "close": 3615.68
+        },
+        {
+          "date": "2024-02-23",
+          "close": 3652.75
+        },
+        {
+          "date": "2024-02-26",
+          "close": 3648.22
+        },
+        {
+          "date": "2024-02-27",
+          "close": 3674.12
+        },
+        {
+          "date": "2024-02-28",
+          "close": 3665.13
+        },
+        {
+          "date": "2024-02-29",
+          "close": 3703.57
+        },
+        {
+          "date": "2024-03-01",
+          "close": 3694.25
+        },
+        {
+          "date": "2024-03-04",
+          "close": 3679.05
+        },
+        {
+          "date": "2024-03-05",
+          "close": 3624.97
+        },
+        {
+          "date": "2024-03-06",
+          "close": 3641.06
+        },
+        {
+          "date": "2024-03-07",
+          "close": 3599.75
+        },
+        {
+          "date": "2024-03-08",
+          "close": 3599.24
+        },
+        {
+          "date": "2024-03-11",
+          "close": 3606.31
+        },
+        {
+          "date": "2024-03-12",
+          "close": 3622.89
+        },
+        {
+          "date": "2024-03-13",
+          "close": 3648.43
+        },
+        {
+          "date": "2024-03-14",
+          "close": 3645.85
+        },
+        {
+          "date": "2024-03-15",
+          "close": 3646.78
+        },
+        {
+          "date": "2024-03-18",
+          "close": 3618.78
+        },
+        {
+          "date": "2024-03-19",
+          "close": 3600.26
+        },
+        {
+          "date": "2024-03-20",
+          "close": 3573.17
+        },
+        {
+          "date": "2024-03-21",
+          "close": 3566.81
+        },
+        {
+          "date": "2024-03-22",
+          "close": 3568.9
+        },
+        {
+          "date": "2024-03-25",
+          "close": 3542.53
+        },
+        {
+          "date": "2024-03-26",
+          "close": 3535.29
+        },
+        {
+          "date": "2024-03-27",
+          "close": 3543.39
+        },
+        {
+          "date": "2024-03-28",
+          "close": 3559.89
+        },
+        {
+          "date": "2024-03-29",
+          "close": 3601.2
+        },
+        {
+          "date": "2024-04-01",
+          "close": 3606.11
+        },
+        {
+          "date": "2024-04-02",
+          "close": 3635.1
+        },
+        {
+          "date": "2024-04-03",
+          "close": 3586.96
+        },
+        {
+          "date": "2024-04-04",
+          "close": 3635.69
+        },
+        {
+          "date": "2024-04-05",
+          "close": 3637.89
+        },
+        {
+          "date": "2024-04-08",
+          "close": 3666.34
+        },
+        {
+          "date": "2024-04-09",
+          "close": 3663.32
+        },
+        {
+          "date": "2024-04-10",
+          "close": 3647.35
+        },
+        {
+          "date": "2024-04-11",
+          "close": 3622.42
+        },
+        {
+          "date": "2024-04-12",
+          "close": 3595.26
+        },
+        {
+          "date": "2024-04-15",
+          "close": 3586.65
+        },
+        {
+          "date": "2024-04-16",
+          "close": 3580.35
+        },
+        {
+          "date": "2024-04-17",
+          "close": 3630.34
+        },
+        {
+          "date": "2024-04-18",
+          "close": 3617.06
+        },
+        {
+          "date": "2024-04-19",
+          "close": 3627.48
+        },
+        {
+          "date": "2024-04-22",
+          "close": 3566.98
+        },
+        {
+          "date": "2024-04-23",
+          "close": 3581
+        },
+        {
+          "date": "2024-04-24",
+          "close": 3564.89
+        },
+        {
+          "date": "2024-04-25",
+          "close": 3569.63
+        },
+        {
+          "date": "2024-04-26",
+          "close": 3548.32
+        },
+        {
+          "date": "2024-04-29",
+          "close": 3563.44
+        },
+        {
+          "date": "2024-04-30",
+          "close": 3543.63
+        },
+        {
+          "date": "2024-05-01",
+          "close": 3536.93
+        },
+        {
+          "date": "2024-05-02",
+          "close": 3565.37
+        },
+        {
+          "date": "2024-05-03",
+          "close": 3532.48
+        },
+        {
+          "date": "2024-05-06",
+          "close": 3564.89
+        },
+        {
+          "date": "2024-05-07",
+          "close": 3585.85
+        },
+        {
+          "date": "2024-05-08",
+          "close": 3563.61
+        },
+        {
+          "date": "2024-05-09",
+          "close": 3547.46
+        },
+        {
+          "date": "2024-05-10",
+          "close": 3587.03
+        },
+        {
+          "date": "2024-05-13",
+          "close": 3607.82
+        },
+        {
+          "date": "2024-05-14",
+          "close": 3537.45
+        },
+        {
+          "date": "2024-05-15",
+          "close": 3544.17
+        },
+        {
+          "date": "2024-05-16",
+          "close": 3554.37
+        },
+        {
+          "date": "2024-05-17",
+          "close": 3547.85
+        },
+        {
+          "date": "2024-05-20",
+          "close": 3606.98
+        },
+        {
+          "date": "2024-05-21",
+          "close": 3617.31
+        },
+        {
+          "date": "2024-05-22",
+          "close": 3596.51
+        },
+        {
+          "date": "2024-05-23",
+          "close": 3675.27
+        },
+        {
+          "date": "2024-05-24",
+          "close": 3640.78
+        },
+        {
+          "date": "2024-05-27",
+          "close": 3589.68
+        },
+        {
+          "date": "2024-05-28",
+          "close": 3612.94
+        },
+        {
+          "date": "2024-05-29",
+          "close": 3564.68
+        },
+        {
+          "date": "2024-05-30",
+          "close": 3574.08
+        },
+        {
+          "date": "2024-05-31",
+          "close": 3588.76
+        },
+        {
+          "date": "2024-06-03",
+          "close": 3585.82
+        },
+        {
+          "date": "2024-06-04",
+          "close": 3581.4
+        },
+        {
+          "date": "2024-06-05",
+          "close": 3550.89
+        },
+        {
+          "date": "2024-06-06",
+          "close": 3499.52
+        },
+        {
+          "date": "2024-06-07",
+          "close": 3451.5
+        },
+        {
+          "date": "2024-06-10",
+          "close": 3423.48
+        },
+        {
+          "date": "2024-06-11",
+          "close": 3398.67
+        },
+        {
+          "date": "2024-06-12",
+          "close": 3416.85
+        },
+        {
+          "date": "2024-06-13",
+          "close": 3425.48
+        },
+        {
+          "date": "2024-06-14",
+          "close": 3379.91
+        },
+        {
+          "date": "2024-06-17",
+          "close": 3405.06
+        },
+        {
+          "date": "2024-06-18",
+          "close": 3396.3
+        },
+        {
+          "date": "2024-06-19",
+          "close": 3388.97
+        },
+        {
+          "date": "2024-06-20",
+          "close": 3339.27
+        },
+        {
+          "date": "2024-06-21",
+          "close": 3328.9
+        },
+        {
+          "date": "2024-06-24",
+          "close": 3311.33
+        },
+        {
+          "date": "2024-06-25",
+          "close": 3299.66
+        },
+        {
+          "date": "2024-06-26",
+          "close": 3300.63
+        },
+        {
+          "date": "2024-06-27",
+          "close": 3270.54
+        },
+        {
+          "date": "2024-06-28",
+          "close": 3289.6
+        },
+        {
+          "date": "2024-07-01",
+          "close": 3300.21
+        },
+        {
+          "date": "2024-07-02",
+          "close": 3311.95
+        },
+        {
+          "date": "2024-07-03",
+          "close": 3310.17
+        },
+        {
+          "date": "2024-07-04",
+          "close": 3304.97
+        },
+        {
+          "date": "2024-07-05",
+          "close": 3326.31
+        },
+        {
+          "date": "2024-07-08",
+          "close": 3276.26
+        },
+        {
+          "date": "2024-07-09",
+          "close": 3295.78
+        },
+        {
+          "date": "2024-07-10",
+          "close": 3242.9
+        },
+        {
+          "date": "2024-07-11",
+          "close": 3216.09
+        },
+        {
+          "date": "2024-07-12",
+          "close": 3221.98
+        },
+        {
+          "date": "2024-07-15",
+          "close": 3213.11
+        },
+        {
+          "date": "2024-07-16",
+          "close": 3222.06
+        },
+        {
+          "date": "2024-07-17",
+          "close": 3236.14
+        },
+        {
+          "date": "2024-07-18",
+          "close": 3247.4
+        },
+        {
+          "date": "2024-07-19",
+          "close": 3213.29
+        },
+        {
+          "date": "2024-07-22",
+          "close": 3207.97
+        },
+        {
+          "date": "2024-07-23",
+          "close": 3241.3
+        },
+        {
+          "date": "2024-07-24",
+          "close": 3246.65
+        },
+        {
+          "date": "2024-07-25",
+          "close": 3241.4
+        },
+        {
+          "date": "2024-07-26",
+          "close": 3205.34
+        },
+        {
+          "date": "2024-07-29",
+          "close": 3201.17
+        },
+        {
+          "date": "2024-07-30",
+          "close": 3199.54
+        },
+        {
+          "date": "2024-07-31",
+          "close": 3239.37
+        },
+        {
+          "date": "2024-08-01",
+          "close": 3240.23
+        },
+        {
+          "date": "2024-08-02",
+          "close": 3261.37
+        },
+        {
+          "date": "2024-08-05",
+          "close": 3290.33
+        },
+        {
+          "date": "2024-08-06",
+          "close": 3312.72
+        },
+        {
+          "date": "2024-08-07",
+          "close": 3313.73
+        },
+        {
+          "date": "2024-08-08",
+          "close": 3359.49
+        },
+        {
+          "date": "2024-08-09",
+          "close": 3454.89
+        },
+        {
+          "date": "2024-08-12",
+          "close": 3440.95
+        },
+        {
+          "date": "2024-08-13",
+          "close": 3367.42
+        },
+        {
+          "date": "2024-08-14",
+          "close": 3351.43
+        },
+        {
+          "date": "2024-08-15",
+          "close": 3336.1
+        },
+        {
+          "date": "2024-08-16",
+          "close": 3388.56
+        },
+        {
+          "date": "2024-08-19",
+          "close": 3419.03
+        },
+        {
+          "date": "2024-08-20",
+          "close": 3421.44
+        },
+        {
+          "date": "2024-08-21",
+          "close": 3431.13
+        },
+        {
+          "date": "2024-08-22",
+          "close": 3387.33
+        },
+        {
+          "date": "2024-08-23",
+          "close": 3429.78
+        },
+        {
+          "date": "2024-08-26",
+          "close": 3413.43
+        },
+        {
+          "date": "2024-08-27",
+          "close": 3395.27
+        },
+        {
+          "date": "2024-08-28",
+          "close": 3376.92
+        },
+        {
+          "date": "2024-08-29",
+          "close": 3373.1
+        },
+        {
+          "date": "2024-08-30",
+          "close": 3400.5
+        },
+        {
+          "date": "2024-09-02",
+          "close": 3410.84
+        },
+        {
+          "date": "2024-09-03",
+          "close": 3408.85
+        },
+        {
+          "date": "2024-09-04",
+          "close": 3425.71
+        },
+        {
+          "date": "2024-09-05",
+          "close": 3458.2
+        },
+        {
+          "date": "2024-09-06",
+          "close": 3492.59
+        },
+        {
+          "date": "2024-09-09",
+          "close": 3452.84
+        },
+        {
+          "date": "2024-09-10",
+          "close": 3442.3
+        },
+        {
+          "date": "2024-09-11",
+          "close": 3456.74
+        },
+        {
+          "date": "2024-09-12",
+          "close": 3459.3
+        },
+        {
+          "date": "2024-09-13",
+          "close": 3484.57
+        },
+        {
+          "date": "2024-09-16",
+          "close": 3503.77
+        },
+        {
+          "date": "2024-09-17",
+          "close": 3511.81
+        },
+        {
+          "date": "2024-09-18",
+          "close": 3515.54
+        },
+        {
+          "date": "2024-09-19",
+          "close": 3517.02
+        },
+        {
+          "date": "2024-09-20",
+          "close": 3453.28
+        },
+        {
+          "date": "2024-09-23",
+          "close": 3430.91
+        },
+        {
+          "date": "2024-09-24",
+          "close": 3406.55
+        },
+        {
+          "date": "2024-09-25",
+          "close": 3408.18
+        },
+        {
+          "date": "2024-09-26",
+          "close": 3414.7
+        },
+        {
+          "date": "2024-09-27",
+          "close": 3441.87
+        },
+        {
+          "date": "2024-09-30",
+          "close": 3404.34
+        },
+        {
+          "date": "2024-10-01",
+          "close": 3397.37
+        },
+        {
+          "date": "2024-10-02",
+          "close": 3461.49
+        },
+        {
+          "date": "2024-10-03",
+          "close": 3457.03
+        },
+        {
+          "date": "2024-10-04",
+          "close": 3457.45
+        },
+        {
+          "date": "2024-10-07",
+          "close": 3445.91
+        },
+        {
+          "date": "2024-10-08",
+          "close": 3495.12
+        },
+        {
+          "date": "2024-10-09",
+          "close": 3540.5
+        },
+        {
+          "date": "2024-10-10",
+          "close": 3550.34
+        },
+        {
+          "date": "2024-10-11",
+          "close": 3533.4
+        },
+        {
+          "date": "2024-10-14",
+          "close": 3505.01
+        },
+        {
+          "date": "2024-10-15",
+          "close": 3484.63
+        },
+        {
+          "date": "2024-10-16",
+          "close": 3504.64
+        },
+        {
+          "date": "2024-10-17",
+          "close": 3418.42
+        },
+        {
+          "date": "2024-10-18",
+          "close": 3392.98
+        },
+        {
+          "date": "2024-10-21",
+          "close": 3354.07
+        },
+        {
+          "date": "2024-10-22",
+          "close": 3325.06
+        },
+        {
+          "date": "2024-10-23",
+          "close": 3289.49
+        },
+        {
+          "date": "2024-10-24",
+          "close": 3303.13
+        },
+        {
+          "date": "2024-10-25",
+          "close": 3304.89
+        },
+        {
+          "date": "2024-10-28",
+          "close": 3326.84
+        },
+        {
+          "date": "2024-10-29",
+          "close": 3336
+        },
+        {
+          "date": "2024-10-30",
+          "close": 3288.05
+        },
+        {
+          "date": "2024-10-31",
+          "close": 3294.1
+        },
+        {
+          "date": "2024-11-01",
+          "close": 3313.15
+        },
+        {
+          "date": "2024-11-04",
+          "close": 3297.04
+        },
+        {
+          "date": "2024-11-05",
+          "close": 3358.62
+        },
+        {
+          "date": "2024-11-06",
+          "close": 3391.6
+        },
+        {
+          "date": "2024-11-07",
+          "close": 3389.83
+        },
+        {
+          "date": "2024-11-08",
+          "close": 3427.9
+        },
+        {
+          "date": "2024-11-11",
+          "close": 3462.49
+        },
+        {
+          "date": "2024-11-12",
+          "close": 3433.99
+        },
+        {
+          "date": "2024-11-13",
+          "close": 3481.52
+        },
+        {
+          "date": "2024-11-14",
+          "close": 3454.65
+        },
+        {
+          "date": "2024-11-15",
+          "close": 3500.5
+        },
+        {
+          "date": "2024-11-18",
+          "close": 3504.64
+        },
+        {
+          "date": "2024-11-19",
+          "close": 3511.48
+        },
+        {
+          "date": "2024-11-20",
+          "close": 3477.7
+        },
+        {
+          "date": "2024-11-21",
+          "close": 3440.75
+        },
+        {
+          "date": "2024-11-22",
+          "close": 3466.27
+        },
+        {
+          "date": "2024-11-25",
+          "close": 3481.36
+        },
+        {
+          "date": "2024-11-26",
+          "close": 3466.2
+        },
+        {
+          "date": "2024-11-27",
+          "close": 3454.95
+        },
+        {
+          "date": "2024-11-28",
+          "close": 3419.01
+        },
+        {
+          "date": "2024-11-29",
+          "close": 3437.06
+        },
+        {
+          "date": "2024-12-02",
+          "close": 3436.87
+        },
+        {
+          "date": "2024-12-03",
+          "close": 3445.63
+        },
+        {
+          "date": "2024-12-04",
+          "close": 3469.38
+        },
+        {
+          "date": "2024-12-05",
+          "close": 3461.97
+        },
+        {
+          "date": "2024-12-06",
+          "close": 3460.82
+        },
+        {
+          "date": "2024-12-09",
+          "close": 3471.42
+        },
+        {
+          "date": "2024-12-10",
+          "close": 3465.14
+        },
+        {
+          "date": "2024-12-11",
+          "close": 3461.65
+        },
+        {
+          "date": "2024-12-12",
+          "close": 3455.52
+        },
+        {
+          "date": "2024-12-13",
+          "close": 3412.68
+        },
+        {
+          "date": "2024-12-16",
+          "close": 3426.28
+        },
+        {
+          "date": "2024-12-17",
+          "close": 3406.64
+        },
+        {
+          "date": "2024-12-18",
+          "close": 3426.77
+        },
+        {
+          "date": "2024-12-19",
+          "close": 3449.08
+        },
+        {
+          "date": "2024-12-20",
+          "close": 3457.06
+        },
+        {
+          "date": "2024-12-23",
+          "close": 3462.77
+        },
+        {
+          "date": "2024-12-24",
+          "close": 3478.55
+        },
+        {
+          "date": "2024-12-25",
+          "close": 3479.27
+        },
+        {
+          "date": "2024-12-26",
+          "close": 3469.79
+        },
+        {
+          "date": "2024-12-27",
+          "close": 3509.58
+        },
+        {
+          "date": "2024-12-30",
+          "close": 3486.92
+        },
+        {
+          "date": "2024-12-31",
+          "close": 3477.27
+        },
+        {
+          "date": "2025-01-01",
+          "close": 3484.86
+        },
+        {
+          "date": "2025-01-02",
+          "close": 3501.27
+        },
+        {
+          "date": "2025-01-03",
+          "close": 3529.89
+        },
+        {
+          "date": "2025-01-06",
+          "close": 3521.49
+        },
+        {
+          "date": "2025-01-07",
+          "close": 3503.57
+        },
+        {
+          "date": "2025-01-08",
+          "close": 3472.5
+        },
+        {
+          "date": "2025-01-09",
+          "close": 3513.37
+        },
+        {
+          "date": "2025-01-10",
+          "close": 3513.16
+        },
+        {
+          "date": "2025-01-13",
+          "close": 3510.96
+        },
+        {
+          "date": "2025-01-14",
+          "close": 3512.89
+        },
+        {
+          "date": "2025-01-15",
+          "close": 3526.12
+        },
+        {
+          "date": "2025-01-16",
+          "close": 3529.48
+        },
+        {
+          "date": "2025-01-17",
+          "close": 3550.77
+        },
+        {
+          "date": "2025-01-20",
+          "close": 3535.35
+        },
+        {
+          "date": "2025-01-21",
+          "close": 3521.78
+        },
+        {
+          "date": "2025-01-22",
+          "close": 3466.55
+        },
+        {
+          "date": "2025-01-23",
+          "close": 3462.21
+        },
+        {
+          "date": "2025-01-24",
+          "close": 3472.19
+        },
+        {
+          "date": "2025-01-27",
+          "close": 3491.07
+        },
+        {
+          "date": "2025-01-28",
+          "close": 3489.77
+        },
+        {
+          "date": "2025-01-29",
+          "close": 3499.57
+        },
+        {
+          "date": "2025-01-30",
+          "close": 3507.53
+        },
+        {
+          "date": "2025-01-31",
+          "close": 3554.2
+        },
+        {
+          "date": "2025-02-03",
+          "close": 3548.7
+        },
+        {
+          "date": "2025-02-04",
+          "close": 3590.93
+        },
+        {
+          "date": "2025-02-05",
+          "close": 3597.68
+        },
+        {
+          "date": "2025-02-06",
+          "close": 3588.91
+        },
+        {
+          "date": "2025-02-07",
+          "close": 3564.53
+        },
+        {
+          "date": "2025-02-10",
+          "close": 3591.9
+        },
+        {
+          "date": "2025-02-11",
+          "close": 3561.2
+        },
+        {
+          "date": "2025-02-12",
+          "close": 3575.72
+        },
+        {
+          "date": "2025-02-13",
+          "close": 3607.25
+        },
+        {
+          "date": "2025-02-14",
+          "close": 3599.71
+        },
+        {
+          "date": "2025-02-17",
+          "close": 3621.13
+        },
+        {
+          "date": "2025-02-18",
+          "close": 3593.38
+        },
+        {
+          "date": "2025-02-19",
+          "close": 3567.55
+        },
+        {
+          "date": "2025-02-20",
+          "close": 3479.61
+        },
+        {
+          "date": "2025-02-21",
+          "close": 3464.05
+        },
+        {
+          "date": "2025-02-24",
+          "close": 3493.6
+        },
+        {
+          "date": "2025-02-25",
+          "close": 3516.13
+        },
+        {
+          "date": "2025-02-26",
+          "close": 3522.31
+        },
+        {
+          "date": "2025-02-27",
+          "close": 3514.46
+        },
+        {
+          "date": "2025-02-28",
+          "close": 3516.41
+        },
+        {
+          "date": "2025-03-03",
+          "close": 3513.25
+        },
+        {
+          "date": "2025-03-04",
+          "close": 3454.83
+        },
+        {
+          "date": "2025-03-05",
+          "close": 3488.71
+        },
+        {
+          "date": "2025-03-06",
+          "close": 3486.07
+        },
+        {
+          "date": "2025-03-07",
+          "close": 3420.05
+        },
+        {
+          "date": "2025-03-10",
+          "close": 3401.82
+        },
+        {
+          "date": "2025-03-11",
+          "close": 3385.95
+        },
+        {
+          "date": "2025-03-12",
+          "close": 3394.38
+        },
+        {
+          "date": "2025-03-13",
+          "close": 3412.7
+        },
+        {
+          "date": "2025-03-14",
+          "close": 3434.43
+        },
+        {
+          "date": "2025-03-17",
+          "close": 3452.4
+        },
+        {
+          "date": "2025-03-18",
+          "close": 3478.85
+        },
+        {
+          "date": "2025-03-19",
+          "close": 3460.09
+        },
+        {
+          "date": "2025-03-20",
+          "close": 3456.33
+        },
+        {
+          "date": "2025-03-21",
+          "close": 3452.64
+        },
+        {
+          "date": "2025-03-24",
+          "close": 3439.31
+        },
+        {
+          "date": "2025-03-25",
+          "close": 3405.47
+        },
+        {
+          "date": "2025-03-26",
+          "close": 3423.21
+        },
+        {
+          "date": "2025-03-27",
+          "close": 3387.8
+        },
+        {
+          "date": "2025-03-28",
+          "close": 3361.91
+        },
+        {
+          "date": "2025-03-31",
+          "close": 3345.11
+        },
+        {
+          "date": "2025-04-01",
+          "close": 3349.45
+        },
+        {
+          "date": "2025-04-02",
+          "close": 3352.64
+        },
+        {
+          "date": "2025-04-03",
+          "close": 3380.97
+        },
+        {
+          "date": "2025-04-04",
+          "close": 3365.07
+        },
+        {
+          "date": "2025-04-07",
+          "close": 3378.84
+        },
+        {
+          "date": "2025-04-08",
+          "close": 3367.58
+        },
+        {
+          "date": "2025-04-09",
+          "close": 3412
+        },
+        {
+          "date": "2025-04-10",
+          "close": 3414.21
+        },
+        {
+          "date": "2025-04-11",
+          "close": 3373.49
+        },
+        {
+          "date": "2025-04-14",
+          "close": 3352.56
+        },
+        {
+          "date": "2025-04-15",
+          "close": 3319.36
+        },
+        {
+          "date": "2025-04-16",
+          "close": 3349.29
+        },
+        {
+          "date": "2025-04-17",
+          "close": 3357.77
+        },
+        {
+          "date": "2025-04-18",
+          "close": 3355.95
+        },
+        {
+          "date": "2025-04-21",
+          "close": 3415.88
+        },
+        {
+          "date": "2025-04-22",
+          "close": 3481.4
+        },
+        {
+          "date": "2025-04-23",
+          "close": 3445.37
+        },
+        {
+          "date": "2025-04-24",
+          "close": 3398.44
+        },
+        {
+          "date": "2025-04-25",
+          "close": 3342.4
+        },
+        {
+          "date": "2025-04-28",
+          "close": 3332.84
+        },
+        {
+          "date": "2025-04-29",
+          "close": 3322.21
+        },
+        {
+          "date": "2025-04-30",
+          "close": 3293.48
+        },
+        {
+          "date": "2025-05-01",
+          "close": 3343.28
+        },
+        {
+          "date": "2025-05-02",
+          "close": 3348.52
+        },
+        {
+          "date": "2025-05-05",
+          "close": 3360.45
+        },
+        {
+          "date": "2025-05-06",
+          "close": 3334.75
+        },
+        {
+          "date": "2025-05-07",
+          "close": 3283.64
+        },
+        {
+          "date": "2025-05-08",
+          "close": 3263.75
+        },
+        {
+          "date": "2025-05-09",
+          "close": 3188.46
+        },
+        {
+          "date": "2025-05-12",
+          "close": 3213.51
+        },
+        {
+          "date": "2025-05-13",
+          "close": 3224.59
+        },
+        {
+          "date": "2025-05-14",
+          "close": 3217.04
+        },
+        {
+          "date": "2025-05-15",
+          "close": 3209.33
+        },
+        {
+          "date": "2025-05-16",
+          "close": 3178.89
+        },
+        {
+          "date": "2025-05-19",
+          "close": 3189.8
+        },
+        {
+          "date": "2025-05-20",
+          "close": 3209.94
+        },
+        {
+          "date": "2025-05-21",
+          "close": 3251.33
+        },
+        {
+          "date": "2025-05-22",
+          "close": 3226.43
+        },
+        {
+          "date": "2025-05-23",
+          "close": 3236.59
+        },
+        {
+          "date": "2025-05-26",
+          "close": 3167.98
+        },
+        {
+          "date": "2025-05-27",
+          "close": 3216.3
+        },
+        {
+          "date": "2025-05-28",
+          "close": 3195.52
+        },
+        {
+          "date": "2025-05-29",
+          "close": 3176.04
+        },
+        {
+          "date": "2025-05-30",
+          "close": 3200.48
+        },
+        {
+          "date": "2025-06-02",
+          "close": 3173.71
+        },
+        {
+          "date": "2025-06-03",
+          "close": 3193.33
+        },
+        {
+          "date": "2025-06-04",
+          "close": 3186.48
+        },
+        {
+          "date": "2025-06-05",
+          "close": 3177.53
+        },
+        {
+          "date": "2025-06-06",
+          "close": 3149.21
+        },
+        {
+          "date": "2025-06-09",
+          "close": 3135.4
+        },
+        {
+          "date": "2025-06-10",
+          "close": 3153.49
+        },
+        {
+          "date": "2025-06-11",
+          "close": 3173.35
+        },
+        {
+          "date": "2025-06-12",
+          "close": 3162.64
+        },
+        {
+          "date": "2025-06-13",
+          "close": 3180.93
+        },
+        {
+          "date": "2025-06-16",
+          "close": 3190.14
+        },
+        {
+          "date": "2025-06-17",
+          "close": 3184.83
+        },
+        {
+          "date": "2025-06-18",
+          "close": 3218.07
+        },
+        {
+          "date": "2025-06-19",
+          "close": 3218.21
+        },
+        {
+          "date": "2025-06-20",
+          "close": 3228.74
+        },
+        {
+          "date": "2025-06-23",
+          "close": 3219.19
+        },
+        {
+          "date": "2025-06-24",
+          "close": 3260.38
+        },
+        {
+          "date": "2025-06-25",
+          "close": 3259.9
+        },
+        {
+          "date": "2025-06-26",
+          "close": 3250.3
+        },
+        {
+          "date": "2025-06-27",
+          "close": 3249.21
+        },
+        {
+          "date": "2025-06-30",
+          "close": 3208.59
+        },
+        {
+          "date": "2025-07-01",
+          "close": 3232.19
+        },
+        {
+          "date": "2025-07-02",
+          "close": 3249.25
+        },
+        {
+          "date": "2025-07-03",
+          "close": 3261.04
+        },
+        {
+          "date": "2025-07-04",
+          "close": 3226.66
+        },
+        {
+          "date": "2025-07-07",
+          "close": 3242.81
+        },
+        {
+          "date": "2025-07-08",
+          "close": 3199.95
+        },
+        {
+          "date": "2025-07-09",
+          "close": 3214.28
+        },
+        {
+          "date": "2025-07-10",
+          "close": 3201.71
+        },
+        {
+          "date": "2025-07-11",
+          "close": 3198.96
+        },
+        {
+          "date": "2025-07-14",
+          "close": 3203.18
+        },
+        {
+          "date": "2025-07-15",
+          "close": 3201.16
+        },
+        {
+          "date": "2025-07-16",
+          "close": 3167.76
+        },
+        {
+          "date": "2025-07-17",
+          "close": 3185.32
+        },
+        {
+          "date": "2025-07-18",
+          "close": 3153.82
+        },
+        {
+          "date": "2025-07-21",
+          "close": 3176.85
+        },
+        {
+          "date": "2025-07-22",
+          "close": 3173.59
+        },
+        {
+          "date": "2025-07-23",
+          "close": 3158.71
+        },
+        {
+          "date": "2025-07-24",
+          "close": 3176.57
+        },
+        {
+          "date": "2025-07-25",
+          "close": 3148.11
+        },
+        {
+          "date": "2025-07-28",
+          "close": 3147.13
+        },
+        {
+          "date": "2025-07-29",
+          "close": 3158.2
+        },
+        {
+          "date": "2025-07-30",
+          "close": 3179.03
+        },
+        {
+          "date": "2025-07-31",
+          "close": 3206.96
+        },
+        {
+          "date": "2025-08-01",
+          "close": 3146.79
+        },
+        {
+          "date": "2025-08-04",
+          "close": 3144.56
+        },
+        {
+          "date": "2025-08-05",
+          "close": 3165.22
+        },
+        {
+          "date": "2025-08-06",
+          "close": 3197.06
+        },
+        {
+          "date": "2025-08-07",
+          "close": 3282.87
+        },
+        {
+          "date": "2025-08-08",
+          "close": 3242.34
+        },
+        {
+          "date": "2025-08-11",
+          "close": 3226.88
+        },
+        {
+          "date": "2025-08-12",
+          "close": 3234.4
+        },
+        {
+          "date": "2025-08-13",
+          "close": 3239.51
+        },
+        {
+          "date": "2025-08-14",
+          "close": 3248.98
+        },
+        {
+          "date": "2025-08-15",
+          "close": 3271.01
+        },
+        {
+          "date": "2025-08-18",
+          "close": 3264.94
+        },
+        {
+          "date": "2025-08-19",
+          "close": 3255.62
+        },
+        {
+          "date": "2025-08-20",
+          "close": 3217.64
+        },
+        {
+          "date": "2025-08-21",
+          "close": 3222.82
+        },
+        {
+          "date": "2025-08-22",
+          "close": 3209.08
+        },
+        {
+          "date": "2025-08-25",
+          "close": 3202.51
+        },
+        {
+          "date": "2025-08-26",
+          "close": 3242.94
+        },
+        {
+          "date": "2025-08-27",
+          "close": 3221.78
+        },
+        {
+          "date": "2025-08-28",
+          "close": 3208.29
+        },
+        {
+          "date": "2025-08-29",
+          "close": 3202.54
+        },
+        {
+          "date": "2025-09-01",
+          "close": 3183.09
+        },
+        {
+          "date": "2025-09-02",
+          "close": 3162.08
+        },
+        {
+          "date": "2025-09-03",
+          "close": 3142.57
+        },
+        {
+          "date": "2025-09-04",
+          "close": 3150.98
+        },
+        {
+          "date": "2025-09-05",
+          "close": 3107.55
+        },
+        {
+          "date": "2025-09-08",
+          "close": 3137.52
+        },
+        {
+          "date": "2025-09-09",
+          "close": 3128.78
+        },
+        {
+          "date": "2025-09-10",
+          "close": 3122.74
+        },
+        {
+          "date": "2025-09-11",
+          "close": 3081.32
+        },
+        {
+          "date": "2025-09-12",
+          "close": 3077.78
+        },
+        {
+          "date": "2025-09-15",
+          "close": 3103.96
+        },
+        {
+          "date": "2025-09-16",
+          "close": 3069.24
+        },
+        {
+          "date": "2025-09-17",
+          "close": 3108.74
+        },
+        {
+          "date": "2025-09-18",
+          "close": 3085.64
+        },
+        {
+          "date": "2025-09-19",
+          "close": 3075.31
+        },
+        {
+          "date": "2025-09-22",
+          "close": 3053.73
+        },
+        {
+          "date": "2025-09-23",
+          "close": 3066.06
+        },
+        {
+          "date": "2025-09-24",
+          "close": 3082.89
+        },
+        {
+          "date": "2025-09-25",
+          "close": 3039.11
+        },
+        {
+          "date": "2025-09-26",
+          "close": 3040.57
+        },
+        {
+          "date": "2025-09-29",
+          "close": 3014.49
+        },
+        {
+          "date": "2025-09-30",
+          "close": 3009.3
+        },
+        {
+          "date": "2025-10-01",
+          "close": 3019.8
+        },
+        {
+          "date": "2025-10-02",
+          "close": 3015.83
+        },
+        {
+          "date": "2025-10-03",
+          "close": 3035.25
+        },
+        {
+          "date": "2025-10-06",
+          "close": 3052.47
+        },
+        {
+          "date": "2025-10-07",
+          "close": 3069.8
+        },
+        {
+          "date": "2025-10-08",
+          "close": 3055.84
+        },
+        {
+          "date": "2025-10-09",
+          "close": 3019.59
+        },
+        {
+          "date": "2025-10-10",
+          "close": 3014.28
+        },
+        {
+          "date": "2025-10-13",
+          "close": 3017.92
+        },
+        {
+          "date": "2025-10-14",
+          "close": 3007.22
+        },
+        {
+          "date": "2025-10-15",
+          "close": 3019.53
+        },
+        {
+          "date": "2025-10-16",
+          "close": 3024.2
+        },
+        {
+          "date": "2025-10-17",
+          "close": 3019.43
+        },
+        {
+          "date": "2025-10-20",
+          "close": 3019.3
+        },
+        {
+          "date": "2025-10-21",
+          "close": 2998.1
+        },
+        {
+          "date": "2025-10-22",
+          "close": 2980.65
+        },
+        {
+          "date": "2025-10-23",
+          "close": 2998.31
+        },
+        {
+          "date": "2025-10-24",
+          "close": 2962.82
+        },
+        {
+          "date": "2025-10-27",
+          "close": 2942.16
+        },
+        {
+          "date": "2025-10-28",
+          "close": 2935.91
+        },
+        {
+          "date": "2025-10-29",
+          "close": 2941.19
+        },
+        {
+          "date": "2025-10-30",
+          "close": 2898.34
+        },
+        {
+          "date": "2025-10-31",
+          "close": 2923.04
+        },
+        {
+          "date": "2025-11-03",
+          "close": 2921.49
+        },
+        {
+          "date": "2025-11-04",
+          "close": 2919.49
+        },
+        {
+          "date": "2025-11-05",
+          "close": 2939.54
+        },
+        {
+          "date": "2025-11-06",
+          "close": 2927.78
+        },
+        {
+          "date": "2025-11-07",
+          "close": 2930
+        },
+        {
+          "date": "2025-11-10",
+          "close": 2930.35
+        },
+        {
+          "date": "2025-11-11",
+          "close": 2944.54
+        },
+        {
+          "date": "2025-11-12",
+          "close": 2933.16
+        },
+        {
+          "date": "2025-11-13",
+          "close": 2941.96
+        },
+        {
+          "date": "2025-11-14",
+          "close": 2962.52
+        },
+        {
+          "date": "2025-11-17",
+          "close": 2967.97
+        },
+        {
+          "date": "2025-11-18",
+          "close": 3023.83
+        },
+        {
+          "date": "2025-11-19",
+          "close": 2986.61
+        },
+        {
+          "date": "2025-11-20",
+          "close": 3026.42
+        },
+        {
+          "date": "2025-11-21",
+          "close": 3019.61
+        },
+        {
+          "date": "2025-11-24",
+          "close": 3018.29
+        },
+        {
+          "date": "2025-11-25",
+          "close": 3030.42
+        },
+        {
+          "date": "2025-11-26",
+          "close": 3098.65
+        },
+        {
+          "date": "2025-11-27",
+          "close": 3074.64
+        },
+        {
+          "date": "2025-11-28",
+          "close": 3124.06
+        },
+        {
+          "date": "2025-12-01",
+          "close": 3124.21
+        },
+        {
+          "date": "2025-12-02",
+          "close": 3127.41
+        },
+        {
+          "date": "2025-12-03",
+          "close": 3121.5
+        },
+        {
+          "date": "2025-12-04",
+          "close": 3130.8
+        },
+        {
+          "date": "2025-12-05",
+          "close": 3095.7
+        },
+        {
+          "date": "2025-12-08",
+          "close": 3087.64
+        },
+        {
+          "date": "2025-12-09",
+          "close": 3081.14
+        },
+        {
+          "date": "2025-12-10",
+          "close": 3084.46
+        },
+        {
+          "date": "2025-12-11",
+          "close": 3074.86
+        },
+        {
+          "date": "2025-12-12",
+          "close": 3098.37
+        },
+        {
+          "date": "2025-12-15",
+          "close": 3139.24
+        },
+        {
+          "date": "2025-12-16",
+          "close": 3135.83
+        },
+        {
+          "date": "2025-12-17",
+          "close": 3100.02
+        },
+        {
+          "date": "2025-12-18",
+          "close": 3117.19
+        },
+        {
+          "date": "2025-12-19",
+          "close": 3153.65
+        },
+        {
+          "date": "2025-12-22",
+          "close": 3164.69
+        },
+        {
+          "date": "2025-12-23",
+          "close": 3166.56
+        },
+        {
+          "date": "2025-12-24",
+          "close": 3159.63
+        },
+        {
+          "date": "2025-12-25",
+          "close": 3143.73
+        },
+        {
+          "date": "2025-12-26",
+          "close": 3153.26
+        },
+        {
+          "date": "2025-12-29",
+          "close": 3148.93
+        },
+        {
+          "date": "2025-12-30",
+          "close": 3131.31
+        },
+        {
+          "date": "2025-12-31",
+          "close": 3135.67
+        },
+        {
+          "date": "2026-01-01",
+          "close": 3080.36
+        },
+        {
+          "date": "2026-01-02",
+          "close": 3071.36
+        },
+        {
+          "date": "2026-01-05",
+          "close": 3077.18
+        },
+        {
+          "date": "2026-01-06",
+          "close": 3042.01
+        },
+        {
+          "date": "2026-01-07",
+          "close": 3008.32
+        },
+        {
+          "date": "2026-01-08",
+          "close": 2996.3
+        },
+        {
+          "date": "2026-01-09",
+          "close": 2983.18
+        },
+        {
+          "date": "2026-01-12",
+          "close": 3007.94
+        },
+        {
+          "date": "2026-01-13",
+          "close": 2942.25
+        },
+        {
+          "date": "2026-01-14",
+          "close": 2945.83
+        },
+        {
+          "date": "2026-01-15",
+          "close": 2982.45
+        },
+        {
+          "date": "2026-01-16",
+          "close": 2988.07
+        },
+        {
+          "date": "2026-01-19",
+          "close": 2973.32
+        },
+        {
+          "date": "2026-01-20",
+          "close": 3010.17
+        },
+        {
+          "date": "2026-01-21",
+          "close": 3008.93
+        },
+        {
+          "date": "2026-01-22",
+          "close": 2976.67
+        },
+        {
+          "date": "2026-01-23",
+          "close": 3035.99
+        },
+        {
+          "date": "2026-01-26",
+          "close": 2997.45
+        },
+        {
+          "date": "2026-01-27",
+          "close": 2983.28
+        },
+        {
+          "date": "2026-01-28",
+          "close": 2994.24
+        },
+        {
+          "date": "2026-01-29",
+          "close": 3000.89
+        },
+        {
+          "date": "2026-01-30",
+          "close": 2996.38
+        },
+        {
+          "date": "2026-02-02",
+          "close": 3011.19
+        },
+        {
+          "date": "2026-02-03",
+          "close": 2976.05
+        },
+        {
+          "date": "2026-02-04",
+          "close": 2973.75
+        },
+        {
+          "date": "2026-02-05",
+          "close": 2989.08
+        },
+        {
+          "date": "2026-02-06",
+          "close": 3002.58
+        },
+        {
+          "date": "2026-02-09",
+          "close": 3001.8
+        },
+        {
+          "date": "2026-02-10",
+          "close": 3013.54
+        },
+        {
+          "date": "2026-02-11",
+          "close": 3044.11
+        },
+        {
+          "date": "2026-02-12",
+          "close": 3007.27
+        },
+        {
+          "date": "2026-02-13",
+          "close": 2999.27
+        },
+        {
+          "date": "2026-02-16",
+          "close": 2983.26
+        },
+        {
+          "date": "2026-02-17",
+          "close": 2989.22
+        },
+        {
+          "date": "2026-02-18",
+          "close": 3003.85
+        },
+        {
+          "date": "2026-02-19",
+          "close": 2984.12
+        },
+        {
+          "date": "2026-02-20",
+          "close": 2984.11
+        },
+        {
+          "date": "2026-02-23",
+          "close": 2955.11
+        },
+        {
+          "date": "2026-02-24",
+          "close": 2964.63
+        },
+        {
+          "date": "2026-02-25",
+          "close": 2970.79
+        },
+        {
+          "date": "2026-02-26",
+          "close": 2931.46
+        },
+        {
+          "date": "2026-02-27",
+          "close": 2955.7
+        },
+        {
+          "date": "2026-03-02",
+          "close": 2956.25
+        },
+        {
+          "date": "2026-03-03",
+          "close": 2985.85
+        },
+        {
+          "date": "2026-03-04",
+          "close": 2952.81
+        },
+        {
+          "date": "2026-03-05",
+          "close": 2965.4
+        },
+        {
+          "date": "2026-03-06",
+          "close": 2947.83
+        },
+        {
+          "date": "2026-03-09",
+          "close": 2920.35
+        },
+        {
+          "date": "2026-03-10",
+          "close": 2929.05
+        },
+        {
+          "date": "2026-03-11",
+          "close": 2914.62
+        },
+        {
+          "date": "2026-03-12",
+          "close": 2955.61
+        },
+        {
+          "date": "2026-03-13",
+          "close": 2962.65
+        },
+        {
+          "date": "2026-03-16",
+          "close": 2994.96
+        },
+        {
+          "date": "2026-03-17",
+          "close": 2994.28
+        },
+        {
+          "date": "2026-03-18",
+          "close": 3019.26
+        },
+        {
+          "date": "2026-03-19",
+          "close": 2973.03
+        },
+        {
+          "date": "2026-03-20",
+          "close": 2963.76
+        },
+        {
+          "date": "2026-03-23",
+          "close": 2957.88
+        },
+        {
+          "date": "2026-03-24",
+          "close": 2968.25
+        },
+        {
+          "date": "2026-03-25",
+          "close": 2975.95
+        },
+        {
+          "date": "2026-03-26",
+          "close": 2948.77
+        },
+        {
+          "date": "2026-03-27",
+          "close": 2957.04
+        },
+        {
+          "date": "2026-03-30",
+          "close": 2966.1
+        },
+        {
+          "date": "2026-03-31",
+          "close": 2931.84
+        },
+        {
+          "date": "2026-04-01",
+          "close": 2924.7
+        },
+        {
+          "date": "2026-04-02",
+          "close": 2954.23
+        },
+        {
+          "date": "2026-04-03",
+          "close": 2925.88
+        },
+        {
+          "date": "2026-04-06",
+          "close": 2939.89
+        },
+        {
+          "date": "2026-04-07",
+          "close": 2954.47
+        },
+        {
+          "date": "2026-04-08",
+          "close": 2906.51
+        },
+        {
+          "date": "2026-04-09",
+          "close": 2959.8
+        },
+        {
+          "date": "2026-04-10",
+          "close": 2956.75
+        },
+        {
+          "date": "2026-04-13",
+          "close": 2964.52
+        },
+        {
+          "date": "2026-04-14",
+          "close": 2978.22
+        },
+        {
+          "date": "2026-04-15",
+          "close": 2977.43
+        },
+        {
+          "date": "2026-04-16",
+          "close": 3016.41
+        },
+        {
+          "date": "2026-04-17",
+          "close": 3011.95
+        },
+        {
+          "date": "2026-04-20",
+          "close": 3043.59
+        },
+        {
+          "date": "2026-04-21",
+          "close": 3046.17
+        },
+        {
+          "date": "2026-04-22",
+          "close": 3029.57
+        },
+        {
+          "date": "2026-04-23",
+          "close": 3025.56
+        },
+        {
+          "date": "2026-04-24",
+          "close": 3012.59
+        },
+        {
+          "date": "2026-04-27",
+          "close": 3018.29
+        },
+        {
+          "date": "2026-04-28",
+          "close": 3048.53
+        },
+        {
+          "date": "2026-04-29",
+          "close": 3062.35
+        },
+        {
+          "date": "2026-04-30",
+          "close": 3086.2
+        },
+        {
+          "date": "2026-05-01",
+          "close": 3065.56
+        },
+        {
+          "date": "2026-05-04",
+          "close": 3074.71
+        },
+        {
+          "date": "2026-05-05",
+          "close": 3098.78
+        },
+        {
+          "date": "2026-05-06",
+          "close": 3085.36
+        },
+        {
+          "date": "2026-05-07",
+          "close": 3143.17
+        },
+        {
+          "date": "2026-05-08",
+          "close": 3126.5
+        },
+        {
+          "date": "2026-05-11",
+          "close": 3119.69
+        },
+        {
+          "date": "2026-05-12",
+          "close": 3080.15
+        },
+        {
+          "date": "2026-05-13",
+          "close": 3057.81
+        },
+        {
+          "date": "2026-05-14",
+          "close": 3075.04
+        },
+        {
+          "date": "2026-05-15",
+          "close": 3042.03
+        },
+        {
+          "date": "2026-05-18",
+          "close": 3038.62
+        },
+        {
+          "date": "2026-05-19",
+          "close": 3036.93
+        },
+        {
+          "date": "2026-05-20",
+          "close": 3030.09
+        },
+        {
+          "date": "2026-05-21",
+          "close": 3030.24
+        },
+        {
+          "date": "2026-05-22",
+          "close": 3056.8
+        },
+        {
+          "date": "2026-05-25",
+          "close": 3048.44
+        },
+        {
+          "date": "2026-05-26",
+          "close": 3050.92
+        },
+        {
+          "date": "2026-05-27",
+          "close": 3043.09
+        },
+        {
+          "date": "2026-05-28",
+          "close": 3023.25
+        },
+        {
+          "date": "2026-05-29",
+          "close": 3000.91
+        },
+        {
+          "date": "2026-06-01",
+          "close": 2990.49
+        },
+        {
+          "date": "2026-06-02",
+          "close": 2990.72
+        },
+        {
+          "date": "2026-06-03",
+          "close": 3043.17
+        },
+        {
+          "date": "2026-06-04",
+          "close": 3090.34
+        },
+        {
+          "date": "2026-06-05",
+          "close": 3054.76
+        },
+        {
+          "date": "2026-06-08",
+          "close": 3014.92
+        },
+        {
+          "date": "2026-06-09",
+          "close": 3024.7
+        },
+        {
+          "date": "2026-06-10",
+          "close": 3016.06
+        },
+        {
+          "date": "2026-06-11",
+          "close": 3011.52
+        },
+        {
+          "date": "2026-06-12",
+          "close": 2974.16
+        },
+        {
+          "date": "2026-06-15",
+          "close": 2982.54
+        },
+        {
+          "date": "2026-06-16",
+          "close": 2975.64
+        },
+        {
+          "date": "2026-06-17",
+          "close": 2962.58
+        },
+        {
+          "date": "2026-06-18",
+          "close": 2971.13
+        },
+        {
+          "date": "2026-06-19",
+          "close": 2961.51
+        },
+        {
+          "date": "2026-06-22",
+          "close": 2959.74
+        },
+        {
+          "date": "2026-06-23",
+          "close": 2987.73
+        },
+        {
+          "date": "2026-06-24",
+          "close": 2987.16
+        },
+        {
+          "date": "2026-06-25",
+          "close": 3013.3
+        },
+        {
+          "date": "2026-06-26",
+          "close": 3008.76
+        },
+        {
+          "date": "2026-06-29",
+          "close": 3049.02
+        },
+        {
+          "date": "2026-06-30",
+          "close": 3032.93
+        },
+        {
+          "date": "2026-07-01",
+          "close": 3062.72
+        },
+        {
+          "date": "2026-07-02",
+          "close": 3069.54
+        },
+        {
+          "date": "2026-07-03",
+          "close": 3047.21
+        },
+        {
+          "date": "2026-07-06",
+          "close": 3031.33
+        },
+        {
+          "date": "2026-07-07",
+          "close": 3052.18
+        },
+        {
+          "date": "2026-07-08",
+          "close": 3019.05
+        },
+        {
+          "date": "2026-07-09",
+          "close": 2997.76
+        },
+        {
+          "date": "2026-07-10",
+          "close": 2998.92
+        },
+        {
+          "date": "2026-07-13",
+          "close": 3014.09
+        },
+        {
+          "date": "2026-07-14",
+          "close": 3050.32
+        },
+        {
+          "date": "2026-07-15",
+          "close": 3095.3
+        },
+        {
+          "date": "2026-07-16",
+          "close": 3082.19
+        },
+        {
+          "date": "2026-07-17",
+          "close": 3080.38
+        },
+        {
+          "date": "2026-07-20",
+          "close": 3062.24
+        },
+        {
+          "date": "2026-07-21",
+          "close": 3046.35
+        },
+        {
+          "date": "2026-07-22",
+          "close": 3096.57
+        },
+        {
+          "date": "2026-07-23",
+          "close": 3112.95
+        },
+        {
+          "date": "2026-07-24",
+          "close": 3136.9
+        },
+        {
+          "date": "2026-07-27",
+          "close": 3145.65
+        },
+        {
+          "date": "2026-07-28",
+          "close": 3161.06
+        },
+        {
+          "date": "2026-07-29",
+          "close": 3104.59
+        },
+        {
+          "date": "2026-07-30",
+          "close": 3106.65
+        },
+        {
+          "date": "2026-07-31",
+          "close": 3083.93
+        },
+        {
+          "date": "2026-08-03",
+          "close": 3057.77
+        },
+        {
+          "date": "2026-08-04",
+          "close": 3018.12
+        },
+        {
+          "date": "2026-08-05",
+          "close": 3014.42
+        },
+        {
+          "date": "2026-08-06",
+          "close": 3027.7
+        },
+        {
+          "date": "2026-08-07",
+          "close": 3062.47
+        },
+        {
+          "date": "2026-08-10",
+          "close": 3092.5
+        },
+        {
+          "date": "2026-08-11",
+          "close": 3079.91
+        },
+        {
+          "date": "2026-08-12",
+          "close": 3042.95
+        },
+        {
+          "date": "2026-08-13",
+          "close": 3029.76
+        },
+        {
+          "date": "2026-08-14",
+          "close": 3053.03
+        },
+        {
+          "date": "2026-08-17",
+          "close": 3046.87
+        },
+        {
+          "date": "2026-08-18",
+          "close": 3050.86
+        },
+        {
+          "date": "2026-08-19",
+          "close": 3069
+        },
+        {
+          "date": "2026-08-20",
+          "close": 3077.47
+        },
+        {
+          "date": "2026-08-21",
+          "close": 3120.81
+        },
+        {
+          "date": "2026-08-24",
+          "close": 3155.29
+        },
+        {
+          "date": "2026-08-25",
+          "close": 3174.8
+        },
+        {
+          "date": "2026-08-26",
+          "close": 3153.49
+        },
+        {
+          "date": "2026-08-27",
+          "close": 3142.54
+        },
+        {
+          "date": "2026-08-28",
+          "close": 3130.79
+        },
+        {
+          "date": "2026-08-31",
+          "close": 3127.66
+        },
+        {
+          "date": "2026-09-01",
+          "close": 3148.77
+        },
+        {
+          "date": "2026-09-02",
+          "close": 3133.37
+        },
+        {
+          "date": "2026-09-03",
+          "close": 3108.93
+        },
+        {
+          "date": "2026-09-04",
+          "close": 3110.49
+        },
+        {
+          "date": "2026-09-07",
+          "close": 3131.04
+        },
+        {
+          "date": "2026-09-08",
+          "close": 3126.24
+        },
+        {
+          "date": "2026-09-09",
+          "close": 3145.63
+        },
+        {
+          "date": "2026-09-10",
+          "close": 3123.22
+        },
+        {
+          "date": "2026-09-11",
+          "close": 3065.25
+        },
+        {
+          "date": "2026-09-14",
+          "close": 3060.5
+        },
+        {
+          "date": "2026-09-15",
+          "close": 3116.87
+        },
+        {
+          "date": "2026-09-16",
+          "close": 3137.45
+        },
+        {
+          "date": "2026-09-17",
+          "close": 3118.35
+        },
+        {
+          "date": "2026-09-18",
+          "close": 3091.51
+        },
+        {
+          "date": "2026-09-21",
+          "close": 3110.2
+        },
+        {
+          "date": "2026-09-22",
+          "close": 3114.73
+        },
+        {
+          "date": "2026-09-23",
+          "close": 3072.31
+        },
+        {
+          "date": "2026-09-24",
+          "close": 3075.39
+        },
+        {
+          "date": "2026-09-25",
+          "close": 3098.07
+        },
+        {
+          "date": "2026-09-28",
+          "close": 3085.97
+        },
+        {
+          "date": "2026-09-29",
+          "close": 3079.86
+        },
+        {
+          "date": "2026-09-30",
+          "close": 3084.93
+        },
+        {
+          "date": "2026-10-01",
+          "close": 3116.22
+        },
+        {
+          "date": "2026-10-02",
+          "close": 3112.42
+        },
+        {
+          "date": "2026-10-05",
+          "close": 3142.56
+        },
+        {
+          "date": "2026-10-06",
+          "close": 3110.46
+        },
+        {
+          "date": "2026-10-07",
+          "close": 3146.35
+        },
+        {
+          "date": "2026-10-08",
+          "close": 3145.92
+        },
+        {
+          "date": "2026-10-09",
+          "close": 3166.12
+        },
+        {
+          "date": "2026-10-12",
+          "close": 3148.74
+        },
+        {
+          "date": "2026-10-13",
+          "close": 3176.44
+        },
+        {
+          "date": "2026-10-14",
+          "close": 3230.26
+        },
+        {
+          "date": "2026-10-15",
+          "close": 3226.21
+        },
+        {
+          "date": "2026-10-16",
+          "close": 3221.96
+        },
+        {
+          "date": "2026-10-19",
+          "close": 3199.03
+        },
+        {
+          "date": "2026-10-20",
+          "close": 3235.33
+        },
+        {
+          "date": "2026-10-21",
+          "close": 3258.56
+        },
+        {
+          "date": "2026-10-22",
+          "close": 3279.94
+        },
+        {
+          "date": "2026-10-23",
+          "close": 3277.09
+        },
+        {
+          "date": "2026-10-26",
+          "close": 3279.65
+        },
+        {
+          "date": "2026-10-27",
+          "close": 3313.97
+        },
+        {
+          "date": "2026-10-28",
+          "close": 3326.12
+        },
+        {
+          "date": "2026-10-29",
+          "close": 3280.59
+        },
+        {
+          "date": "2026-10-30",
+          "close": 3287.31
+        },
+        {
+          "date": "2026-11-02",
+          "close": 3269.04
+        },
+        {
+          "date": "2026-11-03",
+          "close": 3307.35
+        },
+        {
+          "date": "2026-11-04",
+          "close": 3273.53
+        },
+        {
+          "date": "2026-11-05",
+          "close": 3283.87
+        },
+        {
+          "date": "2026-11-06",
+          "close": 3310.56
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3310.79
+        }
+      ],
+      "first": "2023-11-09",
+      "last": "2026-11-09",
+      "source": "本地固定种子生成的构造序列（非市场报价）",
+      "sha256": "1eb5aac3a7b0e45ed1fec515ecee0e34f3a205d40504d83db316cfe4928c6d57",
+      "limitations": "构造演示价格；不是实际历史行情，不代表真实资产表现，不应用于投资决策。日期轴也不是交易所交易日历。",
+      "synthetic": true
+    },
+    "gold": {
+      "name": "黄金价格示意",
+      "unit": "元/克（演示刻度）",
+      "points": [
+        {
+          "date": "2023-11-09",
+          "close": 517.58
+        },
+        {
+          "date": "2023-11-10",
+          "close": 523.67
+        },
+        {
+          "date": "2023-11-13",
+          "close": 519.9
+        },
+        {
+          "date": "2023-11-14",
+          "close": 521.97
+        },
+        {
+          "date": "2023-11-15",
+          "close": 519.38
+        },
+        {
+          "date": "2023-11-16",
+          "close": 512.01
+        },
+        {
+          "date": "2023-11-17",
+          "close": 508.06
+        },
+        {
+          "date": "2023-11-20",
+          "close": 507.17
+        },
+        {
+          "date": "2023-11-21",
+          "close": 506.3
+        },
+        {
+          "date": "2023-11-22",
+          "close": 505.11
+        },
+        {
+          "date": "2023-11-23",
+          "close": 499.59
+        },
+        {
+          "date": "2023-11-24",
+          "close": 501.18
+        },
+        {
+          "date": "2023-11-27",
+          "close": 504.17
+        },
+        {
+          "date": "2023-11-28",
+          "close": 503.58
+        },
+        {
+          "date": "2023-11-29",
+          "close": 505.54
+        },
+        {
+          "date": "2023-11-30",
+          "close": 499.62
+        },
+        {
+          "date": "2023-12-01",
+          "close": 500.29
+        },
+        {
+          "date": "2023-12-04",
+          "close": 502.15
+        },
+        {
+          "date": "2023-12-05",
+          "close": 500.74
+        },
+        {
+          "date": "2023-12-06",
+          "close": 501.8
+        },
+        {
+          "date": "2023-12-07",
+          "close": 501.2
+        },
+        {
+          "date": "2023-12-08",
+          "close": 499.61
+        },
+        {
+          "date": "2023-12-11",
+          "close": 502.98
+        },
+        {
+          "date": "2023-12-12",
+          "close": 502.12
+        },
+        {
+          "date": "2023-12-13",
+          "close": 502.13
+        },
+        {
+          "date": "2023-12-14",
+          "close": 498.92
+        },
+        {
+          "date": "2023-12-15",
+          "close": 502.07
+        },
+        {
+          "date": "2023-12-18",
+          "close": 506.17
+        },
+        {
+          "date": "2023-12-19",
+          "close": 503.81
+        },
+        {
+          "date": "2023-12-20",
+          "close": 501.7
+        },
+        {
+          "date": "2023-12-21",
+          "close": 506.91
+        },
+        {
+          "date": "2023-12-22",
+          "close": 506.34
+        },
+        {
+          "date": "2023-12-25",
+          "close": 511.06
+        },
+        {
+          "date": "2023-12-26",
+          "close": 513.83
+        },
+        {
+          "date": "2023-12-27",
+          "close": 518.43
+        },
+        {
+          "date": "2023-12-28",
+          "close": 515.04
+        },
+        {
+          "date": "2023-12-29",
+          "close": 513.02
+        },
+        {
+          "date": "2024-01-01",
+          "close": 515.51
+        },
+        {
+          "date": "2024-01-02",
+          "close": 514.62
+        },
+        {
+          "date": "2024-01-03",
+          "close": 517.03
+        },
+        {
+          "date": "2024-01-04",
+          "close": 514.19
+        },
+        {
+          "date": "2024-01-05",
+          "close": 518.99
+        },
+        {
+          "date": "2024-01-08",
+          "close": 520.46
+        },
+        {
+          "date": "2024-01-09",
+          "close": 520.95
+        },
+        {
+          "date": "2024-01-10",
+          "close": 523.28
+        },
+        {
+          "date": "2024-01-11",
+          "close": 514.34
+        },
+        {
+          "date": "2024-01-12",
+          "close": 511.41
+        },
+        {
+          "date": "2024-01-15",
+          "close": 509.83
+        },
+        {
+          "date": "2024-01-16",
+          "close": 504.83
+        },
+        {
+          "date": "2024-01-17",
+          "close": 500.07
+        },
+        {
+          "date": "2024-01-18",
+          "close": 505.82
+        },
+        {
+          "date": "2024-01-19",
+          "close": 508.58
+        },
+        {
+          "date": "2024-01-22",
+          "close": 508.16
+        },
+        {
+          "date": "2024-01-23",
+          "close": 511.18
+        },
+        {
+          "date": "2024-01-24",
+          "close": 512.5
+        },
+        {
+          "date": "2024-01-25",
+          "close": 516.32
+        },
+        {
+          "date": "2024-01-26",
+          "close": 509.52
+        },
+        {
+          "date": "2024-01-29",
+          "close": 509.53
+        },
+        {
+          "date": "2024-01-30",
+          "close": 510.02
+        },
+        {
+          "date": "2024-01-31",
+          "close": 506.51
+        },
+        {
+          "date": "2024-02-01",
+          "close": 513.23
+        },
+        {
+          "date": "2024-02-02",
+          "close": 513.09
+        },
+        {
+          "date": "2024-02-05",
+          "close": 520.41
+        },
+        {
+          "date": "2024-02-06",
+          "close": 525.34
+        },
+        {
+          "date": "2024-02-07",
+          "close": 526.9
+        },
+        {
+          "date": "2024-02-08",
+          "close": 528.48
+        },
+        {
+          "date": "2024-02-09",
+          "close": 532.35
+        },
+        {
+          "date": "2024-02-12",
+          "close": 542.11
+        },
+        {
+          "date": "2024-02-13",
+          "close": 542.38
+        },
+        {
+          "date": "2024-02-14",
+          "close": 544.82
+        },
+        {
+          "date": "2024-02-15",
+          "close": 551.42
+        },
+        {
+          "date": "2024-02-16",
+          "close": 560.36
+        },
+        {
+          "date": "2024-02-19",
+          "close": 556.16
+        },
+        {
+          "date": "2024-02-20",
+          "close": 557.34
+        },
+        {
+          "date": "2024-02-21",
+          "close": 560.06
+        },
+        {
+          "date": "2024-02-22",
+          "close": 558.63
+        },
+        {
+          "date": "2024-02-23",
+          "close": 559.87
+        },
+        {
+          "date": "2024-02-26",
+          "close": 557.31
+        },
+        {
+          "date": "2024-02-27",
+          "close": 557
+        },
+        {
+          "date": "2024-02-28",
+          "close": 552.23
+        },
+        {
+          "date": "2024-02-29",
+          "close": 554.14
+        },
+        {
+          "date": "2024-03-01",
+          "close": 555.98
+        },
+        {
+          "date": "2024-03-04",
+          "close": 559.05
+        },
+        {
+          "date": "2024-03-05",
+          "close": 556.37
+        },
+        {
+          "date": "2024-03-06",
+          "close": 559.26
+        },
+        {
+          "date": "2024-03-07",
+          "close": 554.19
+        },
+        {
+          "date": "2024-03-08",
+          "close": 552.84
+        },
+        {
+          "date": "2024-03-11",
+          "close": 545.44
+        },
+        {
+          "date": "2024-03-12",
+          "close": 546.58
+        },
+        {
+          "date": "2024-03-13",
+          "close": 555.26
+        },
+        {
+          "date": "2024-03-14",
+          "close": 556.13
+        },
+        {
+          "date": "2024-03-15",
+          "close": 555.3
+        },
+        {
+          "date": "2024-03-18",
+          "close": 555.22
+        },
+        {
+          "date": "2024-03-19",
+          "close": 554.61
+        },
+        {
+          "date": "2024-03-20",
+          "close": 554.02
+        },
+        {
+          "date": "2024-03-21",
+          "close": 555.39
+        },
+        {
+          "date": "2024-03-22",
+          "close": 556.04
+        },
+        {
+          "date": "2024-03-25",
+          "close": 553.4
+        },
+        {
+          "date": "2024-03-26",
+          "close": 555.06
+        },
+        {
+          "date": "2024-03-27",
+          "close": 550.46
+        },
+        {
+          "date": "2024-03-28",
+          "close": 556.18
+        },
+        {
+          "date": "2024-03-29",
+          "close": 547.36
+        },
+        {
+          "date": "2024-04-01",
+          "close": 548.01
+        },
+        {
+          "date": "2024-04-02",
+          "close": 551.13
+        },
+        {
+          "date": "2024-04-03",
+          "close": 552.2
+        },
+        {
+          "date": "2024-04-04",
+          "close": 549.11
+        },
+        {
+          "date": "2024-04-05",
+          "close": 548.5
+        },
+        {
+          "date": "2024-04-08",
+          "close": 550.72
+        },
+        {
+          "date": "2024-04-09",
+          "close": 545.8
+        },
+        {
+          "date": "2024-04-10",
+          "close": 542.49
+        },
+        {
+          "date": "2024-04-11",
+          "close": 543.56
+        },
+        {
+          "date": "2024-04-12",
+          "close": 551.11
+        },
+        {
+          "date": "2024-04-15",
+          "close": 558.17
+        },
+        {
+          "date": "2024-04-16",
+          "close": 549.56
+        },
+        {
+          "date": "2024-04-17",
+          "close": 554.02
+        },
+        {
+          "date": "2024-04-18",
+          "close": 559.68
+        },
+        {
+          "date": "2024-04-19",
+          "close": 559.64
+        },
+        {
+          "date": "2024-04-22",
+          "close": 559.06
+        },
+        {
+          "date": "2024-04-23",
+          "close": 560.47
+        },
+        {
+          "date": "2024-04-24",
+          "close": 556.51
+        },
+        {
+          "date": "2024-04-25",
+          "close": 558.63
+        },
+        {
+          "date": "2024-04-26",
+          "close": 555.16
+        },
+        {
+          "date": "2024-04-29",
+          "close": 556.05
+        },
+        {
+          "date": "2024-04-30",
+          "close": 560.71
+        },
+        {
+          "date": "2024-05-01",
+          "close": 560.64
+        },
+        {
+          "date": "2024-05-02",
+          "close": 565.13
+        },
+        {
+          "date": "2024-05-03",
+          "close": 571.91
+        },
+        {
+          "date": "2024-05-06",
+          "close": 569.8
+        },
+        {
+          "date": "2024-05-07",
+          "close": 566.36
+        },
+        {
+          "date": "2024-05-08",
+          "close": 568.34
+        },
+        {
+          "date": "2024-05-09",
+          "close": 568.19
+        },
+        {
+          "date": "2024-05-10",
+          "close": 565.77
+        },
+        {
+          "date": "2024-05-13",
+          "close": 558.77
+        },
+        {
+          "date": "2024-05-14",
+          "close": 554.59
+        },
+        {
+          "date": "2024-05-15",
+          "close": 556.73
+        },
+        {
+          "date": "2024-05-16",
+          "close": 551.87
+        },
+        {
+          "date": "2024-05-17",
+          "close": 551.58
+        },
+        {
+          "date": "2024-05-20",
+          "close": 546.73
+        },
+        {
+          "date": "2024-05-21",
+          "close": 553.47
+        },
+        {
+          "date": "2024-05-22",
+          "close": 547.32
+        },
+        {
+          "date": "2024-05-23",
+          "close": 542.84
+        },
+        {
+          "date": "2024-05-24",
+          "close": 540.24
+        },
+        {
+          "date": "2024-05-27",
+          "close": 543.49
+        },
+        {
+          "date": "2024-05-28",
+          "close": 542.27
+        },
+        {
+          "date": "2024-05-29",
+          "close": 540.64
+        },
+        {
+          "date": "2024-05-30",
+          "close": 535.76
+        },
+        {
+          "date": "2024-05-31",
+          "close": 533.76
+        },
+        {
+          "date": "2024-06-03",
+          "close": 528.81
+        },
+        {
+          "date": "2024-06-04",
+          "close": 530.17
+        },
+        {
+          "date": "2024-06-05",
+          "close": 532.29
+        },
+        {
+          "date": "2024-06-06",
+          "close": 530.91
+        },
+        {
+          "date": "2024-06-07",
+          "close": 539.74
+        },
+        {
+          "date": "2024-06-10",
+          "close": 539.14
+        },
+        {
+          "date": "2024-06-11",
+          "close": 530.34
+        },
+        {
+          "date": "2024-06-12",
+          "close": 526.4
+        },
+        {
+          "date": "2024-06-13",
+          "close": 519.92
+        },
+        {
+          "date": "2024-06-14",
+          "close": 518.37
+        },
+        {
+          "date": "2024-06-17",
+          "close": 514.11
+        },
+        {
+          "date": "2024-06-18",
+          "close": 519.77
+        },
+        {
+          "date": "2024-06-19",
+          "close": 522.8
+        },
+        {
+          "date": "2024-06-20",
+          "close": 527.1
+        },
+        {
+          "date": "2024-06-21",
+          "close": 520.73
+        },
+        {
+          "date": "2024-06-24",
+          "close": 516.31
+        },
+        {
+          "date": "2024-06-25",
+          "close": 519.86
+        },
+        {
+          "date": "2024-06-26",
+          "close": 515.37
+        },
+        {
+          "date": "2024-06-27",
+          "close": 518.42
+        },
+        {
+          "date": "2024-06-28",
+          "close": 508.88
+        },
+        {
+          "date": "2024-07-01",
+          "close": 507.12
+        },
+        {
+          "date": "2024-07-02",
+          "close": 506.86
+        },
+        {
+          "date": "2024-07-03",
+          "close": 507.86
+        },
+        {
+          "date": "2024-07-04",
+          "close": 505.43
+        },
+        {
+          "date": "2024-07-05",
+          "close": 505.72
+        },
+        {
+          "date": "2024-07-08",
+          "close": 507.38
+        },
+        {
+          "date": "2024-07-09",
+          "close": 504.83
+        },
+        {
+          "date": "2024-07-10",
+          "close": 495.16
+        },
+        {
+          "date": "2024-07-11",
+          "close": 485.92
+        },
+        {
+          "date": "2024-07-12",
+          "close": 490.31
+        },
+        {
+          "date": "2024-07-15",
+          "close": 487.21
+        },
+        {
+          "date": "2024-07-16",
+          "close": 486.97
+        },
+        {
+          "date": "2024-07-17",
+          "close": 481.37
+        },
+        {
+          "date": "2024-07-18",
+          "close": 484.01
+        },
+        {
+          "date": "2024-07-19",
+          "close": 480.15
+        },
+        {
+          "date": "2024-07-22",
+          "close": 479
+        },
+        {
+          "date": "2024-07-23",
+          "close": 483.75
+        },
+        {
+          "date": "2024-07-24",
+          "close": 478.47
+        },
+        {
+          "date": "2024-07-25",
+          "close": 473.83
+        },
+        {
+          "date": "2024-07-26",
+          "close": 464.69
+        },
+        {
+          "date": "2024-07-29",
+          "close": 466.13
+        },
+        {
+          "date": "2024-07-30",
+          "close": 466.28
+        },
+        {
+          "date": "2024-07-31",
+          "close": 466.66
+        },
+        {
+          "date": "2024-08-01",
+          "close": 470.32
+        },
+        {
+          "date": "2024-08-02",
+          "close": 469.21
+        },
+        {
+          "date": "2024-08-05",
+          "close": 467.45
+        },
+        {
+          "date": "2024-08-06",
+          "close": 463.5
+        },
+        {
+          "date": "2024-08-07",
+          "close": 461.46
+        },
+        {
+          "date": "2024-08-08",
+          "close": 465.32
+        },
+        {
+          "date": "2024-08-09",
+          "close": 466.7
+        },
+        {
+          "date": "2024-08-12",
+          "close": 469.05
+        },
+        {
+          "date": "2024-08-13",
+          "close": 470.09
+        },
+        {
+          "date": "2024-08-14",
+          "close": 476.96
+        },
+        {
+          "date": "2024-08-15",
+          "close": 481.71
+        },
+        {
+          "date": "2024-08-16",
+          "close": 476.92
+        },
+        {
+          "date": "2024-08-19",
+          "close": 474.62
+        },
+        {
+          "date": "2024-08-20",
+          "close": 477.32
+        },
+        {
+          "date": "2024-08-21",
+          "close": 467.9
+        },
+        {
+          "date": "2024-08-22",
+          "close": 466.21
+        },
+        {
+          "date": "2024-08-23",
+          "close": 463.03
+        },
+        {
+          "date": "2024-08-26",
+          "close": 462.51
+        },
+        {
+          "date": "2024-08-27",
+          "close": 464.68
+        },
+        {
+          "date": "2024-08-28",
+          "close": 466.17
+        },
+        {
+          "date": "2024-08-29",
+          "close": 468.85
+        },
+        {
+          "date": "2024-08-30",
+          "close": 463.46
+        },
+        {
+          "date": "2024-09-02",
+          "close": 460.28
+        },
+        {
+          "date": "2024-09-03",
+          "close": 456.14
+        },
+        {
+          "date": "2024-09-04",
+          "close": 454.79
+        },
+        {
+          "date": "2024-09-05",
+          "close": 455.89
+        },
+        {
+          "date": "2024-09-06",
+          "close": 455.17
+        },
+        {
+          "date": "2024-09-09",
+          "close": 455.45
+        },
+        {
+          "date": "2024-09-10",
+          "close": 463.92
+        },
+        {
+          "date": "2024-09-11",
+          "close": 461.14
+        },
+        {
+          "date": "2024-09-12",
+          "close": 460.12
+        },
+        {
+          "date": "2024-09-13",
+          "close": 463.51
+        },
+        {
+          "date": "2024-09-16",
+          "close": 460.67
+        },
+        {
+          "date": "2024-09-17",
+          "close": 463.4
+        },
+        {
+          "date": "2024-09-18",
+          "close": 460.98
+        },
+        {
+          "date": "2024-09-19",
+          "close": 457.99
+        },
+        {
+          "date": "2024-09-20",
+          "close": 447.13
+        },
+        {
+          "date": "2024-09-23",
+          "close": 446.1
+        },
+        {
+          "date": "2024-09-24",
+          "close": 447.98
+        },
+        {
+          "date": "2024-09-25",
+          "close": 444.49
+        },
+        {
+          "date": "2024-09-26",
+          "close": 445.19
+        },
+        {
+          "date": "2024-09-27",
+          "close": 445.49
+        },
+        {
+          "date": "2024-09-30",
+          "close": 441.21
+        },
+        {
+          "date": "2024-10-01",
+          "close": 443.96
+        },
+        {
+          "date": "2024-10-02",
+          "close": 447.67
+        },
+        {
+          "date": "2024-10-03",
+          "close": 447.92
+        },
+        {
+          "date": "2024-10-04",
+          "close": 446.07
+        },
+        {
+          "date": "2024-10-07",
+          "close": 440.99
+        },
+        {
+          "date": "2024-10-08",
+          "close": 443.44
+        },
+        {
+          "date": "2024-10-09",
+          "close": 444.79
+        },
+        {
+          "date": "2024-10-10",
+          "close": 449.86
+        },
+        {
+          "date": "2024-10-11",
+          "close": 450.86
+        },
+        {
+          "date": "2024-10-14",
+          "close": 447.48
+        },
+        {
+          "date": "2024-10-15",
+          "close": 449.08
+        },
+        {
+          "date": "2024-10-16",
+          "close": 451.98
+        },
+        {
+          "date": "2024-10-17",
+          "close": 457.14
+        },
+        {
+          "date": "2024-10-18",
+          "close": 456.93
+        },
+        {
+          "date": "2024-10-21",
+          "close": 450.44
+        },
+        {
+          "date": "2024-10-22",
+          "close": 451.59
+        },
+        {
+          "date": "2024-10-23",
+          "close": 450.55
+        },
+        {
+          "date": "2024-10-24",
+          "close": 444.24
+        },
+        {
+          "date": "2024-10-25",
+          "close": 447.5
+        },
+        {
+          "date": "2024-10-28",
+          "close": 444.51
+        },
+        {
+          "date": "2024-10-29",
+          "close": 453.76
+        },
+        {
+          "date": "2024-10-30",
+          "close": 448.75
+        },
+        {
+          "date": "2024-10-31",
+          "close": 447.23
+        },
+        {
+          "date": "2024-11-01",
+          "close": 443.85
+        },
+        {
+          "date": "2024-11-04",
+          "close": 438.72
+        },
+        {
+          "date": "2024-11-05",
+          "close": 434.64
+        },
+        {
+          "date": "2024-11-06",
+          "close": 426.68
+        },
+        {
+          "date": "2024-11-07",
+          "close": 427.11
+        },
+        {
+          "date": "2024-11-08",
+          "close": 426.23
+        },
+        {
+          "date": "2024-11-11",
+          "close": 424.83
+        },
+        {
+          "date": "2024-11-12",
+          "close": 418.93
+        },
+        {
+          "date": "2024-11-13",
+          "close": 415.95
+        },
+        {
+          "date": "2024-11-14",
+          "close": 416.88
+        },
+        {
+          "date": "2024-11-15",
+          "close": 412.39
+        },
+        {
+          "date": "2024-11-18",
+          "close": 413.87
+        },
+        {
+          "date": "2024-11-19",
+          "close": 411.13
+        },
+        {
+          "date": "2024-11-20",
+          "close": 415.21
+        },
+        {
+          "date": "2024-11-21",
+          "close": 414.76
+        },
+        {
+          "date": "2024-11-22",
+          "close": 414.64
+        },
+        {
+          "date": "2024-11-25",
+          "close": 413.8
+        },
+        {
+          "date": "2024-11-26",
+          "close": 415.05
+        },
+        {
+          "date": "2024-11-27",
+          "close": 415.64
+        },
+        {
+          "date": "2024-11-28",
+          "close": 414.32
+        },
+        {
+          "date": "2024-11-29",
+          "close": 409.99
+        },
+        {
+          "date": "2024-12-02",
+          "close": 413.05
+        },
+        {
+          "date": "2024-12-03",
+          "close": 410.05
+        },
+        {
+          "date": "2024-12-04",
+          "close": 408.81
+        },
+        {
+          "date": "2024-12-05",
+          "close": 411.22
+        },
+        {
+          "date": "2024-12-06",
+          "close": 410.7
+        },
+        {
+          "date": "2024-12-09",
+          "close": 415.8
+        },
+        {
+          "date": "2024-12-10",
+          "close": 417.3
+        },
+        {
+          "date": "2024-12-11",
+          "close": 419.87
+        },
+        {
+          "date": "2024-12-12",
+          "close": 421.69
+        },
+        {
+          "date": "2024-12-13",
+          "close": 422.09
+        },
+        {
+          "date": "2024-12-16",
+          "close": 422.67
+        },
+        {
+          "date": "2024-12-17",
+          "close": 421.46
+        },
+        {
+          "date": "2024-12-18",
+          "close": 422.91
+        },
+        {
+          "date": "2024-12-19",
+          "close": 423.54
+        },
+        {
+          "date": "2024-12-20",
+          "close": 424.95
+        },
+        {
+          "date": "2024-12-23",
+          "close": 421.12
+        },
+        {
+          "date": "2024-12-24",
+          "close": 422.18
+        },
+        {
+          "date": "2024-12-25",
+          "close": 418
+        },
+        {
+          "date": "2024-12-26",
+          "close": 414.57
+        },
+        {
+          "date": "2024-12-27",
+          "close": 413.94
+        },
+        {
+          "date": "2024-12-30",
+          "close": 418.06
+        },
+        {
+          "date": "2024-12-31",
+          "close": 417.07
+        },
+        {
+          "date": "2025-01-01",
+          "close": 416.65
+        },
+        {
+          "date": "2025-01-02",
+          "close": 414.03
+        },
+        {
+          "date": "2025-01-03",
+          "close": 417.44
+        },
+        {
+          "date": "2025-01-06",
+          "close": 418.41
+        },
+        {
+          "date": "2025-01-07",
+          "close": 423.76
+        },
+        {
+          "date": "2025-01-08",
+          "close": 420.1
+        },
+        {
+          "date": "2025-01-09",
+          "close": 421.33
+        },
+        {
+          "date": "2025-01-10",
+          "close": 424.15
+        },
+        {
+          "date": "2025-01-13",
+          "close": 425.54
+        },
+        {
+          "date": "2025-01-14",
+          "close": 421.84
+        },
+        {
+          "date": "2025-01-15",
+          "close": 421.4
+        },
+        {
+          "date": "2025-01-16",
+          "close": 425.53
+        },
+        {
+          "date": "2025-01-17",
+          "close": 422.15
+        },
+        {
+          "date": "2025-01-20",
+          "close": 418.27
+        },
+        {
+          "date": "2025-01-21",
+          "close": 418.31
+        },
+        {
+          "date": "2025-01-22",
+          "close": 417.82
+        },
+        {
+          "date": "2025-01-23",
+          "close": 418.06
+        },
+        {
+          "date": "2025-01-24",
+          "close": 419.61
+        },
+        {
+          "date": "2025-01-27",
+          "close": 415.8
+        },
+        {
+          "date": "2025-01-28",
+          "close": 419.77
+        },
+        {
+          "date": "2025-01-29",
+          "close": 411.18
+        },
+        {
+          "date": "2025-01-30",
+          "close": 409.11
+        },
+        {
+          "date": "2025-01-31",
+          "close": 405.64
+        },
+        {
+          "date": "2025-02-03",
+          "close": 404.74
+        },
+        {
+          "date": "2025-02-04",
+          "close": 409.23
+        },
+        {
+          "date": "2025-02-05",
+          "close": 407.45
+        },
+        {
+          "date": "2025-02-06",
+          "close": 408.8
+        },
+        {
+          "date": "2025-02-07",
+          "close": 410.55
+        },
+        {
+          "date": "2025-02-10",
+          "close": 406.31
+        },
+        {
+          "date": "2025-02-11",
+          "close": 404.45
+        },
+        {
+          "date": "2025-02-12",
+          "close": 405.67
+        },
+        {
+          "date": "2025-02-13",
+          "close": 406.82
+        },
+        {
+          "date": "2025-02-14",
+          "close": 406.49
+        },
+        {
+          "date": "2025-02-17",
+          "close": 411.37
+        },
+        {
+          "date": "2025-02-18",
+          "close": 412.94
+        },
+        {
+          "date": "2025-02-19",
+          "close": 410.45
+        },
+        {
+          "date": "2025-02-20",
+          "close": 413.15
+        },
+        {
+          "date": "2025-02-21",
+          "close": 413.59
+        },
+        {
+          "date": "2025-02-24",
+          "close": 414.04
+        },
+        {
+          "date": "2025-02-25",
+          "close": 412.73
+        },
+        {
+          "date": "2025-02-26",
+          "close": 411.27
+        },
+        {
+          "date": "2025-02-27",
+          "close": 409.69
+        },
+        {
+          "date": "2025-02-28",
+          "close": 413.11
+        },
+        {
+          "date": "2025-03-03",
+          "close": 413.06
+        },
+        {
+          "date": "2025-03-04",
+          "close": 416.16
+        },
+        {
+          "date": "2025-03-05",
+          "close": 419.01
+        },
+        {
+          "date": "2025-03-06",
+          "close": 415.21
+        },
+        {
+          "date": "2025-03-07",
+          "close": 409.84
+        },
+        {
+          "date": "2025-03-10",
+          "close": 406.85
+        },
+        {
+          "date": "2025-03-11",
+          "close": 406.52
+        },
+        {
+          "date": "2025-03-12",
+          "close": 407.42
+        },
+        {
+          "date": "2025-03-13",
+          "close": 405.62
+        },
+        {
+          "date": "2025-03-14",
+          "close": 404.78
+        },
+        {
+          "date": "2025-03-17",
+          "close": 403.17
+        },
+        {
+          "date": "2025-03-18",
+          "close": 404.81
+        },
+        {
+          "date": "2025-03-19",
+          "close": 404.7
+        },
+        {
+          "date": "2025-03-20",
+          "close": 405.05
+        },
+        {
+          "date": "2025-03-21",
+          "close": 403.8
+        },
+        {
+          "date": "2025-03-24",
+          "close": 406.84
+        },
+        {
+          "date": "2025-03-25",
+          "close": 403.06
+        },
+        {
+          "date": "2025-03-26",
+          "close": 405.83
+        },
+        {
+          "date": "2025-03-27",
+          "close": 408.52
+        },
+        {
+          "date": "2025-03-28",
+          "close": 409.7
+        },
+        {
+          "date": "2025-03-31",
+          "close": 408.54
+        },
+        {
+          "date": "2025-04-01",
+          "close": 407.25
+        },
+        {
+          "date": "2025-04-02",
+          "close": 409.49
+        },
+        {
+          "date": "2025-04-03",
+          "close": 407.13
+        },
+        {
+          "date": "2025-04-04",
+          "close": 409.8
+        },
+        {
+          "date": "2025-04-07",
+          "close": 410.5
+        },
+        {
+          "date": "2025-04-08",
+          "close": 407.57
+        },
+        {
+          "date": "2025-04-09",
+          "close": 408.85
+        },
+        {
+          "date": "2025-04-10",
+          "close": 406.22
+        },
+        {
+          "date": "2025-04-11",
+          "close": 405.69
+        },
+        {
+          "date": "2025-04-14",
+          "close": 406.73
+        },
+        {
+          "date": "2025-04-15",
+          "close": 401.21
+        },
+        {
+          "date": "2025-04-16",
+          "close": 401.93
+        },
+        {
+          "date": "2025-04-17",
+          "close": 406.26
+        },
+        {
+          "date": "2025-04-18",
+          "close": 411.34
+        },
+        {
+          "date": "2025-04-21",
+          "close": 415.7
+        },
+        {
+          "date": "2025-04-22",
+          "close": 413.34
+        },
+        {
+          "date": "2025-04-23",
+          "close": 409.14
+        },
+        {
+          "date": "2025-04-24",
+          "close": 414.7
+        },
+        {
+          "date": "2025-04-25",
+          "close": 412.83
+        },
+        {
+          "date": "2025-04-28",
+          "close": 403.86
+        },
+        {
+          "date": "2025-04-29",
+          "close": 402.89
+        },
+        {
+          "date": "2025-04-30",
+          "close": 407.15
+        },
+        {
+          "date": "2025-05-01",
+          "close": 400.97
+        },
+        {
+          "date": "2025-05-02",
+          "close": 400.94
+        },
+        {
+          "date": "2025-05-05",
+          "close": 401.77
+        },
+        {
+          "date": "2025-05-06",
+          "close": 401.05
+        },
+        {
+          "date": "2025-05-07",
+          "close": 403.43
+        },
+        {
+          "date": "2025-05-08",
+          "close": 403.28
+        },
+        {
+          "date": "2025-05-09",
+          "close": 401.46
+        },
+        {
+          "date": "2025-05-12",
+          "close": 397.71
+        },
+        {
+          "date": "2025-05-13",
+          "close": 398.89
+        },
+        {
+          "date": "2025-05-14",
+          "close": 395.34
+        },
+        {
+          "date": "2025-05-15",
+          "close": 394.67
+        },
+        {
+          "date": "2025-05-16",
+          "close": 393.01
+        },
+        {
+          "date": "2025-05-19",
+          "close": 393.95
+        },
+        {
+          "date": "2025-05-20",
+          "close": 390.96
+        },
+        {
+          "date": "2025-05-21",
+          "close": 391.88
+        },
+        {
+          "date": "2025-05-22",
+          "close": 393.84
+        },
+        {
+          "date": "2025-05-23",
+          "close": 396.49
+        },
+        {
+          "date": "2025-05-26",
+          "close": 399.78
+        },
+        {
+          "date": "2025-05-27",
+          "close": 402.18
+        },
+        {
+          "date": "2025-05-28",
+          "close": 401.06
+        },
+        {
+          "date": "2025-05-29",
+          "close": 404.58
+        },
+        {
+          "date": "2025-05-30",
+          "close": 408.88
+        },
+        {
+          "date": "2025-06-02",
+          "close": 407.53
+        },
+        {
+          "date": "2025-06-03",
+          "close": 414.28
+        },
+        {
+          "date": "2025-06-04",
+          "close": 418.74
+        },
+        {
+          "date": "2025-06-05",
+          "close": 420.99
+        },
+        {
+          "date": "2025-06-06",
+          "close": 420.41
+        },
+        {
+          "date": "2025-06-09",
+          "close": 420.51
+        },
+        {
+          "date": "2025-06-10",
+          "close": 423.24
+        },
+        {
+          "date": "2025-06-11",
+          "close": 425.48
+        },
+        {
+          "date": "2025-06-12",
+          "close": 426.91
+        },
+        {
+          "date": "2025-06-13",
+          "close": 433.56
+        },
+        {
+          "date": "2025-06-16",
+          "close": 433.12
+        },
+        {
+          "date": "2025-06-17",
+          "close": 436.43
+        },
+        {
+          "date": "2025-06-18",
+          "close": 431.89
+        },
+        {
+          "date": "2025-06-19",
+          "close": 430.5
+        },
+        {
+          "date": "2025-06-20",
+          "close": 433.29
+        },
+        {
+          "date": "2025-06-23",
+          "close": 431.58
+        },
+        {
+          "date": "2025-06-24",
+          "close": 425.56
+        },
+        {
+          "date": "2025-06-25",
+          "close": 429.34
+        },
+        {
+          "date": "2025-06-26",
+          "close": 431.63
+        },
+        {
+          "date": "2025-06-27",
+          "close": 429.96
+        },
+        {
+          "date": "2025-06-30",
+          "close": 427.65
+        },
+        {
+          "date": "2025-07-01",
+          "close": 427.46
+        },
+        {
+          "date": "2025-07-02",
+          "close": 424.83
+        },
+        {
+          "date": "2025-07-03",
+          "close": 426.07
+        },
+        {
+          "date": "2025-07-04",
+          "close": 428.36
+        },
+        {
+          "date": "2025-07-07",
+          "close": 429.57
+        },
+        {
+          "date": "2025-07-08",
+          "close": 429.37
+        },
+        {
+          "date": "2025-07-09",
+          "close": 429.47
+        },
+        {
+          "date": "2025-07-10",
+          "close": 426.2
+        },
+        {
+          "date": "2025-07-11",
+          "close": 427.02
+        },
+        {
+          "date": "2025-07-14",
+          "close": 420.72
+        },
+        {
+          "date": "2025-07-15",
+          "close": 420.72
+        },
+        {
+          "date": "2025-07-16",
+          "close": 425.15
+        },
+        {
+          "date": "2025-07-17",
+          "close": 423.77
+        },
+        {
+          "date": "2025-07-18",
+          "close": 426.89
+        },
+        {
+          "date": "2025-07-21",
+          "close": 423.13
+        },
+        {
+          "date": "2025-07-22",
+          "close": 421.91
+        },
+        {
+          "date": "2025-07-23",
+          "close": 423.85
+        },
+        {
+          "date": "2025-07-24",
+          "close": 422.84
+        },
+        {
+          "date": "2025-07-25",
+          "close": 423.49
+        },
+        {
+          "date": "2025-07-28",
+          "close": 418.72
+        },
+        {
+          "date": "2025-07-29",
+          "close": 416.78
+        },
+        {
+          "date": "2025-07-30",
+          "close": 417.04
+        },
+        {
+          "date": "2025-07-31",
+          "close": 421.29
+        },
+        {
+          "date": "2025-08-01",
+          "close": 416.09
+        },
+        {
+          "date": "2025-08-04",
+          "close": 416.97
+        },
+        {
+          "date": "2025-08-05",
+          "close": 415.96
+        },
+        {
+          "date": "2025-08-06",
+          "close": 414.2
+        },
+        {
+          "date": "2025-08-07",
+          "close": 413.59
+        },
+        {
+          "date": "2025-08-08",
+          "close": 417.15
+        },
+        {
+          "date": "2025-08-11",
+          "close": 412.89
+        },
+        {
+          "date": "2025-08-12",
+          "close": 411.63
+        },
+        {
+          "date": "2025-08-13",
+          "close": 402.02
+        },
+        {
+          "date": "2025-08-14",
+          "close": 400.7
+        },
+        {
+          "date": "2025-08-15",
+          "close": 397.11
+        },
+        {
+          "date": "2025-08-18",
+          "close": 397.34
+        },
+        {
+          "date": "2025-08-19",
+          "close": 397.77
+        },
+        {
+          "date": "2025-08-20",
+          "close": 399.91
+        },
+        {
+          "date": "2025-08-21",
+          "close": 401.63
+        },
+        {
+          "date": "2025-08-22",
+          "close": 405.69
+        },
+        {
+          "date": "2025-08-25",
+          "close": 401.5
+        },
+        {
+          "date": "2025-08-26",
+          "close": 402.7
+        },
+        {
+          "date": "2025-08-27",
+          "close": 400.11
+        },
+        {
+          "date": "2025-08-28",
+          "close": 398.12
+        },
+        {
+          "date": "2025-08-29",
+          "close": 396.76
+        },
+        {
+          "date": "2025-09-01",
+          "close": 393.98
+        },
+        {
+          "date": "2025-09-02",
+          "close": 393.42
+        },
+        {
+          "date": "2025-09-03",
+          "close": 395.39
+        },
+        {
+          "date": "2025-09-04",
+          "close": 398.56
+        },
+        {
+          "date": "2025-09-05",
+          "close": 400.85
+        },
+        {
+          "date": "2025-09-08",
+          "close": 405.74
+        },
+        {
+          "date": "2025-09-09",
+          "close": 409.22
+        },
+        {
+          "date": "2025-09-10",
+          "close": 408.66
+        },
+        {
+          "date": "2025-09-11",
+          "close": 408.34
+        },
+        {
+          "date": "2025-09-12",
+          "close": 406.09
+        },
+        {
+          "date": "2025-09-15",
+          "close": 405.77
+        },
+        {
+          "date": "2025-09-16",
+          "close": 410.87
+        },
+        {
+          "date": "2025-09-17",
+          "close": 410.76
+        },
+        {
+          "date": "2025-09-18",
+          "close": 408.83
+        },
+        {
+          "date": "2025-09-19",
+          "close": 407.95
+        },
+        {
+          "date": "2025-09-22",
+          "close": 407.28
+        },
+        {
+          "date": "2025-09-23",
+          "close": 413.08
+        },
+        {
+          "date": "2025-09-24",
+          "close": 415
+        },
+        {
+          "date": "2025-09-25",
+          "close": 411.8
+        },
+        {
+          "date": "2025-09-26",
+          "close": 411.73
+        },
+        {
+          "date": "2025-09-29",
+          "close": 416.23
+        },
+        {
+          "date": "2025-09-30",
+          "close": 419.45
+        },
+        {
+          "date": "2025-10-01",
+          "close": 419.43
+        },
+        {
+          "date": "2025-10-02",
+          "close": 420.24
+        },
+        {
+          "date": "2025-10-03",
+          "close": 422.3
+        },
+        {
+          "date": "2025-10-06",
+          "close": 423.48
+        },
+        {
+          "date": "2025-10-07",
+          "close": 421.93
+        },
+        {
+          "date": "2025-10-08",
+          "close": 419.56
+        },
+        {
+          "date": "2025-10-09",
+          "close": 420.42
+        },
+        {
+          "date": "2025-10-10",
+          "close": 417.56
+        },
+        {
+          "date": "2025-10-13",
+          "close": 427.07
+        },
+        {
+          "date": "2025-10-14",
+          "close": 423.89
+        },
+        {
+          "date": "2025-10-15",
+          "close": 425.1
+        },
+        {
+          "date": "2025-10-16",
+          "close": 424.88
+        },
+        {
+          "date": "2025-10-17",
+          "close": 425.49
+        },
+        {
+          "date": "2025-10-20",
+          "close": 421.52
+        },
+        {
+          "date": "2025-10-21",
+          "close": 422.86
+        },
+        {
+          "date": "2025-10-22",
+          "close": 419.97
+        },
+        {
+          "date": "2025-10-23",
+          "close": 421.78
+        },
+        {
+          "date": "2025-10-24",
+          "close": 420.83
+        },
+        {
+          "date": "2025-10-27",
+          "close": 423.58
+        },
+        {
+          "date": "2025-10-28",
+          "close": 421.7
+        },
+        {
+          "date": "2025-10-29",
+          "close": 421.56
+        },
+        {
+          "date": "2025-10-30",
+          "close": 421.97
+        },
+        {
+          "date": "2025-10-31",
+          "close": 423.02
+        },
+        {
+          "date": "2025-11-03",
+          "close": 421.29
+        },
+        {
+          "date": "2025-11-04",
+          "close": 418.69
+        },
+        {
+          "date": "2025-11-05",
+          "close": 421.52
+        },
+        {
+          "date": "2025-11-06",
+          "close": 424.25
+        },
+        {
+          "date": "2025-11-07",
+          "close": 426.82
+        },
+        {
+          "date": "2025-11-10",
+          "close": 424.81
+        },
+        {
+          "date": "2025-11-11",
+          "close": 421.38
+        },
+        {
+          "date": "2025-11-12",
+          "close": 417.57
+        },
+        {
+          "date": "2025-11-13",
+          "close": 418.12
+        },
+        {
+          "date": "2025-11-14",
+          "close": 420.37
+        },
+        {
+          "date": "2025-11-17",
+          "close": 421.9
+        },
+        {
+          "date": "2025-11-18",
+          "close": 420.41
+        },
+        {
+          "date": "2025-11-19",
+          "close": 420.5
+        },
+        {
+          "date": "2025-11-20",
+          "close": 423.79
+        },
+        {
+          "date": "2025-11-21",
+          "close": 424.65
+        },
+        {
+          "date": "2025-11-24",
+          "close": 421.63
+        },
+        {
+          "date": "2025-11-25",
+          "close": 421.28
+        },
+        {
+          "date": "2025-11-26",
+          "close": 426.9
+        },
+        {
+          "date": "2025-11-27",
+          "close": 427.85
+        },
+        {
+          "date": "2025-11-28",
+          "close": 428.45
+        },
+        {
+          "date": "2025-12-01",
+          "close": 428.46
+        },
+        {
+          "date": "2025-12-02",
+          "close": 428.46
+        },
+        {
+          "date": "2025-12-03",
+          "close": 431.23
+        },
+        {
+          "date": "2025-12-04",
+          "close": 435.85
+        },
+        {
+          "date": "2025-12-05",
+          "close": 429.41
+        },
+        {
+          "date": "2025-12-08",
+          "close": 432.42
+        },
+        {
+          "date": "2025-12-09",
+          "close": 434.54
+        },
+        {
+          "date": "2025-12-10",
+          "close": 434.26
+        },
+        {
+          "date": "2025-12-11",
+          "close": 435.45
+        },
+        {
+          "date": "2025-12-12",
+          "close": 429.05
+        },
+        {
+          "date": "2025-12-15",
+          "close": 430.9
+        },
+        {
+          "date": "2025-12-16",
+          "close": 430
+        },
+        {
+          "date": "2025-12-17",
+          "close": 430.32
+        },
+        {
+          "date": "2025-12-18",
+          "close": 433.05
+        },
+        {
+          "date": "2025-12-19",
+          "close": 437.02
+        },
+        {
+          "date": "2025-12-22",
+          "close": 435.18
+        },
+        {
+          "date": "2025-12-23",
+          "close": 437.36
+        },
+        {
+          "date": "2025-12-24",
+          "close": 436.61
+        },
+        {
+          "date": "2025-12-25",
+          "close": 432.42
+        },
+        {
+          "date": "2025-12-26",
+          "close": 426.57
+        },
+        {
+          "date": "2025-12-29",
+          "close": 427.79
+        },
+        {
+          "date": "2025-12-30",
+          "close": 426
+        },
+        {
+          "date": "2025-12-31",
+          "close": 425.29
+        },
+        {
+          "date": "2026-01-01",
+          "close": 428.22
+        },
+        {
+          "date": "2026-01-02",
+          "close": 428.01
+        },
+        {
+          "date": "2026-01-05",
+          "close": 433.46
+        },
+        {
+          "date": "2026-01-06",
+          "close": 431.29
+        },
+        {
+          "date": "2026-01-07",
+          "close": 432.62
+        },
+        {
+          "date": "2026-01-08",
+          "close": 433.22
+        },
+        {
+          "date": "2026-01-09",
+          "close": 434.51
+        },
+        {
+          "date": "2026-01-12",
+          "close": 430.97
+        },
+        {
+          "date": "2026-01-13",
+          "close": 428.64
+        },
+        {
+          "date": "2026-01-14",
+          "close": 429.79
+        },
+        {
+          "date": "2026-01-15",
+          "close": 425.02
+        },
+        {
+          "date": "2026-01-16",
+          "close": 425.59
+        },
+        {
+          "date": "2026-01-19",
+          "close": 423.22
+        },
+        {
+          "date": "2026-01-20",
+          "close": 425.32
+        },
+        {
+          "date": "2026-01-21",
+          "close": 434.71
+        },
+        {
+          "date": "2026-01-22",
+          "close": 437.58
+        },
+        {
+          "date": "2026-01-23",
+          "close": 434.92
+        },
+        {
+          "date": "2026-01-26",
+          "close": 437.43
+        },
+        {
+          "date": "2026-01-27",
+          "close": 436.25
+        },
+        {
+          "date": "2026-01-28",
+          "close": 433.13
+        },
+        {
+          "date": "2026-01-29",
+          "close": 436.58
+        },
+        {
+          "date": "2026-01-30",
+          "close": 440.29
+        },
+        {
+          "date": "2026-02-02",
+          "close": 436.92
+        },
+        {
+          "date": "2026-02-03",
+          "close": 434.42
+        },
+        {
+          "date": "2026-02-04",
+          "close": 434.35
+        },
+        {
+          "date": "2026-02-05",
+          "close": 438.43
+        },
+        {
+          "date": "2026-02-06",
+          "close": 440.23
+        },
+        {
+          "date": "2026-02-09",
+          "close": 440.14
+        },
+        {
+          "date": "2026-02-10",
+          "close": 436.86
+        },
+        {
+          "date": "2026-02-11",
+          "close": 436.83
+        },
+        {
+          "date": "2026-02-12",
+          "close": 436.8
+        },
+        {
+          "date": "2026-02-13",
+          "close": 439.34
+        },
+        {
+          "date": "2026-02-16",
+          "close": 442.83
+        },
+        {
+          "date": "2026-02-17",
+          "close": 441.91
+        },
+        {
+          "date": "2026-02-18",
+          "close": 438.01
+        },
+        {
+          "date": "2026-02-19",
+          "close": 437.19
+        },
+        {
+          "date": "2026-02-20",
+          "close": 442.14
+        },
+        {
+          "date": "2026-02-23",
+          "close": 438.57
+        },
+        {
+          "date": "2026-02-24",
+          "close": 438.37
+        },
+        {
+          "date": "2026-02-25",
+          "close": 434.86
+        },
+        {
+          "date": "2026-02-26",
+          "close": 439
+        },
+        {
+          "date": "2026-02-27",
+          "close": 439.91
+        },
+        {
+          "date": "2026-03-02",
+          "close": 442.03
+        },
+        {
+          "date": "2026-03-03",
+          "close": 441.89
+        },
+        {
+          "date": "2026-03-04",
+          "close": 446.16
+        },
+        {
+          "date": "2026-03-05",
+          "close": 446.4
+        },
+        {
+          "date": "2026-03-06",
+          "close": 444.87
+        },
+        {
+          "date": "2026-03-09",
+          "close": 442.95
+        },
+        {
+          "date": "2026-03-10",
+          "close": 441.88
+        },
+        {
+          "date": "2026-03-11",
+          "close": 439.55
+        },
+        {
+          "date": "2026-03-12",
+          "close": 439.19
+        },
+        {
+          "date": "2026-03-13",
+          "close": 435.54
+        },
+        {
+          "date": "2026-03-16",
+          "close": 433.61
+        },
+        {
+          "date": "2026-03-17",
+          "close": 433.71
+        },
+        {
+          "date": "2026-03-18",
+          "close": 433.81
+        },
+        {
+          "date": "2026-03-19",
+          "close": 435.13
+        },
+        {
+          "date": "2026-03-20",
+          "close": 438.64
+        },
+        {
+          "date": "2026-03-23",
+          "close": 440.76
+        },
+        {
+          "date": "2026-03-24",
+          "close": 437.42
+        },
+        {
+          "date": "2026-03-25",
+          "close": 435.89
+        },
+        {
+          "date": "2026-03-26",
+          "close": 434.08
+        },
+        {
+          "date": "2026-03-27",
+          "close": 437.26
+        },
+        {
+          "date": "2026-03-30",
+          "close": 439.21
+        },
+        {
+          "date": "2026-03-31",
+          "close": 438.79
+        },
+        {
+          "date": "2026-04-01",
+          "close": 439.65
+        },
+        {
+          "date": "2026-04-02",
+          "close": 438.54
+        },
+        {
+          "date": "2026-04-03",
+          "close": 439.42
+        },
+        {
+          "date": "2026-04-06",
+          "close": 438.75
+        },
+        {
+          "date": "2026-04-07",
+          "close": 438.04
+        },
+        {
+          "date": "2026-04-08",
+          "close": 434.43
+        },
+        {
+          "date": "2026-04-09",
+          "close": 434.73
+        },
+        {
+          "date": "2026-04-10",
+          "close": 435.88
+        },
+        {
+          "date": "2026-04-13",
+          "close": 435.62
+        },
+        {
+          "date": "2026-04-14",
+          "close": 437.02
+        },
+        {
+          "date": "2026-04-15",
+          "close": 434.93
+        },
+        {
+          "date": "2026-04-16",
+          "close": 440.36
+        },
+        {
+          "date": "2026-04-17",
+          "close": 441.5
+        },
+        {
+          "date": "2026-04-20",
+          "close": 440.5
+        },
+        {
+          "date": "2026-04-21",
+          "close": 440.03
+        },
+        {
+          "date": "2026-04-22",
+          "close": 443.38
+        },
+        {
+          "date": "2026-04-23",
+          "close": 446.3
+        },
+        {
+          "date": "2026-04-24",
+          "close": 443.43
+        },
+        {
+          "date": "2026-04-27",
+          "close": 437.67
+        },
+        {
+          "date": "2026-04-28",
+          "close": 436.44
+        },
+        {
+          "date": "2026-04-29",
+          "close": 436.84
+        },
+        {
+          "date": "2026-04-30",
+          "close": 436.96
+        },
+        {
+          "date": "2026-05-01",
+          "close": 440.76
+        },
+        {
+          "date": "2026-05-04",
+          "close": 442.06
+        },
+        {
+          "date": "2026-05-05",
+          "close": 444.06
+        },
+        {
+          "date": "2026-05-06",
+          "close": 447.68
+        },
+        {
+          "date": "2026-05-07",
+          "close": 440.86
+        },
+        {
+          "date": "2026-05-08",
+          "close": 441.39
+        },
+        {
+          "date": "2026-05-11",
+          "close": 439.61
+        },
+        {
+          "date": "2026-05-12",
+          "close": 437.06
+        },
+        {
+          "date": "2026-05-13",
+          "close": 442.69
+        },
+        {
+          "date": "2026-05-14",
+          "close": 439.09
+        },
+        {
+          "date": "2026-05-15",
+          "close": 436.73
+        },
+        {
+          "date": "2026-05-18",
+          "close": 436.49
+        },
+        {
+          "date": "2026-05-19",
+          "close": 438.49
+        },
+        {
+          "date": "2026-05-20",
+          "close": 436.56
+        },
+        {
+          "date": "2026-05-21",
+          "close": 442.07
+        },
+        {
+          "date": "2026-05-22",
+          "close": 440.48
+        },
+        {
+          "date": "2026-05-25",
+          "close": 446.1
+        },
+        {
+          "date": "2026-05-26",
+          "close": 439.46
+        },
+        {
+          "date": "2026-05-27",
+          "close": 436.43
+        },
+        {
+          "date": "2026-05-28",
+          "close": 437.11
+        },
+        {
+          "date": "2026-05-29",
+          "close": 437.64
+        },
+        {
+          "date": "2026-06-01",
+          "close": 438.02
+        },
+        {
+          "date": "2026-06-02",
+          "close": 441.37
+        },
+        {
+          "date": "2026-06-03",
+          "close": 442.93
+        },
+        {
+          "date": "2026-06-04",
+          "close": 438.78
+        },
+        {
+          "date": "2026-06-05",
+          "close": 440.95
+        },
+        {
+          "date": "2026-06-08",
+          "close": 442.84
+        },
+        {
+          "date": "2026-06-09",
+          "close": 444.29
+        },
+        {
+          "date": "2026-06-10",
+          "close": 446.22
+        },
+        {
+          "date": "2026-06-11",
+          "close": 444.38
+        },
+        {
+          "date": "2026-06-12",
+          "close": 446.9
+        },
+        {
+          "date": "2026-06-15",
+          "close": 445.97
+        },
+        {
+          "date": "2026-06-16",
+          "close": 447.34
+        },
+        {
+          "date": "2026-06-17",
+          "close": 449.1
+        },
+        {
+          "date": "2026-06-18",
+          "close": 444.8
+        },
+        {
+          "date": "2026-06-19",
+          "close": 439.23
+        },
+        {
+          "date": "2026-06-22",
+          "close": 432.97
+        },
+        {
+          "date": "2026-06-23",
+          "close": 432.43
+        },
+        {
+          "date": "2026-06-24",
+          "close": 434.97
+        },
+        {
+          "date": "2026-06-25",
+          "close": 434.5
+        },
+        {
+          "date": "2026-06-26",
+          "close": 431.77
+        },
+        {
+          "date": "2026-06-29",
+          "close": 432.79
+        },
+        {
+          "date": "2026-06-30",
+          "close": 436.21
+        },
+        {
+          "date": "2026-07-01",
+          "close": 439.58
+        },
+        {
+          "date": "2026-07-02",
+          "close": 437.56
+        },
+        {
+          "date": "2026-07-03",
+          "close": 440.53
+        },
+        {
+          "date": "2026-07-06",
+          "close": 441.77
+        },
+        {
+          "date": "2026-07-07",
+          "close": 440.55
+        },
+        {
+          "date": "2026-07-08",
+          "close": 441.91
+        },
+        {
+          "date": "2026-07-09",
+          "close": 443.76
+        },
+        {
+          "date": "2026-07-10",
+          "close": 445.07
+        },
+        {
+          "date": "2026-07-13",
+          "close": 443.43
+        },
+        {
+          "date": "2026-07-14",
+          "close": 445.06
+        },
+        {
+          "date": "2026-07-15",
+          "close": 448.76
+        },
+        {
+          "date": "2026-07-16",
+          "close": 446.84
+        },
+        {
+          "date": "2026-07-17",
+          "close": 443.8
+        },
+        {
+          "date": "2026-07-20",
+          "close": 440.04
+        },
+        {
+          "date": "2026-07-21",
+          "close": 441.51
+        },
+        {
+          "date": "2026-07-22",
+          "close": 442.32
+        },
+        {
+          "date": "2026-07-23",
+          "close": 446.04
+        },
+        {
+          "date": "2026-07-24",
+          "close": 443.73
+        },
+        {
+          "date": "2026-07-27",
+          "close": 440.86
+        },
+        {
+          "date": "2026-07-28",
+          "close": 443.2
+        },
+        {
+          "date": "2026-07-29",
+          "close": 438.61
+        },
+        {
+          "date": "2026-07-30",
+          "close": 439.85
+        },
+        {
+          "date": "2026-07-31",
+          "close": 444.01
+        },
+        {
+          "date": "2026-08-03",
+          "close": 441.52
+        },
+        {
+          "date": "2026-08-04",
+          "close": 440.72
+        },
+        {
+          "date": "2026-08-05",
+          "close": 441.54
+        },
+        {
+          "date": "2026-08-06",
+          "close": 439.13
+        },
+        {
+          "date": "2026-08-07",
+          "close": 439.5
+        },
+        {
+          "date": "2026-08-10",
+          "close": 439.33
+        },
+        {
+          "date": "2026-08-11",
+          "close": 434.39
+        },
+        {
+          "date": "2026-08-12",
+          "close": 431.6
+        },
+        {
+          "date": "2026-08-13",
+          "close": 432.01
+        },
+        {
+          "date": "2026-08-14",
+          "close": 429.56
+        },
+        {
+          "date": "2026-08-17",
+          "close": 427.62
+        },
+        {
+          "date": "2026-08-18",
+          "close": 431.32
+        },
+        {
+          "date": "2026-08-19",
+          "close": 429.59
+        },
+        {
+          "date": "2026-08-20",
+          "close": 429.32
+        },
+        {
+          "date": "2026-08-21",
+          "close": 441.43
+        },
+        {
+          "date": "2026-08-24",
+          "close": 437.62
+        },
+        {
+          "date": "2026-08-25",
+          "close": 442.73
+        },
+        {
+          "date": "2026-08-26",
+          "close": 448.13
+        },
+        {
+          "date": "2026-08-27",
+          "close": 448.06
+        },
+        {
+          "date": "2026-08-28",
+          "close": 448.92
+        },
+        {
+          "date": "2026-08-31",
+          "close": 449.13
+        },
+        {
+          "date": "2026-09-01",
+          "close": 446.02
+        },
+        {
+          "date": "2026-09-02",
+          "close": 447.55
+        },
+        {
+          "date": "2026-09-03",
+          "close": 445.86
+        },
+        {
+          "date": "2026-09-04",
+          "close": 446.03
+        },
+        {
+          "date": "2026-09-07",
+          "close": 446.37
+        },
+        {
+          "date": "2026-09-08",
+          "close": 445.8
+        },
+        {
+          "date": "2026-09-09",
+          "close": 448.05
+        },
+        {
+          "date": "2026-09-10",
+          "close": 437.82
+        },
+        {
+          "date": "2026-09-11",
+          "close": 440.29
+        },
+        {
+          "date": "2026-09-14",
+          "close": 442.23
+        },
+        {
+          "date": "2026-09-15",
+          "close": 438.89
+        },
+        {
+          "date": "2026-09-16",
+          "close": 432.58
+        },
+        {
+          "date": "2026-09-17",
+          "close": 435.03
+        },
+        {
+          "date": "2026-09-18",
+          "close": 438.21
+        },
+        {
+          "date": "2026-09-21",
+          "close": 438.87
+        },
+        {
+          "date": "2026-09-22",
+          "close": 434.44
+        },
+        {
+          "date": "2026-09-23",
+          "close": 434.11
+        },
+        {
+          "date": "2026-09-24",
+          "close": 435.12
+        },
+        {
+          "date": "2026-09-25",
+          "close": 437
+        },
+        {
+          "date": "2026-09-28",
+          "close": 440.88
+        },
+        {
+          "date": "2026-09-29",
+          "close": 439.33
+        },
+        {
+          "date": "2026-09-30",
+          "close": 439.72
+        },
+        {
+          "date": "2026-10-01",
+          "close": 438.76
+        },
+        {
+          "date": "2026-10-02",
+          "close": 443.9
+        },
+        {
+          "date": "2026-10-05",
+          "close": 442.97
+        },
+        {
+          "date": "2026-10-06",
+          "close": 443.96
+        },
+        {
+          "date": "2026-10-07",
+          "close": 436.61
+        },
+        {
+          "date": "2026-10-08",
+          "close": 431.28
+        },
+        {
+          "date": "2026-10-09",
+          "close": 430.52
+        },
+        {
+          "date": "2026-10-12",
+          "close": 423.69
+        },
+        {
+          "date": "2026-10-13",
+          "close": 418.95
+        },
+        {
+          "date": "2026-10-14",
+          "close": 418.2
+        },
+        {
+          "date": "2026-10-15",
+          "close": 415.76
+        },
+        {
+          "date": "2026-10-16",
+          "close": 411.93
+        },
+        {
+          "date": "2026-10-19",
+          "close": 412.18
+        },
+        {
+          "date": "2026-10-20",
+          "close": 412.97
+        },
+        {
+          "date": "2026-10-21",
+          "close": 410.64
+        },
+        {
+          "date": "2026-10-22",
+          "close": 410.98
+        },
+        {
+          "date": "2026-10-23",
+          "close": 414.85
+        },
+        {
+          "date": "2026-10-26",
+          "close": 411.93
+        },
+        {
+          "date": "2026-10-27",
+          "close": 413.87
+        },
+        {
+          "date": "2026-10-28",
+          "close": 411.78
+        },
+        {
+          "date": "2026-10-29",
+          "close": 409.46
+        },
+        {
+          "date": "2026-10-30",
+          "close": 410.31
+        },
+        {
+          "date": "2026-11-02",
+          "close": 411.78
+        },
+        {
+          "date": "2026-11-03",
+          "close": 412.04
+        },
+        {
+          "date": "2026-11-04",
+          "close": 413.38
+        },
+        {
+          "date": "2026-11-05",
+          "close": 414.9
+        },
+        {
+          "date": "2026-11-06",
+          "close": 408.23
+        },
+        {
+          "date": "2026-11-09",
+          "close": 410.98
+        }
+      ],
+      "first": "2023-11-09",
+      "last": "2026-11-09",
+      "source": "本地固定种子生成的构造序列（非市场报价）",
+      "sha256": "eacd9316ea863d50c1392e85212bea3847f4d027e2f75c91369ef692c2b7283b",
+      "limitations": "构造演示价格；不是实际历史行情，不代表真实资产表现，不应用于投资决策。日期轴也不是交易所交易日历。",
+      "synthetic": true
+    }
+  },
+  "latestCheck": {
+    "status": "not_applicable",
+    "note": "构造样例没有市场数据供应商，也没有实时更新任务。"
+  },
+  "rights": "事件条目保留来源链接和逐条核查状态。行情是由本仓库脚本生成的构造演示值，不是供应商数据或真实历史行情。",
+  "offlineAI": "Codex / Luna 参与资料整理；Codex 完成下列逐类预研片段。网页按选中案例和实际计算结果组装报告，不发起模型请求。",
+  "notes": {
+    "cnpolicy": {
+      "shared": "依据事件主体、政策工具、行动方向与阶段寻找候选。相同工具优先；不同工具的关联案例单独标明局限。",
+      "difference": "同工具仍需核对期限、幅度、对象与宏观背景；跨工具只提供研究线索，不能视作同一种政策效果。",
+      "hypothesis": "不同货币政策工具可能经融资成本、流动性或信用供给传导；当前材料没有验证传导或剥离同期因素。"
+    },
+    "fed": {
+      "shared": "同为FOMC利率决定，并匹配下调或维持方向；不混合讲话、纪要与正式决议。",
+      "difference": "需核对各次决议的调整幅度、目标区间以及就业和通胀背景；相同方向不能视作同一政策阶段。",
+      "hypothesis": "利率路径可能与美元、实际利率及风险偏好共同作用。人民币黄金同时受人民币汇率影响，本产品未分解这些因素。"
+    },
+    "cpi": {
+      "shared": "围绕通胀与价格研究主题找可追溯的指标发布。共同指标优先，并显示查询与候选分别包含CPI、PPI中的哪些内容。",
+      "difference": "CPI观察消费端，PPI观察工业出厂端。联合发布与单项发布覆盖范围不同；跨指标只是相关价格观察，不能把数值、同比方向或资产反应等同。",
+      "hypothesis": "消费与工业价格的分化可能提示不同的需求、成本或基数变化，需要进一步验证。尚无统一预期值，不能计算预期差或直接归因市场涨跌。"
+    }
+  },
+  "marketDataMode": {
+    "type": "synthetic_demo",
+    "generated_by": "backend/scripts/build-synthetic-market.cjs",
+    "notice": "构造演示价格；不是实际历史行情，不代表真实资产表现，不应用于投资决策。日期轴也不是交易所交易日历。",
+    "series_specs": {
+      "equity": {
+        "name": "上证指数示意",
+        "unit": "指数点（演示刻度）",
+        "initial": 3200,
+        "seed": 439041101,
+        "daily_volatility": 0.008
+      },
+      "gold": {
+        "name": "黄金价格示意",
+        "unit": "元/克（演示刻度）",
+        "initial": 520,
+        "seed": 1592629657,
+        "daily_volatility": 0.007
+      }
+    },
+    "relation_to_events": "价格变化由独立固定种子生成，与事件日期、事件类型和事件结果无关。"
+  }
+}

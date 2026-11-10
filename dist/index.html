@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="以事为镜：从事件事实出发，对照可追溯历史案例、上证与黄金构造示意，形成一份有边界的研究记录。">
+  <meta name="theme-color" content="#101112">
+  <title>以事为镜 · Event Lens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="./"><span class="brand-icon">◈</span> 以事为镜 <small>EVENT LENS</small></a>
+</header>
+<main>
+  <section class="intro">
+    <div>
+      <div class="eyebrow">从一件事，看到历史中的相似与不同</div>
+      <h1>事件之后，<em>先找证据。</em></h1>
+      <p>核对事实，挑选历史对照，看事件前后的示意价格路径。<br>把相似性当作研究起点，把差异和未知留在结论里。</p>
+    </div>
+    <aside class="intro-aside"><span class="big-number" id="eventCount">—</span><div>个事件节点<br>上证与黄金 · 构造行情演示</div></aside>
+  </section>
+  <nav class="steps" aria-label="研究步骤">
+    <a class="step active" href="#workspace" aria-current="step"><span>01</span> 选择与确认</a>
+    <a class="step" href="#step-cases"><span>02</span> 筛选历史案例</a>
+    <a class="step" href="#step-prices"><span>03</span> 走势比较</a>
+    <a class="step" href="#step-report"><span>04</span> 解读与导出</a>
+  </nav>
+  <div id="loading" role="status" class="panel">正在读取研究资料…</div>
+  <div id="error" role="alert" hidden class="panel error"></div>
+  <div id="workspace" hidden class="layout">
+    <aside class="catalogue panel">
+      <div class="section-heading"><span class="index">01</span><h2>选择一件事</h2></div>
+      <p class="muted">沿时间轴选择事件，查看它的历史对照。</p>
+      <label class="search-label">搜索事件<input id="search" type="search" placeholder="日期、主体、政策或价格指标…"></label>
+      <div class="timeline-filter"><label>按月查看<input id="timelineMonth" type="month" min="2023-11" max="2026-11"></label><button id="clearTimeline" class="quiet" type="button">全部</button></div>
+      <div class="catalogue-note">2023.11.09—2026.11.09 范围内部分样本<br><span id="poolCount"></span></div>
+      <div id="events" class="event-list" aria-label="事件时间轴"></div>
+    </aside>
+    <div class="research">
+      <section class="panel event-fact">
+        <div class="section-heading"><span class="index">事实卡</span><span id="verification" class="tag"></span></div>
+        <h2 id="eventTitle"></h2><p id="fact" class="fact-text"></p>
+        <div id="eventMeta" class="meta-grid"></div>
+        <details id="sourceDetails"><summary>检查原始来源与日期依据 <span id="sourceCount"></span></summary><div id="sources"></div></details>
+        <div class="confirm-row"><label><input id="confirm" type="checkbox"> 我已检查事件事实与日期说明，继续做历史对照</label></div>
+      </section>
+      <section class="panel" id="step-cases">
+        <div class="section-heading"><span class="index">02</span><h2>选择历史对照</h2><span id="caseCount" class="tag"></span></div>
+        <p class="muted">先从事件材料识别主体、指标/工具和研究主题；同口径案例优先，覆盖范围不同或仅主题相关的案例会注明差异。保留自然标题，不按事后涨跌筛选。</p>
+        <div id="cases" class="case-grid"></div>
+        <details class="small-details"><summary>查看未入选的相关记录</summary><div id="rejected"></div></details>
+      </section>
+      <section class="panel" id="step-prices">
+        <div class="section-heading"><span class="index">03</span><h2>对照价格路径</h2></div>
+        <aside class="synthetic-banner" role="note"><strong>构造演示行情</strong><span>价格由固定随机种子生成，与真实行情、真实交易日历和具体事件均无关。此图只演示日期对齐和收益计算，不代表历史资产表现。</span></aside>
+        <div class="chart-controls">
+          <div id="assets" class="segmented" role="group" aria-label="构造数据示意主题"><button data-asset="equity" class="selected">上证指数示意</button><button data-asset="gold">黄金示意</button></div>
+          <label>后续观察<select id="window"><option value="1">1 个演示点</option><option value="5">5 个演示点</option><option value="20" selected>20 个演示点</option></select></label>
+        </div>
+        <p id="priceMeta" class="muted"></p><div id="legend" class="legend"></div>
+        <div id="chart" class="chart" aria-label="构造演示价格路径，仅检查窗口计算，不是真实行情"></div>
+        <div class="table-wrap"><table><caption>确定性计算 · 构造数据的简单累计变化</caption><thead><tr><th>事件 / 记录日</th><th>基准演示值</th><th>终点演示值</th><th>演算变化</th><th>状态</th></tr></thead><tbody id="metrics"></tbody></table></div>
+        <details class="small-details"><summary>计算口径、日期对齐与数据缺口</summary><p>观察起点为记录的公告/事件日次日，演示序列取该日或之后的首个工作日数据。基准为起点之前的最后一个构造值；N为后续构造点数量。变化=(终点值÷基准值−1)×100%。前置图最多展示20个点，基准归零。两个数值序列均由固定随机种子生成，不是真实指数或黄金报价；工作日日期轴包含真实交易所假期，也不代表真实交易日历。断档、非法值、缺少基准或观察期不足时不填结果。此演算不证明事件影响，也不作为投资结论。</p></details>
+      </section>
+      <section class="panel ai-panel" id="step-report">
+        <div class="section-heading"><span class="index">04</span><h2>形成一份有边界的解读</h2><span class="tag">AI 离线预研</span></div>
+        <p class="muted">AI 预研片段与当前计算结果在此组装。调整案例或窗口后，重新组装；页面不发起在线模型调用。</p>
+        <div class="actions"><button id="assemble" class="primary">组装对照解读 <span>↗</span></button><button id="export" class="quiet" disabled>导出 JSON</button><button id="exportHtml" class="quiet" disabled>导出简报</button></div>
+        <p id="notice" role="status"></p><div id="report" class="report"><div class="empty-state">确认事件并选好案例，开始对照解读。</div></div>
+      </section>
+    </div>
+  </div>
+  <footer>
+    <div><strong>以事为镜</strong> · 个人宏观与市场事件研究工具</div>
+    <p>行情数值为构造样例；不证明因果或真实收益。无个股推荐或买卖建议。</p>
+    <details><summary>数据与产品边界</summary><p id="dataLimits"></p><p>事件卡保留原始来源链接和逐条核实状态。价格序列由仓库中的固定种子脚本生成，完全是构造示例，不包含市场供应商行情；请勿把计算结果用于投资分析。没有实时抓取、在线 AI 调用、历史预期值数据库、因果识别、自动交易和投资建议。后续接入市场数据前需取得适用于公开展示与再分发的许可。</p></details>
+    <a href="https://github.com/dylancai0613-beep/event-lens-ainative-20261109" target="_blank" rel="noopener noreferrer">源代码仓库 ↗</a> · <a href="README.md">运行说明</a> · <a href="candidates.md">候选池清单</a> · <a href="candidates.json" download>候选 JSON</a>
+  </footer>
+</main>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -20,9 +20,9 @@ npm run build
 npm run build:demo # 可复现地重建构造行情和演示报告
 ```
 
-默认端口18791，可通过 `PORT` 环境变量修改。**无需任何行情或模型环境变量**。直接双击HTML会因本地文件fetch限制而失败，请使用HTTP服务器。也可以 `npx http-server frontend`，这会按需下载该第三方工具；内置start无需下载。
+默认端口18791，可通过 `PORT` 环境变量修改。**无需任何行情或模型环境变量**。直接双击HTML会因本地文件fetch限制而失败，请使用HTTP服务器。也可以 `npx http-server dist`，这会按需下载该第三方工具；内置start无需下载。
 
-`frontend/` 是可部署静态文件。`backend/scripts/build-data.cjs`、`backend/scripts/expand-themes.cjs`和`backend/scripts/export-candidates.cjs`是离线事件整理工具，需要通过`REPLAY_SNAPSHOT_DIR`显式指向有权使用的本地事件资料；源资料不随仓库分发。运行数据生成脚本时，构造行情生成器会在最后执行，发布产物只保留合成示意序列。`npm run build:demo`可在无需源项目的情况下，以固定种子重建两条构造价格序列及示范报告。产品运行、测试和静态打包不依赖原服务器或API。`evidence/data-inventory.json`保留事件范围、生成样例数量和哈希。
+`frontend/` 保存可编辑的浏览器应用和运行数据；`npm run build` 将它复制为 Sites 使用的静态部署目录 `dist/`。`backend/scripts/build-data.cjs`、`backend/scripts/expand-themes.cjs`和`backend/scripts/export-candidates.cjs`是离线事件整理工具，需要通过`REPLAY_SNAPSHOT_DIR`显式指向有权使用的本地事件资料；源资料不随仓库分发。运行数据生成脚本后执行`npm run build`更新部署副本。`npm run build:demo`可在无需源项目的情况下，以固定种子重建两条构造价格序列及示范报告并生成`dist/`。产品运行、测试和静态打包不依赖原服务器或API。`evidence/data-inventory.json`保留事件范围、生成样例数量和哈希。
 
 ## 评审的三分钟操作
 
@@ -60,19 +60,20 @@ npm run build:demo # 可复现地重建构造行情和演示报告
 
 ```text
 event-lens/
-├── frontend/                  # 可部署静态产品、运行数据和随站点发布的资料副本
+├── frontend/                  # 前端源文件、运行数据和随站点发布的资料副本
 ├── backend/
 │   ├── README.md              # 离线工具说明；本版没有在线后端 API
 │   ├── scripts/               # 离线数据整理、候选导出、校验和本地预览
 │   └── skills/                # 候选池筛选 skill 与规则
+├── dist/                      # npm run build 生成；Sites 部署目录
 ├── docs/                      # 提交文档主版本
 ├── evidence/                  # 候选数据和复核记录主版本
 ├── tests/                     # 确定性计算测试
 ├── package.json
-└── .openai/hosting.json        # Sites 静态目录指向 frontend/
+└── .openai/hosting.json        # Sites 静态目录指向 dist/
 ```
 
-计算引擎在浏览器中运行。`backend/` 只用于离线准备资料和本地预览，不提供线上服务。`frontend/docs/` 与 `frontend/evidence/` 是随静态产品发布的精选副本；仓库根目录的 `docs/` 和 `evidence/` 是交付记录的主版本。
+计算引擎在浏览器中运行。`backend/` 只用于离线准备资料和本地预览，不提供线上服务。`dist/` 是由前端源目录复制生成的发布副本；Sites 只部署 `dist/`。`frontend/docs/` 与 `frontend/evidence/` 是随静态产品发布的精选副本；仓库根目录的 `docs/` 和 `evidence/` 是交付记录的主版本。
 
 ## 复用范围
 

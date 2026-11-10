@@ -1,0 +1,134 @@
+{
+  "title": "2026-09通胀数据发布：消费与工业价格对照",
+  "research_status": "illustrative_demo_only",
+  "warning": "构造演示价格；不是实际历史行情，不代表真实资产表现，不应用于投资决策。日期轴也不是交易所交易日历。",
+  "market_data_mode": {
+    "type": "synthetic_demo",
+    "generated_by": "backend/scripts/build-synthetic-market.cjs",
+    "notice": "构造演示价格；不是实际历史行情，不代表真实资产表现，不应用于投资决策。日期轴也不是交易所交易日历。",
+    "series_specs": {
+      "equity": {
+        "name": "上证指数示意",
+        "unit": "指数点（演示刻度）",
+        "initial": 3200,
+        "seed": 439041101,
+        "daily_volatility": 0.008
+      },
+      "gold": {
+        "name": "黄金价格示意",
+        "unit": "元/克（演示刻度）",
+        "initial": 520,
+        "seed": 1592629657,
+        "daily_volatility": 0.007
+      }
+    },
+    "relation_to_events": "价格变化由独立固定种子生成，与事件日期、事件类型和事件结果无关。"
+  },
+  "event": {
+    "id": "RECENT-20260909-PRICES",
+    "title": "2026-09通胀数据发布：消费与工业价格对照",
+    "date": "2026-09-09",
+    "fact": "国家统计局发布本期数据：2026年8月份，全国居民消费价格同比上涨0.8%。 国家统计局发布本期数据：2026年8月份，全国工业生产者出厂价格同比上涨3.8%，环比上涨0.4%。",
+    "sources": [
+      {
+        "title": "2026年8月份居民消费价格同比上涨0.8%",
+        "publisher": "国家统计局",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965263.html",
+        "publicationDate": "2026-09-09",
+        "role": "原库关联来源",
+        "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+      },
+      {
+        "title": "2026年8月份工业生产者出厂价格同比上涨3.8% 环比上涨0.4%",
+        "publisher": "国家统计局",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965262.html",
+        "publicationDate": "2026-09-09",
+        "role": "原库关联来源",
+        "status": "沿用已发布卡片引用；本轮未逐项重新核对原文"
+      }
+    ],
+    "verification": "原库事件，来源与时点待复核"
+  },
+  "historical_cases": [
+    {
+      "id": "RECENT-20240710-CPI",
+      "title": "2024年6月份居民消费价格同比上涨0.2%",
+      "date": "2024-07-10",
+      "match": {
+        "eligible": true,
+        "level": "shared_indicator",
+        "rank": 2,
+        "reason": "共同指标 CPI · 覆盖范围不同",
+        "difference": "查询覆盖 CPI / PPI；候选覆盖 CPI。只作补充对照，不作为相同指标样本。"
+      },
+      "sources": [
+        {
+          "title": "2024年6月份居民消费价格同比上涨0.2%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202407/t20240710_1955508.html",
+          "publicationDate": "2024-07-10",
+          "role": "官方统计/决议发布",
+          "status": "沿用已发布卡片引用，本次未重新打开原文"
+        }
+      ]
+    },
+    {
+      "id": "RECENT-20240909-CPI",
+      "title": "2024年8月份居民消费价格同比上涨0.6%",
+      "date": "2024-09-09",
+      "match": {
+        "eligible": true,
+        "level": "shared_indicator",
+        "rank": 2,
+        "reason": "共同指标 CPI · 覆盖范围不同",
+        "difference": "查询覆盖 CPI / PPI；候选覆盖 CPI。只作补充对照，不作为相同指标样本。"
+      },
+      "sources": [
+        {
+          "title": "2024年8月份居民消费价格同比上涨0.6%",
+          "publisher": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240909_1956311.html",
+          "publicationDate": "2024-09-09",
+          "role": "官方统计/决议发布",
+          "status": "本次已打开，仅核对事件事实及日期"
+        }
+      ]
+    }
+  ],
+  "calculation": [
+    {
+      "title": "2026-09通胀数据发布：消费与工业价格对照",
+      "date": "2026-09-09",
+      "baseline_date": "2026-09-09",
+      "baseline_value": 3145.63,
+      "endpoint_date": "2026-10-07",
+      "endpoint_value": 3146.35,
+      "change_pct": 0.02288889665980065,
+      "status": "complete",
+      "label": "仅为构造数据演算"
+    },
+    {
+      "title": "2024年6月份居民消费价格同比上涨0.2%",
+      "date": "2024-07-10",
+      "baseline_date": "2024-07-10",
+      "baseline_value": 3242.9,
+      "endpoint_date": "2024-08-07",
+      "endpoint_value": 3313.73,
+      "change_pct": 2.184156156526562,
+      "status": "complete",
+      "label": "仅为构造数据演算"
+    },
+    {
+      "title": "2024年8月份居民消费价格同比上涨0.6%",
+      "date": "2024-09-09",
+      "baseline_date": "2024-09-09",
+      "baseline_value": 3452.84,
+      "endpoint_date": "2024-10-07",
+      "endpoint_value": 3445.91,
+      "change_pct": -0.20070434772535561,
+      "status": "complete",
+      "label": "仅为构造数据演算"
+    }
+  ],
+  "method": "确定性窗口计算；不含真实历史行情，不证明事件因果，不构成投资建议。"
+}

@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node backend/scripts/serve.cjs",
     "test": "node --test tests/*.test.cjs",
-    "build": "node backend/scripts/check-package.cjs",
-    "build:demo": "node backend/scripts/build-synthetic-market.cjs && node backend/scripts/build-demo-research.cjs"
+    "build": "node backend/scripts/build-site.cjs && node backend/scripts/check-package.cjs",
+    "build:demo": "node backend/scripts/build-synthetic-market.cjs && node backend/scripts/build-demo-research.cjs && node backend/scripts/build-site.cjs && node backend/scripts/check-package.cjs"
   }
 }
